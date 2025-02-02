@@ -84,3 +84,62 @@ h2 {
         max-width: 300px;
     }
 }
+
+
+/*----------- Deals Of The Days  start ------------- */
+
+.title-spacing {
+    margin-top: 2em;
+}
+
+.custom-product-card {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    margin-bottom: 10em;
+}
+
+.custom-product-card img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.custom-product-info {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: -70px;
+}
+
+.custom-price {
+    font-weight: bold;
+    color: #28a745;
+}
+
+.custom-old-price {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.custom-btn-add {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.custom-product-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*----------- Deals Of The Days  End ------------- */
