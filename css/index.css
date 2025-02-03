@@ -63,6 +63,13 @@ h2 {
 
 .btn-primary {
     background-color: var(--primary-color);
+    outline: none;
+    border: none;
+    transition: all .3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #b41105;
 }
 
 .section-title-margin {
@@ -73,9 +80,15 @@ h2 {
     color: #3BB77E;
 }
 
-.category-nav {
-    font-weight: 500;
+.category-nav,
+.category-nav a {
+    font-weight: 600 !important;
+    color: var(--nav-color) !important;
+}
+
+.fa-phone {
     color: var(--nav-color);
+    text-align: center;
 }
 
 
