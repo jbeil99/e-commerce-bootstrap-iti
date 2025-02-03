@@ -85,8 +85,9 @@ h2 {
     }
 }
 
-
-/*----------- Deals Of The Days  start ------------- */
+/* ======================================= 
+        Deals Of The Days  start 
+ =======================================  */
 
 .title-spacing {
     margin-top: 2em;
@@ -95,9 +96,8 @@ h2 {
 .custom-product-card {
     position: relative;
     width: 100%;
-    max-width: 350px;
     margin: auto;
-    margin-bottom: 10em;
+    margin-bottom: 5em;
 }
 
 .custom-product-card img {
@@ -142,4 +142,176 @@ h2 {
     align-items: center;
 }
 
-/*----------- Deals Of The Days  End ------------- */
+.deals-section-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.deals-section-title::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #99C2A2;
+    margin-top: 5px;
+}
+
+.deals-product-list {
+    list-style: none;
+    padding: 0;
+}
+
+.deals-product-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.deals-product-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+    background-color: #f5f5f5;
+}
+
+.deals-product-info {
+    flex-grow: 1;
+}
+
+.deals-product-name {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.deals-ratings {
+    color: #f4b400;
+    font-size: 0.85rem;
+}
+
+.deals-product-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deals-price {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.deals-old-price {
+    text-decoration: line-through;
+    color: #aaa;
+    font-size: 0.85rem;
+}
+
+.deals-section {
+    width: 90%;
+    margin: auto;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
+
+/* ======================
+         Banner Start
+ ========================*/
+
+
+.banner-section {
+    background: #e9f7ef;
+    border-radius: 15px;
+}
+
+.banner-text {
+    max-width: 600px;
+}
+
+.banner-image {
+
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.search-box button {
+    margin-right: 20px;
+    min-width: 200px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.search-box i {
+    margin-left: 15px;
+    color: #888;
+}
+
+.feature-box:hover {
+    background-color: #8D8D8D !important;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+
+/* ======================= 
+       Footer Strat
+ =========================  */
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-icon:hover {
+    background-color: #ddd;
+}
+
+.company-list li,
+.category-list li {
+    margin-bottom: 10px;
+}
+
+.text-danger {
+    color: red !important;
+}
