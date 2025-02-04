@@ -1,0 +1,108 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    gap: 20px;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+
+.shopping-cart {
+    width: 80%;
+
+}
+
+table {
+    background-color: #F7F7F8;
+    padding: .8rem;
+    border-radius: 5px;
+
+}
+
+td button img {
+    max-width: 23px;
+}
+
+td {
+    padding: 1.5rem !important;
+
+}
+
+td>* {
+    margin-top: 1rem;
+}
+
+thead {
+    background-color: #E9E9E9;
+    border-radius: 5px;
+
+}
+
+th {
+    border-radius: 5px;
+    color: #444444;
+
+}
+
+thead th:nth-child(1) {
+    text-align: left;
+}
+
+td img {
+    width: 60px !important;
+}
+
+
+
+.quantity {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    max-width: 150px;
+    border-radius: 5px;
+
+}
+
+.quantity button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid transparent;
+    font-size: 1.2em;
+    text-align: center;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.quantity input {
+    width: 40px;
+    text-align: center;
+    margin: 0 8px;
+    border: 1px solid transparent;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.cart-actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+.card {
+    margin-top: 2rem;
+}
+
+
+
+.table-responsive {
+    overflow-x: auto;
+}

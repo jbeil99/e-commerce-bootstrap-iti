@@ -72,10 +72,10 @@ h2 {
 
 
 
-@media screen and (min-width:768px) {
-    /* .card {
+@media screen and (min-width:576px) {
+    .card {
         max-width: 300px;
-    } */
+    }
 }
 
 /* daily sells */
@@ -87,17 +87,17 @@ h2 {
 }
 
 .cards-section .card:nth-child(1) {
-    background-image: url("/images/hero/banner-1.png.png");
+    background-image: url("/images/hero/banner-1.png");
     background-size: cover;
 }
 
 .cards-section .card:nth-child(2) {
-    background-image: url("/images/hero/banner-2.png.png");
+    background-image: url("/images/hero/banner-2.png");
     background-size: cover;
 }
 
 .cards-section .card:nth-child(3) {
-    background-image: url("/images/hero/banner-3.png.png");
+    background-image: url("/images/hero/banner-3.png");
     background-size: cover;
 }
 

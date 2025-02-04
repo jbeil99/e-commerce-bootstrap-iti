@@ -9,6 +9,19 @@
     --nav-color: #253D4E;
 }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -webkit-appearance: none;
+    appearance: textfield;
+}
+
 .product-badge {
     position: absolute;
     top: 0;
@@ -67,6 +80,20 @@
 
 .product-card__rounded {
     border-radius: 15px;
+}
+
+.circle {
+    position: relative;
+    background-color: #F7F7F8;
+    border-radius: 50%;
+    width: 35px;
+    padding: 5px;
+    top: -6%;
+    left: 43%;
+}
+
+.circle i {
+    color: #64B496;
 }
 
 /* Header */
