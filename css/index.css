@@ -1,105 +1,157 @@
-* {
-    font-family: "Quicksand", serif;
-}
-
-:root {
-    --primary-color: #F53E32;
-    --nav-color: #253D4E;
-}
-
 h2 {
     color: #253D4E;
     font-weight: bold;
 }
 
-.text-decoration-line-through {
-    text-decoration: line-through;
-}
-
-.product-card__rounded {
-    border-radius: 15px;
-}
-
-.product-badge {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #ff6a00;
-    color: #fff;
-    padding: 9px 20px;
-    border-radius: 15px 0 20px 0;
-    font-size: 1.2rem;
-}
-
-.hot .product-badge {
-    background-color: #F74B81;
-}
-
-.new .product-badge {
-    background-color: #3BB77E;
-}
-
-.sale .product-badge {
-    background-color: #67BCEE;
-}
-
-.discount .product-badge {
-    background-color: #F59758;
-}
-
-
-.ratings {
-    margin-right: 10px;
-}
-
-.ratings i {
-    color: #cecece;
-    font-size: 12px;
-}
-
-.rating-color {
-    color: #fbc634 !important;
-}
-
-.btn-primary {
-    background-color: var(--primary-color);
-    outline: none;
-    border: none;
-    transition: all .3s ease;
-}
-
-.btn-primary:hover {
-    background-color: #b41105;
-}
 
 .section-title-margin {
     margin-bottom: 2.813rem;
 }
 
-.active-green {
-    color: #3BB77E;
-}
-
-.category-nav,
-.category-nav a {
-    font-weight: 600 !important;
-    color: var(--nav-color) !important;
-}
-
-.fa-phone {
-    color: var(--nav-color);
-    text-align: center;
-}
-
+/* HERO section */
 .tags i {
     font-size: 10px;
 }
 
+.hero-section {
+    min-height: 80vh;
+    background-image: url('/images/hero/hero.png');
+    background-size: cover;
+    background-position-y: 100%;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero-text h1 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.4rem;
+    color: #000000;
+}
+
+.highlight,
+.hero-text p:nth-child(1) {
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #212529;
+}
+
+.highlight {
+    color: red;
+}
+
+.hero-text p {
+    color: #7A7A7A;
+}
+
+.tags .badge {
+    background-color: #fff;
+    color: #253D4E;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.badge i {
+    color: #B6B6B6;
+}
+
+.badge span {
+    color: #3BB77E;
+}
+
+.subscribe button {
+    background-color: #3BB77E;
+}
+
+.subscribe button:hover {
+    background-color: #256d4c;
+}
+
+
 
 @media screen and (min-width:768px) {
-    .card {
+    /* .card {
         max-width: 300px;
-    }
+    } */
+}
+
+/* daily sells */
+.cards-section .card {
+
+    border-radius: 10px;
+    background-position-y: 70%;
+    border: none;
+}
+
+.cards-section .card:nth-child(1) {
+    background-image: url("/images/hero/banner-1.png.png");
+    background-size: cover;
+}
+
+.cards-section .card:nth-child(2) {
+    background-image: url("/images/hero/banner-2.png.png");
+    background-size: cover;
+}
+
+.cards-section .card:nth-child(3) {
+    background-image: url("/images/hero/banner-3.png.png");
+    background-size: cover;
+}
+
+.cards-section .card {
+    max-width: 500px;
+}
+
+.cards-section .card p {
+    font-size: 1.5rem;
+    color: #253D4E;
+    font-weight: bold;
+    max-width: 203px;
+}
+
+#daily-banner {
+    background-image: url('/images/products/dailysells/1.png');
+    background-size: cover;
+    border-radius: 15px;
+}
+
+#daily-banner p {
+    color: white;
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.product-card__rounded h5 {
+    font-size: 1rem;
+}
+
+.carousel-control-prev {
+    top: -30%;
+    left: -5%;
+}
+
+.carousel-control-next {
+    top: -30%;
+    right: -5%;
+}
+
+.carousel-control-prev i {
+    color: black;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 50%;
+    opacity: 1;
+}
+
+.carousel-control-next i {
+    color: black;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 50%;
+    opacity: 1;
 }
 
 /* ======================================= 

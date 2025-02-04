@@ -17,7 +17,7 @@
     <script src="https://kit.fontawesome.com/5f0a7b2341.js" crossorigin="anonymous"></script>
     <!--Custom css-->
 
-    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/ProductDetails.css">
     <link rel="shortcut icon" href="./images/icon/icon.png" type="image/png">
     <title>Foodtrove</title>
@@ -30,7 +30,129 @@
 </head>
 
 <body>
+    <!-- ----------------------------------
+              side bar start
+    ---------------------------------- -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light row shadow-sm">
+            <!-- TODO: fix the width issue -->
+            <div class="container-fluid  justify-content-lg-centers  justify-content-around w-75 mx-lg-auto ">
+                <a class="navbar-brand d-none d-lg-block" href="#"><img src="/images/icon/toggle.png" alt=""></a>
+                <a class="navbar-brand d-block d-lg-none" href="#"><img src="/images/icon/logo.png" alt="logo"></a>
 
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav custom-nav-link justify-content-center">
+                        <li class="nav-item category-nav">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown category-nav">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Category
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Category 1</a></li>
+                                <li><a class="dropdown-item" href="#">Category 2</a></li>
+                                <li><a class="dropdown-item" href="#">Category 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown category-nav">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Products 1</a></li>
+                                <li><a class="dropdown-item" href="#">Products 2</a></li>
+                                <li><a class="dropdown-item" href="#">Products 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown category-nav">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown category-nav">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown category-nav">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Elements
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <p class="nav ml-auto align-items-center d-none d-lg-block"><i class="fa-solid fa-phone"></i> +123
+                    (456)
+                    (7890) </p>
+
+            </div>
+        </nav>
+        <div class="navbar navbar-light row mb-5 shadow-sm">
+            <div class="container-fluid justify-content-center justify-content-md-evenly">
+                <a class="navbar-brand d-none d-lg-block" href="#"><img src="/images/icon/logo.png" alt="logo"></a>
+                <form class="d-flex col-lg-4 col-12">
+                    <div class="input-group ">
+                        <input type="search" class="form-control" placeholder="Search for items...">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                        <button class="btn btn-primary" type="submit"><i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </form>
+
+                <ul class="nav justify-content-end gap-3 p-2">
+                    <li class="nav-item">
+                        <i class="fa-regular fa-user"></i>
+                        Account
+                    </li>
+                    <li class="nav-item pointer">
+                        <i class="fa-regular fa-heart "></i>
+                        Wishlist
+                    </li>
+                    <li class="nav-item">
+                        <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+                        <img src="/images/icon/cart.png" alt="">
+                        Cart
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-3">
@@ -75,6 +197,13 @@
                     </div>
                 </div>
             </div>
+
+            <!-- ======================================================== -->
+
+
+            <!-- ----------------------------------
+              Product Details  start
+            --------------------------------------->
 
             <div class="col-md-9">
                 <div class="row">
@@ -122,6 +251,12 @@
                         <div id="paypal-button-container"></div>
                     </div>
                 </div>
+
+                <!-- ======================================================== -->
+
+                <!-- ----------------------------------
+                    List TABS start    
+                ---------------------------------- -->
 
                 <div class="mt-4">
                     <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -182,6 +317,12 @@
                 </div>
             </div>
 
+            <!-- ======================================================== -->
+
+
+            <!-- ----------------------------------
+                    Product Card start    
+            ------------------------------------->
 
             <div class="text-center mb-5 " style="margin-top:3em;">
                 <h3>Popular Products</h3>
@@ -189,11 +330,12 @@
                     incididunt ut labore et viverra maecenas accumsan lacus vel facilisis.</p>
                 <div class="row row-cols-1 row-cols-xxl-5 row-cols-lg-6 row-cols-md-3 justify-content-center gap-3">
 
+
                     <div class="card hot product-card__rounded col" style="margin-top:1em;">
                         <img src="/images/product details/card1.png" class="card-img-top"
                             alt="Fresh organic apple 1kg simla marming">
                         <div class="card-body">
-                            <p class="text-muted">Vegetables</p>
+                            <p class="text-muted">Snacks</p>
                             <div class="ratings">
                                 <span class="text-danger">-</span>
                                 <span class="text-danger">-</span>
@@ -202,7 +344,8 @@
                                 <span class="text-danger">-</span>
                                 <span class="text-muted ml-2">(4.0)</span>
                             </div>
-                            <h5 class="card-title">Fresh organic apple 1kg simla marming</h5>
+                            <h5 class="card-title">Best snakes with hazel nut mix
+                                pack 200gm</h5>
                             <div class="row">
                                 <p class="text-danger font-weight-bold h5 col-auto">$28.85 <span
                                         class="text-muted h6 text-decoration-line-through ml-2">$32.8</span></p>
@@ -213,7 +356,7 @@
                         <img src="/images/product details/card2.png" class="card-img-top"
                             alt="Fresh organic apple 1kg simla marming">
                         <div class="card-body">
-                            <p class="text-muted">Vegetables</p>
+                            <p class="text-muted">Snacks</p>
                             <div class="ratings">
                                 <span class="text-danger">-</span>
                                 <span class="text-danger">-</span>
@@ -222,7 +365,8 @@
                                 <span class="text-danger">-</span>
                                 <span class="text-muted ml-2">(4.0)</span>
                             </div>
-                            <h5 class="card-title">Fresh organic apple 1kg simla marming</h5>
+                            <h5 class="card-title">Sweet snakes crunchy nut mix
+                                250gm pack</h5>
                             <div class="row">
                                 <p class="text-danger font-weight-bold h5 col-auto">$28.85 <span
                                         class="text-muted h6 text-decoration-line-through ml-2">$32.8</span></p>
@@ -233,7 +377,7 @@
                         <img src="/images/product details/card3.png" class="card-img-top"
                             alt="Fresh organic apple 1kg simla marming">
                         <div class="card-body">
-                            <p class="text-muted">Vegetables</p>
+                            <p class="text-muted">Snacks</p>
                             <div class="ratings">
                                 <span class="text-danger">-</span>
                                 <span class="text-danger">-</span>
@@ -242,7 +386,8 @@
                                 <span class="text-danger">-</span>
                                 <span class="text-muted ml-2">(4.0)</span>
                             </div>
-                            <h5 class="card-title">Fresh organic apple 1kg simla marming</h5>
+                            <h5 class="card-title">Best snakes with hazel nut mix
+                                pack 200gm</h5>
                             <div class="row">
                                 <p class="text-danger font-weight-bold h5 col-auto">$28.85 <span
                                         class="text-muted h6 text-decoration-line-through ml-2">$32.8</span></p>
@@ -253,7 +398,7 @@
                         <img src="/images/product details/card4.png" class="card-img-top"
                             alt="Fresh organic apple 1kg simla marming">
                         <div class="card-body">
-                            <p class="text-muted">Vegetables</p>
+                            <p class="text-muted">Snacks</p>
                             <div class="ratings">
                                 <span class="text-danger">-</span>
                                 <span class="text-danger">-</span>
@@ -262,7 +407,8 @@
                                 <span class="text-danger">-</span>
                                 <span class="text-muted ml-2">(4.0)</span>
                             </div>
-                            <h5 class="card-title">Fresh organic apple 1kg simla marming</h5>
+                            <h5 class="card-title">Sweet snakes crunchy nut mix
+                                250gm pack</h5>
                             <div class="row">
                                 <p class="text-danger font-weight-bold h5 col-auto">$28.85 <span
                                         class="text-muted h6 text-decoration-line-through ml-2">$32.8</span></p>
@@ -274,6 +420,9 @@
         </div>
 
     </div>
+
+    <!-- ======================================================== -->
+
 
     <footer class="footer mt-5 py-4" style="background-color: #F8F9FA;">
         <div class="container">
