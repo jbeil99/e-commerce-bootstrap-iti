@@ -19,13 +19,87 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="shortcut icon" href="./images/icon/icon.png" type="image/png">
     <title>Foodtrove</title>
+    <style>
+        body {
+            background-color: #f4f4f4;
+        }
+
+        .hero-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px;
+            min-height: 80vh;
+            position: relative;
+        }
+
+        .hero-text {
+            max-width: 500px;
+        }
+
+        .hero-text h1 {
+            font-weight: bold;
+        }
+
+        .hero-text .highlight {
+            color: red;
+            font-weight: bold;
+        }
+
+        .hero-text p {
+            color: #666;
+        }
+
+        .subscription-form {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .subscription-form input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 25px;
+            outline: none;
+        }
+
+        .subscription-form button {
+            border-radius: 25px;
+            padding: 10px 20px;
+            background-color: #28a745;
+            border: none;
+            color: white;
+        }
+
+        .tags {
+            margin-top: 20px;
+        }
+
+        .tags .badge {
+            background-color: #fff;
+            color: black;
+            padding: 10px 15px;
+            border-radius: 20px;
+            margin: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero-image {
+            max-width: 40%;
+            position: absolute;
+            bottom: 0;
+            right: 20px;
+        }
+    </style>
 </head>
 
 <body>
     <div class="container-fluid ">
         <header>
             <nav class="navbar navbar-expand-lg navbar-light row shadow-sm">
-                <div class="container-fluid  justify-content-lg-evenly  justify-content-around w-lg-75 mx-lg-auto">
+                <!-- TODO: fix the width issue -->
+                <div class="container-fluid  justify-content-lg-centers  justify-content-around w-75 mx-lg-auto ">
                     <a class="navbar-brand d-none d-lg-block" href="#"><img src="./images/icon/toggle.png" alt=""></a>
                     <a class="navbar-brand d-block d-lg-none" href="#"><img src="./images/icon/logo.png" alt="logo"></a>
 
@@ -142,9 +216,31 @@
                 </div>
             </div>
         </header>
+
+
         <!-- ========================================================================= -->
 
         <main>
+            <section class="hero-section row row-cols-2 align-items-start justify-content-between">
+                <div class="hero-text col-8">
+                    <p>
+                        <span class="highlight">100% </span>Organic Vegetables
+                    </p>
+                    <h1>The best way to stuff your wallet.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet reiciendis beatae consequuntur.</p>
+                    <div class="subscription-form">
+                        <input type="email" placeholder="Your email address">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+                <div class="tags col-4">
+                    <p class="badge"><i class="fa-solid fa-x"></i> Shopping</p>
+                    <p class="badge"><i class="fa-solid fa-x"></i> Recipes</p>
+                    <p class="badge"><i class="fa-solid fa-x"></i> Kitchen</p>
+                    <p class="badge"><i class="fa-solid fa-x"></i> News</p>
+                    <p class="badge"><i class="fa-solid fa-x"></i> Food</p>
+                </div>
+            </section>
             <!-- Popular products -->
             <section class="product-section px-lg-5 px-2">
                 <div class="row mb-md-5 mb-3 row-cols-1 row-cols-md-2 justify-content-between ">
