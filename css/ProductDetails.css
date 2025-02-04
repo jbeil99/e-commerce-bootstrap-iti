@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product-image {
+    width: 100%;
+    max-width: 150em;
+}
+
+
+.thumbnail-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.thumbnail-images img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-bottom: 3em;
+}
+
+.thumbnail-images img.active {
+    border-color: red;
+}
+
+
+
+.filter-section {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    color: #88898a;
+    min-height: 500px;
+}
+
+.filter-section h5 {
+    color: black;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+.filter-section ul {
+    margin-bottom: 20px;
+}
+
+.filter-section ul li {
+    padding: 8px 0;
+}
+
+.price-range {
+    color: black;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.product-tags span {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    font-size: 1rem;
+    display: inline-block;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.form-range {
+    width: 100%;
+    height: 8px;
+    background: #ddd;
+    border-radius: 5px;
+    outline: none;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+
+.form-range:hover {
+    opacity: 1;
+}
+
+.form-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: red;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.form-range::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: red;
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.form-range::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 8px;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.form-range::-moz-range-track {
+    width: 100%;
+    height: 8px;
+    background: #ddd;
+    border-radius: 5px;
+}
+
+.size-options {
+    margin-bottom: 20px;
+}
+
+.size-options span {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.size-options span.size-label {
+    border: none;
+    padding-left: 0;
+}
+
+.size-options span.active {
+    background-color: red;
+    color: white;
+}
+
+.quantity-control {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.quantity-control button {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.quantity-control input {
+    width: 50px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.icon-buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+}
+
+.icon-buttons button {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #6c757d;
+}
+
+.icon-buttons button:hover {
+    color: red;
+}
+
+.nav-tabs .nav-link {
+    color: black;
+}
+
+.nav-tabs .nav-link.active {
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.action-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.action-buttons .quantity-control {
+    margin: 0;
+}
+
+.action-buttons .btn-danger {
+    flex-grow: 1;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+
+.product-card__rounded {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.product-card__rounded .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-card__rounded .card-title,
+.product-card__rounded .text-muted,
+.product-card__rounded .ratings,
+.product-card__rounded .card-text,
+.product-card__rounded .row {
+    text-align: center;
+    width: 100%;
+}
+
+.product-card__rounded .ratings {
+    margin: 10px 0;
+}
+
+.product-card__rounded .row {
+    justify-content: center;
+}
