@@ -22,853 +22,581 @@
 </head>
 
 <body>
+    <div class="container-fluid ">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light row shadow-sm">
+                <div class="container-fluid  justify-content-lg-evenly  justify-content-around w-lg-75 mx-lg-auto">
+                    <a class="navbar-brand d-none d-lg-block" href="#"><img src="./images/icon/toggle.png" alt=""></a>
+                    <a class="navbar-brand d-block d-lg-none" href="#"><img src="./images/icon/logo.png" alt="logo"></a>
 
-    <div class="container-fluid">
-        <section class="product-section px-lg-5 px-2">
-            <div class="row mb-md-5 mb-3 row-cols-1 row-cols-md-2 justify-content-between ">
-                <h2>Popular Products</h2>
-                <ul class="nav  justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active active-green ps-2" href="#">All</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link category-nav ps-2 " href="#">Milks & Dairies</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link category-nav ps-2" href="#">Coffes & Teas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link category-nav ps-2" href="#">Pet Foods</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link category-nav ps-2" href="#">Meats</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link category-nav ps-2" href="#">Vegetables</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link category-nav ps-2" href="#">Fruits</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="row row-cols-1 row-cols-xxl-5 row-cols-lg-4 row-cols-md-2  justify-content-center gap-3">
-                <div class="card hot product-card__rounded col">
-                    <span class="product-badge">Hot</span>
-                    <img src="./images/products/lemon.png" class="card-img-top"
-                        alt="Fresh organic villa farm lemon 500gm pack">
-                    <div class="card-body">
-                        <p class="text-muted">Snack</p>
-                        <h5 class="card-title">Fresh organic villa farm lemon 500gm pack</h5>
-                        <div class="ratings">
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star"></i>
-                            <span class="text-muted ml-2">(4.0)</span>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                        <ul class="navbar-nav custom-nav-link justify-content-center">
+                            <li class="nav-item category-nav">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item dropdown category-nav">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Category
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Category 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Category 2</a></li>
+                                    <li><a class="dropdown-item" href="#">Category 3</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown category-nav">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Products
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Products 1</a></li>
+                                    <li><a class="dropdown-item" href="#">Products 2</a></li>
+                                    <li><a class="dropdown-item" href="#">Products 3</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown category-nav">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown category-nav">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Blog
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown category-nav">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Elements
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="nav ml-auto align-items-center d-none d-lg-block"><i class="fa-solid fa-phone"></i> +123
+                        (456)
+                        (7890) </p>
+
+                </div>
+            </nav>
+            <div class="navbar navbar-light row mb-5 shadow-sm">
+                <div class="container-fluid justify-content-center justify-content-md-evenly">
+                    <a class="navbar-brand d-none d-lg-block" href="#"><img src="./images/icon/logo.png" alt="logo"></a>
+                    <form class="d-flex col-lg-4 col-12">
+                        <div class="input-group ">
+                            <input type="search" class="form-control" placeholder="Search for items...">
+                            <button class="btn btn-outline-secondary dropdown-toggle" type="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Separated link</a></li>
+                            </ul>
+                            <button class="btn btn-primary" type="submit"><i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
                         </div>
-                        <p class="card-text text-danger mt-2"><span class="text-muted">By</span> NestFood</p>
-                        <div class="row">
-                            <p class="text-success font-weight-bold h5 col-auto">$28.85 <span
-                                    class="text-muted h6 text-decoration-line-through ml-2 ">$32.8</span></p>
-                            <a href="#" class="btn btn-danger btn-primary rounded ms-auto col-auto"> <i
-                                    class="fa-solid fa-cart-shopping"></i>
-                                add</a>
+                    </form>
+
+                    <ul class="nav justify-content-end gap-3 p-2">
+                        <li class="nav-item">
+                            <i class="fa-regular fa-user"></i>
+                            Account
+                        </li>
+                        <li class="nav-item pointer">
+                            <i class="fa-regular fa-heart "></i>
+                            Wishlist
+                        </li>
+                        <li class="nav-item">
+                            <!-- <i class="fa-solid fa-cart-shopping"></i> -->
+                            <img src="./images/icon/cart.png" alt="">
+                            Cart
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <!-- ========================================================================= -->
+
+        <main>
+            <!-- Popular products -->
+            <section class="product-section px-lg-5 px-2">
+                <div class="row mb-md-5 mb-3 row-cols-1 row-cols-md-2 justify-content-between ">
+                    <h2>Popular Products</h2>
+                    <ul class="nav justify-content-md-end justify-content-start">
+                        <li class="nav-item">
+                            <a class="nav-link active active-green ps-2" href="#">All</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link category-nav ps-2 " href="#">Milks & Dairies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link category-nav ps-2" href="#">Coffes & Teas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link category-nav ps-2" href="#">Pet Foods</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link category-nav ps-2" href="#">Meats</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link category-nav ps-2" href="#">Vegetables</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link category-nav ps-2" href="#">Fruits</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="row row-cols-1 row-cols-xxl-5 row-cols-lg-4 row-cols-md-2 justify-content-center  gap-3">
+                    <div class="card hot product-card__rounded col">
+                        <span class="product-badge">Hot</span>
+                        <img src="./images/products/lemon.png" class="card-img-top"
+                            alt="Fresh organic villa farm lemon 500gm pack">
+                        <div class="card-body">
+                            <p class="text-muted">Snack</p>
+                            <h5 class="card-title">Fresh organic villa farm lemon 500gm pack</h5>
+                            <div class="ratings">
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star"></i>
+                                <span class="text-muted ml-2">(4.0)</span>
+                            </div>
+                            <p class="card-text text-danger mt-2"><span class="text-muted">By</span> NestFood</p>
+                            <div class="row">
+                                <p class="text-success font-weight-bold h5 col-auto">$28.85 <span
+                                        class="text-muted h6 text-decoration-line-through ml-2 ">$32.8</span></p>
+                                <a href="#" class="btn btn-danger btn-primary rounded ms-auto col-auto"> <i
+                                        class="fa-solid fa-cart-shopping"></i>
+                                    add</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="card sale product-card__rounded col">
-                    <span class="product-badge">Sale</span>
-                    <img src="./images/products/hazel.png" class="card-img-top" alt="Best snakes with hazel nut pack
+                    <div class="card sale product-card__rounded col">
+                        <span class="product-badge">Sale</span>
+                        <img src="./images/products/hazel.png" class="card-img-top" alt="Best snakes with hazel nut pack
                         200gm">
-                    <div class="card-body">
-                        <p class="text-muted">Hodo Foods</p>
-                        <h5 class="card-title">Best snakes with hazel nut pack
-                            200gm</h5>
-                        <div class="ratings">
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star"></i>
-                            <i class="fa fa-star"></i>
-                            <span class="text-muted ml-2">(3.0)</span>
-                        </div>
-                        <p class="card-text text-danger mt-2"><span class="text-muted">By</span> Stouffer</p>
-                        <div class="row">
-                            <p class="text-success font-weight-bold h5 col-auto">$28.85 <span
-                                    class="text-muted h6 text-decoration-line-through ml-2 ">$32.8</span></p>
-                            <a href="#" class="btn btn-danger btn-primary rounded ms-auto col-auto"> <i
-                                    class="fa-solid fa-cart-shopping"></i>
-                                add</a>
+                        <div class="card-body">
+                            <p class="text-muted">Hodo Foods</p>
+                            <h5 class="card-title">Best snakes with hazel nut pack
+                                200gm</h5>
+                            <div class="ratings">
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <span class="text-muted ml-2">(3.0)</span>
+                            </div>
+                            <p class="card-text text-danger mt-2"><span class="text-muted">By</span> Stouffer</p>
+                            <div class="row">
+                                <p class="text-success font-weight-bold h5 col-auto">$28.85 <span
+                                        class="text-muted h6 text-decoration-line-through ml-2 ">$32.8</span></p>
+                                <a href="#" class="btn btn-danger btn-primary rounded ms-auto col-auto"> <i
+                                        class="fa-solid fa-cart-shopping"></i>
+                                    add</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="card new product-card__rounded col">
-                    <span class="product-badge">New</span>
-                    <img src="./images/products/watermelon.png" class="card-img-top" alt="Organic fresh venila farm
+                    <div class="card new product-card__rounded col">
+                        <span class="product-badge">New</span>
+                        <img src="./images/products/watermelon.png" class="card-img-top" alt="Organic fresh venila farm
                         watermelon 5kg">
-                    <div class="card-body">
-                        <p class="text-muted">Snack</p>
-                        <h5 class="card-title">Organic fresh venila farm
-                            watermelon 5kg</h5>
-                        <div class="ratings">
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star"></i>
-                            <span class="text-muted ml-2">(4.0)</span>
-                        </div>
-                        <p class="card-text text-danger mt-2"><span class="text-muted">By</span> StarKist</p>
-                        <div class="row">
-                            <p class="text-success font-weight-bold h5 col-auto">$28.85 <span
-                                    class="text-muted h6 text-decoration-line-through ml-2 ">$32.8</span></p>
-                            <a href="#" class="btn btn-danger btn-primary rounded ms-auto col-auto"> <i
-                                    class="fa-solid fa-cart-shopping"></i>
-                                add</a>
+                        <div class="card-body">
+                            <p class="text-muted">Snack</p>
+                            <h5 class="card-title">Organic fresh venila farm
+                                watermelon 5kg</h5>
+                            <div class="ratings">
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star"></i>
+                                <span class="text-muted ml-2">(4.0)</span>
+                            </div>
+                            <p class="card-text text-danger mt-2"><span class="text-muted">By</span> StarKist</p>
+                            <div class="row">
+                                <p class="text-success font-weight-bold h5 col-auto">$28.85 <span
+                                        class="text-muted h6 text-decoration-line-through ml-2 ">$32.8</span></p>
+                                <a href="#" class="btn btn-danger btn-primary rounded ms-auto col-auto"> <i
+                                        class="fa-solid fa-cart-shopping"></i>
+                                    add</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="card hot product-card__rounded col">
-                    <img src="./images/products/apples.png" class="card-img-top" alt="Fresh organic apple 1kg simla
+                    <div class="card hot product-card__rounded col">
+                        <img src="./images/products/apples.png" class="card-img-top" alt="Fresh organic apple 1kg simla
                         marming">
-                    <div class="card-body">
-                        <p class="text-muted">Vegetables</p>
-                        <h5 class="card-title">Fresh organic apple 1kg simla
-                            marming</h5>
-                        <div class="ratings">
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star"></i>
-                            <span class="text-muted ml-2">(4.0)</span>
-                        </div>
-                        <p class="card-text text-danger mt-2"><span class="text-muted">By</span> NestFood</p>
-                        <div class="row">
-                            <p class="text-success font-weight-bold h5 col-auto">$28.85 <span
-                                    class="text-muted h6 text-decoration-line-through ml-2 ">$32.8</span></p>
-                            <a href="#" class="btn btn-danger btn-primary rounded ms-auto col-auto"> <i
-                                    class="fa-solid fa-cart-shopping"></i>
-                                add</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card discount product-card__rounded col">
-                    <span class="product-badge">-14%</span>
-                    <img src="./images/products/almonds.png" class="card-img-top"
-                        alt="Fresh organic villa farm lemon 500gm pack">
-                    <div class="card-body">
-                        <p class="text-muted">Snack</p>
-                        <h5 class="card-title">Blue Diamond Almonds Lightly
-                            Salted Vegetables</h5>
-                        <div class="ratings">
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star"></i>
-                            <span class="text-muted ml-2">(4.0)</span>
-                        </div>
-                        <p class="card-text text-danger mt-2"><span class="text-muted">By</span> NestFood</p>
-                        <div class="row">
-                            <p class="text-success font-weight-bold h5 col-auto">$28.85 <span
-                                    class="text-muted h6 text-decoration-line-through ml-2 ">$32.8</span></p>
-                            <a href="#" class="btn btn-danger btn-primary rounded ms-auto col-auto"> <i
-                                    class="fa-solid fa-cart-shopping"></i>
-                                add</a>
+                        <div class="card-body">
+                            <p class="text-muted">Vegetables</p>
+                            <h5 class="card-title">Fresh organic apple 1kg simla
+                                marming</h5>
+                            <div class="ratings">
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star"></i>
+                                <span class="text-muted ml-2">(4.0)</span>
+                            </div>
+                            <p class="card-text text-danger mt-2"><span class="text-muted">By</span> NestFood</p>
+                            <div class="row">
+                                <p class="text-success font-weight-bold h5 col-auto">$28.85 <span
+                                        class="text-muted h6 text-decoration-line-through ml-2 ">$32.8</span></p>
+                                <a href="#" class="btn btn-danger btn-primary rounded ms-auto col-auto"> <i
+                                        class="fa-solid fa-cart-shopping"></i>
+                                    add</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="card  product-card__rounded col">
-                    <img src="./images/products/yogurt.png" class="card-img-top" alt="Chobani Complete Vanilla Greek
+                    <div class="card discount product-card__rounded col">
+                        <span class="product-badge">-14%</span>
+                        <img src="./images/products/almonds.png" class="card-img-top"
+                            alt="Fresh organic villa farm lemon 500gm pack">
+                        <div class="card-body">
+                            <p class="text-muted">Snack</p>
+                            <h5 class="card-title">Blue Diamond Almonds Lightly
+                                Salted Vegetables</h5>
+                            <div class="ratings">
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star"></i>
+                                <span class="text-muted ml-2">(4.0)</span>
+                            </div>
+                            <p class="card-text text-danger mt-2"><span class="text-muted">By</span> NestFood</p>
+                            <div class="row">
+                                <p class="text-success font-weight-bold h5 col-auto">$28.85 <span
+                                        class="text-muted h6 text-decoration-line-through ml-2 ">$32.8</span></p>
+                                <a href="#" class="btn btn-danger btn-primary rounded ms-auto col-auto"> <i
+                                        class="fa-solid fa-cart-shopping"></i>
+                                    add</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card  product-card__rounded col">
+                        <img src="./images/products/yogurt.png" class="card-img-top" alt="Chobani Complete Vanilla Greek
                         Yogurt">
-                    <div class="card-body">
-                        <p class="text-muted">Hodo Foods</p>
-                        <h5 class="card-title">Chobani Complete Vanilla Greek
-                            Yogurt</h5>
-                        <div class="ratings">
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star"></i>
-                            <span class="text-muted ml-2">(4.0)</span>
-                        </div>
-                        <p class="card-text text-danger mt-2"><span class="text-muted">By</span> NestFood</p>
-                        <div class="row">
-                            <p class="text-success font-weight-bold h5 col-auto">$28.85 <span
-                                    class="text-muted h6 text-decoration-line-through ml-2 ">$32.8</span></p>
-                            <a href="#" class="btn btn-danger btn-primary rounded ms-auto col-auto"> <i
-                                    class="fa-solid fa-cart-shopping"></i>
-                                add</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card  product-card__rounded col">
-                    <img src="./images/products/ginger.png" class="card-img-top"
-                        alt="Fresh organic villa farm lemon 500gm pack">
-                    <div class="card-body">
-                        <p class="text-muted">Meats</p>
-                        <h5 class="card-title">Canada Dry Ginger Ale – 2 L
-                            Bottle - 200ml - 400g</h5>
-                        <div class="ratings">
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star"></i>
-                            <span class="text-muted ml-2">(4.0)</span>
-                        </div>
-                        <p class="card-text text-danger mt-2"><span class="text-muted">By</span> NestFood</p>
-                        <div class="row">
-                            <p class="text-success font-weight-bold h5 col-auto">$28.85 <span
-                                    class="text-muted h6 text-decoration-line-through ml-2 ">$32.8</span></p>
-                            <a href="#" class="btn btn-danger btn-primary rounded ms-auto col-auto"> <i
-                                    class="fa-solid fa-cart-shopping"></i>
-                                add</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card sale product-card__rounded col">
-                    <span class="product-badge">Sale</span>
-                    <img src="./images/products/yuja.png" class="card-img-top"
-                        alt="Fresh organic villa farm lemon 500gm pack">
-                    <div class="card-body">
-                        <p class="text-muted">Snack</p>
-                        <h5 class="card-title">Encore Seafoods Stuffed
-                            Alaskan Salmon</h5>
-                        <div class="ratings">
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star"></i>
-                            <span class="text-muted ml-2">(4.0)</span>
-                        </div>
-                        <p class="card-text text-danger mt-2"><span class="text-muted">By</span> NestFood</p>
-                        <div class="row">
-                            <p class="text-success font-weight-bold h5 col-auto">$28.85 <span
-                                    class="text-muted h6 text-decoration-line-through ml-2 ">$32.8</span></p>
-                            <a href="#" class="btn btn-danger btn-primary rounded ms-auto col-auto"> <i
-                                    class="fa-solid fa-cart-shopping"></i>
-                                add</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card hot product-card__rounded col">
-                    <span class="product-badge">Hot</span>
-                    <img src="./images/products/fish.png" class="card-img-top"
-                        alt="Fresh organic villa farm lemon 500gm pack">
-                    <div class="card-body">
-                        <p class="text-muted">Coffes</p>
-                        <h5 class="card-title">Gorton’s Beer Battered Fish
-                            Fillets with soft paper</h5>
-                        <div class="ratings">
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star"></i>
-                            <span class="text-muted ml-2">(4.0)</span>
-                        </div>
-                        <p class="card-text text-danger mt-2"><span class="text-muted">By</span> NestFood</p>
-                        <div class="row">
-                            <p class="text-success font-weight-bold h5 col-auto">$28.85 <span
-                                    class="text-muted h6 text-decoration-line-through ml-2 ">$32.8</span></p>
-                            <a href="#" class="btn btn-danger btn-primary rounded ms-auto col-auto"> <i
-                                    class="fa-solid fa-cart-shopping"></i>
-                                add</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="card hot product-card__rounded col">
-                    <span class="product-badge">Hot</span>
-                    <img src="./images/products/cream.png" class="card-img-top"
-                        alt="Fresh organic villa farm lemon 500gm pack">
-                    <div class="card-body">
-                        <p class="text-muted">Cream</p>
-                        <h5 class="card-title">Haagen-Dazs Caramel Cone Ice
-                            Cream Ketchup</h5>
-                        <div class="ratings">
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star rating-color"></i>
-                            <i class="fa fa-star"></i>
-                            <span class="text-muted ml-2">(4.0)</span>
-                        </div>
-                        <p class="card-text text-danger mt-2"><span class="text-muted">By</span> Tyson</p>
-                        <div class="row">
-                            <p class="text-success font-weight-bold h5 col-auto">$28.85 <span
-                                    class="text-muted h6 text-decoration-line-through ml-2 ">$32.8</span></p>
-                            <a href="#" class="btn btn-danger btn-primary rounded ms-auto col-auto"> <i
-                                    class="fa-solid fa-cart-shopping"></i>
-                                add</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- ========================================================================= -->
-            <!-- Deals Of The Days  End -->
-            <!-- ========================================================================= -->
-
-            <div class="d-flex d-row justify-content-between align-items-center">
-                <div class="col-auto">
-                    <h2 class="title-spacing">Deals Of The Day</h2>
-                </div>
-                <div class="col-auto">
-                    <div class="dropdown">
-                        <button class="text-decoration-none text-reset border-0 bg-transparent dropdown-toggle"
-                            type="button" id="allDealsDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-                            All Deals <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu" aria-labelledby="allDealsDropdown">
-                            <li><a class="dropdown-item" href="#">Deal 1</a></li>
-                            <li><a class="dropdown-item" href="#">Deal 2</a></li>
-                            <li><a class="dropdown-item" href="#">Deal 3</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">View All Deals</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 mt-2">
-                <!-- Product Card 1 -->
-                <div class="col">
-                    <div class="custom-product-card">
-                        <div class="custom-spacing">
-                            <img src="images/products/Best Deals/BestDealsImg1.png" alt="Product Image"
-                                class="img-fluid">
-                        </div>
-                        <div class="custom-product-info">
-                            <h6>Seeds of Change Organic Quinoa</h6>
-                            <p class="text-muted">By NestFood</p>
-                            <div class="ratings d-flex align-items-center">
+                        <div class="card-body">
+                            <p class="text-muted">Hodo Foods</p>
+                            <h5 class="card-title">Chobani Complete Vanilla Greek
+                                Yogurt</h5>
+                            <div class="ratings">
                                 <i class="fa fa-star rating-color"></i>
                                 <i class="fa fa-star rating-color"></i>
                                 <i class="fa fa-star rating-color"></i>
                                 <i class="fa fa-star rating-color"></i>
                                 <i class="fa fa-star"></i>
-                                <span class="text-muted ms-2">(4.0)</span>
+                                <span class="text-muted ml-2">(4.0)</span>
                             </div>
-                            <div class="custom-product-footer d-flex justify-content-between align-items-center">
-                                <div>
-                                    <span class="custom-price">$28.85</span>
-                                    <span class="custom-old-price">$32.8</span>
-                                </div>
-                                <a href="#" class="custom-btn-add">
-                                    <i class="fa-solid fa-cart-shopping"></i> Add
-                                </a>
+                            <p class="card-text text-danger mt-2"><span class="text-muted">By</span> NestFood</p>
+                            <div class="row">
+                                <p class="text-success font-weight-bold h5 col-auto">$28.85 <span
+                                        class="text-muted h6 text-decoration-line-through ml-2 ">$32.8</span></p>
+                                <a href="#" class="btn btn-danger btn-primary rounded ms-auto col-auto"> <i
+                                        class="fa-solid fa-cart-shopping"></i>
+                                    add</a>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <!-- Product Card 2 -->
-                <div class="col">
-                    <div class="custom-product-card">
-                        <div class="custom-spacing">
-                            <img src="images/products/Best Deals/BestDealsImg2.png" alt="Product Image"
-                                class="img-fluid">
-                        </div>
-                        <div class="custom-product-info">
-                            <h6>Seeds of Change Organic Quinoa</h6>
-                            <p class="text-muted">By NestFood</p>
-                            <div class="ratings d-flex align-items-center">
+                    <div class="card  product-card__rounded col">
+                        <img src="./images/products/ginger.png" class="card-img-top"
+                            alt="Fresh organic villa farm lemon 500gm pack">
+                        <div class="card-body">
+                            <p class="text-muted">Meats</p>
+                            <h5 class="card-title">Canada Dry Ginger Ale – 2 L
+                                Bottle - 200ml - 400g</h5>
+                            <div class="ratings">
                                 <i class="fa fa-star rating-color"></i>
                                 <i class="fa fa-star rating-color"></i>
                                 <i class="fa fa-star rating-color"></i>
                                 <i class="fa fa-star rating-color"></i>
                                 <i class="fa fa-star"></i>
-                                <span class="text-muted ms-2">(4.0)</span>
+                                <span class="text-muted ml-2">(4.0)</span>
                             </div>
-                            <div class="custom-product-footer d-flex justify-content-between align-items-center">
-                                <div>
-                                    <span class="custom-price">$28.85</span>
-                                    <span class="custom-old-price">$32.8</span>
-                                </div>
-                                <a href="#" class="custom-btn-add">
-                                    <i class="fa-solid fa-cart-shopping"></i> Add
-                                </a>
+                            <p class="card-text text-danger mt-2"><span class="text-muted">By</span> NestFood</p>
+                            <div class="row">
+                                <p class="text-success font-weight-bold h5 col-auto">$28.85 <span
+                                        class="text-muted h6 text-decoration-line-through ml-2 ">$32.8</span></p>
+                                <a href="#" class="btn btn-danger btn-primary rounded ms-auto col-auto"> <i
+                                        class="fa-solid fa-cart-shopping"></i>
+                                    add</a>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <!-- Product Card 3 -->
-                <div class="col">
-                    <div class="custom-product-card">
-                        <div class="custom-spacing">
-                            <img src="images/products/Best Deals/BestDealsImg3.png" alt="Product Image"
-                                class="img-fluid">
-                        </div>
-                        <div class="custom-product-info">
-                            <h6>Seeds of Change Organic Quinoa</h6>
-                            <p class="text-muted">By NestFood</p>
-                            <div class="ratings d-flex align-items-center">
+                    <div class="card sale product-card__rounded col">
+                        <span class="product-badge">Sale</span>
+                        <img src="./images/products/yuja.png" class="card-img-top"
+                            alt="Fresh organic villa farm lemon 500gm pack">
+                        <div class="card-body">
+                            <p class="text-muted">Snack</p>
+                            <h5 class="card-title">Encore Seafoods Stuffed
+                                Alaskan Salmon</h5>
+                            <div class="ratings">
                                 <i class="fa fa-star rating-color"></i>
                                 <i class="fa fa-star rating-color"></i>
                                 <i class="fa fa-star rating-color"></i>
                                 <i class="fa fa-star rating-color"></i>
                                 <i class="fa fa-star"></i>
-                                <span class="text-muted ms-2">(4.0)</span>
+                                <span class="text-muted ml-2">(4.0)</span>
                             </div>
-                            <div class="custom-product-footer d-flex justify-content-between align-items-center">
-                                <div>
-                                    <span class="custom-price">$28.85</span>
-                                    <span class="custom-old-price">$32.8</span>
-                                </div>
-                                <a href="#" class="custom-btn-add">
-                                    <i class="fa-solid fa-cart-shopping"></i> Add
-                                </a>
+                            <p class="card-text text-danger mt-2"><span class="text-muted">By</span> NestFood</p>
+                            <div class="row">
+                                <p class="text-success font-weight-bold h5 col-auto">$28.85 <span
+                                        class="text-muted h6 text-decoration-line-through ml-2 ">$32.8</span></p>
+                                <a href="#" class="btn btn-danger btn-primary rounded ms-auto col-auto"> <i
+                                        class="fa-solid fa-cart-shopping"></i>
+                                    add</a>
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <!-- Product Card 4 -->
-                <div class="col">
-                    <div class="custom-product-card">
-                        <div class="custom-spacing">
-                            <img src="images/products/Best Deals/BestDealsImg4.png" alt="Product Image"
-                                class="img-fluid">
-                        </div>
-                        <div class="custom-product-info">
-                            <h6>Seeds of Change Organic Quinoa</h6>
-                            <p class="text-muted">By NestFood</p>
-                            <div class="ratings d-flex align-items-center">
+                    <div class="card hot product-card__rounded col">
+                        <span class="product-badge">Hot</span>
+                        <img src="./images/products/fish.png" class="card-img-top"
+                            alt="Fresh organic villa farm lemon 500gm pack">
+                        <div class="card-body">
+                            <p class="text-muted">Coffes</p>
+                            <h5 class="card-title">Gorton’s Beer Battered Fish
+                                Fillets with soft paper</h5>
+                            <div class="ratings">
                                 <i class="fa fa-star rating-color"></i>
                                 <i class="fa fa-star rating-color"></i>
                                 <i class="fa fa-star rating-color"></i>
                                 <i class="fa fa-star rating-color"></i>
                                 <i class="fa fa-star"></i>
-                                <span class="text-muted ms-2">(4.0)</span>
+                                <span class="text-muted ml-2">(4.0)</span>
                             </div>
-                            <div class="custom-product-footer d-flex justify-content-between align-items-center">
-                                <div>
-                                    <span class="custom-price">$28.85</span>
-                                    <span class="custom-old-price">$32.8</span>
-                                </div>
-                                <a href="#" class="custom-btn-add">
-                                    <i class="fa-solid fa-cart-shopping"></i> Add
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <!--------Top selleing -------->
-
-                <div class="col">
-                    <div class="deals-row-cols-sm-2 deals-row-cols-md-3 deals-row-cols-lg-4 deals-mt-2 m-5">
-                        <h4 class="deals-section-title">Top Selling</h4>
-                        <ul class="deals-product-list">
-                            <li class="deals-product-item">
-                                <img src="images/products/Best Deals/1.png" class="deals-product-img" alt="Product">
-                                <div class="deals-product-info">
-                                    <div class="deals-product-name">Nestle Coffee-Mate</div>
-                                    <div class="deals-ratings d-flex align-items-center">
-                                        <i class="fa fa-star deals-rating-color"></i>
-
-                                        <span class="text-muted ms-2">(4.0)</span>
-                                    </div>
-                                    <div class="deals-product-footer d-flex justify-content-between align-items-center">
-                                        <div>
-                                            <span class="deals-price">$28.85</span>
-                                            <span class="deals-old-price">$32.8</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="deals-product-item">
-                                <img src="images/products/Best Deals/2.png" class="deals-product-img" alt="Product">
-                                <div class="deals-product-info">
-                                    <div class="deals-product-name">Nestle Coffee-Mate</div>
-                                    <div class="deals-ratings d-flex align-items-center">
-                                        <i class="fa fa-star deals-rating-color"></i>
-
-                                        <span class="text-muted ms-2">(4.0)</span>
-                                    </div>
-                                    <div class="deals-product-footer d-flex justify-content-between align-items-center">
-                                        <div>
-                                            <span class="deals-price">$28.85</span>
-                                            <span class="deals-old-price">$32.8</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="deals-product-item">
-                                <img src="images/products/Best Deals/3.png" class="deals-product-img" alt="Product">
-                                <div class="deals-product-info">
-                                    <div class="deals-product-name">Nestle Coffee-Mate</div>
-                                    <div class="deals-ratings d-flex align-items-center">
-                                        <i class="fa fa-star deals-rating-color"></i>
-
-                                        <span class="text-muted ms-2">(4.0)</span>
-                                    </div>
-                                    <div class="deals-product-footer d-flex justify-content-between align-items-center">
-                                        <div>
-                                            <span class="deals-price">$28.85</span>
-                                            <span class="deals-old-price">$32.8</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Trending Products Section -->
-                <div class="col">
-                    <div class="deals-row-cols-sm-2 deals-row-cols-md-3 deals-row-cols-lg-4 deals-mt-2 m-5">
-                        <h4 class="deals-section-title">Trending Products</h4>
-                        <ul class="deals-product-list">
-                            <li class="deals-product-item">
-                                <img src="images/products/Best Deals/4.png" class="deals-product-img" alt="Product">
-                                <div class="deals-product-info">
-                                    <div class="deals-product-name">Nestle Coffee-Mate</div>
-                                    <div class="deals-ratings d-flex align-items-center">
-                                        <i class="fa fa-star deals-rating-color"></i>
-
-                                        <span class="text-muted ms-2">(4.0)</span>
-                                    </div>
-                                    <div class="deals-product-footer d-flex justify-content-between align-items-center">
-                                        <div>
-                                            <span class="deals-price">$28.85</span>
-                                            <span class="deals-old-price">$32.8</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="deals-product-item">
-                                <img src="images/products/Best Deals/5.png" class="deals-product-img" alt="Product">
-                                <div class="deals-product-info">
-                                    <div class="deals-product-name">Nestle Coffee-Mate</div>
-                                    <div class="deals-ratings d-flex align-items-center">
-                                        <i class="fa fa-star deals-rating-color"></i>
-
-                                        <span class="text-muted ms-2">(4.0)</span>
-                                    </div>
-                                    <div class="deals-product-footer d-flex justify-content-between align-items-center">
-                                        <div>
-                                            <span class="deals-price">$28.85</span>
-                                            <span class="deals-old-price">$32.8</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="deals-product-item">
-                                <img src="images/products/Best Deals/6.png" class="deals-product-img" alt="Product">
-                                <div class="deals-product-info">
-                                    <div class="deals-product-name">Nestle Coffee-Mate</div>
-                                    <div class="deals-ratings d-flex align-items-center">
-                                        <i class="fa fa-star deals-rating-color"></i>
-
-                                        <span class="text-muted ms-2">(4.0)</span>
-                                    </div>
-                                    <div class="deals-product-footer d-flex justify-content-between align-items-center">
-                                        <div>
-                                            <span class="deals-price">$28.85</span>
-                                            <span class="deals-old-price">$32.8</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <div class="deals-row-cols-sm-2 deals-row-cols-md-3 deals-row-cols-lg-4 deals-mt-2 m-5">
-                        <h4 class="deals-section-title">Recently Added</h4>
-                        <ul class="deals-product-list">
-                            <li class="deals-product-item">
-                                <img src="images/products/Best Deals/7.png" class="deals-product-img" alt="Product">
-                                <div class="deals-product-info">
-                                    <div class="deals-product-name">Nestle Coffee-Mate</div>
-                                    <div class="deals-ratings d-flex align-items-center">
-                                        <i class="fa fa-star deals-rating-color"></i>
-
-                                        <span class="text-muted ms-2">(4.0)</span>
-                                    </div>
-                                    <div class="deals-product-footer d-flex justify-content-between align-items-center">
-                                        <div>
-                                            <span class="deals-price">$28.85</span>
-                                            <span class="deals-old-price">$32.8</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="deals-product-item">
-                                <img src="images/products/Best Deals/8.png" class="deals-product-img" alt="Product">
-                                <div class="deals-product-info">
-                                    <div class="deals-product-name">Nestle Coffee-Mate</div>
-                                    <div class="deals-ratings d-flex align-items-center">
-                                        <i class="fa fa-star deals-rating-color"></i>
-
-                                        <span class="text-muted ms-2">(4.0)</span>
-                                    </div>
-                                    <div class="deals-product-footer d-flex justify-content-between align-items-center">
-                                        <div>
-                                            <span class="deals-price">$28.85</span>
-                                            <span class="deals-old-price">$32.8</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="deals-product-item">
-                                <img src="images/products/Best Deals/9.png" class="deals-product-img" alt="Product">
-                                <div class="deals-product-info">
-                                    <div class="deals-product-name">Nestle Coffee-Mate</div>
-                                    <div class="deals-ratings d-flex align-items-center">
-                                        <i class="fa fa-star deals-rating-color"></i>
-
-                                        <span class="text-muted ms-2">(4.0)</span>
-                                    </div>
-                                    <div class="deals-product-footer d-flex justify-content-between align-items-center">
-                                        <div>
-                                            <span class="deals-price">$28.85</span>
-                                            <span class="deals-old-price">$32.8</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Top Rated Section -->
-                <div class="col">
-                    <div class="deals-row-cols-sm-2 deals-row-cols-md-3 deals-row-cols-lg-4 deals-mt-2 m-5">
-                        <h4 class="deals-section-title">Top Rated</h4>
-                        <ul class="deals-product-list">
-                            <li class="deals-product-item">
-                                <img src="images/products/Best Deals/10.png" class="deals-product-img" alt="Product">
-                                <div class="deals-product-info">
-                                    <div class="deals-product-name">Nestle Coffee-Mate</div>
-                                    <div class="deals-ratings d-flex align-items-center">
-                                        <i class="fa fa-star deals-rating-color"></i>
-
-                                        <span class="text-muted ms-2">(4.0)</span>
-                                    </div>
-                                    <div class="deals-product-footer d-flex justify-content-between align-items-center">
-                                        <div>
-                                            <span class="deals-price">$28.85</span>
-                                            <span class="deals-old-price">$32.8</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="deals-product-item">
-                                <img src="images/products/Best Deals/1.png" class="deals-product-img" alt="Product">
-                                <div class="deals-product-info">
-                                    <div class="deals-product-name">Nestle Coffee-Mate</div>
-                                    <div class="deals-ratings d-flex align-items-center">
-                                        <i class="fa fa-star deals-rating-color"></i>
-
-                                        <span class="text-muted ms-2">(4.0)</span>
-                                    </div>
-                                    <div class="deals-product-footer d-flex justify-content-between align-items-center">
-                                        <div>
-                                            <span class="deals-price">$28.85</span>
-                                            <span class="deals-old-price">$32.8</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="deals-product-item">
-                                <img src="images/products/Best Deals/10.png" class="deals-product-img" alt="Product">
-                                <div class="deals-product-info">
-                                    <div class="deals-product-name">Nestle Coffee-Mate</div>
-                                    <div class="deals-ratings d-flex align-items-center">
-                                        <i class="fa fa-star deals-rating-color"></i>
-
-                                        <span class="text-muted ms-2">(4.0)</span>
-                                    </div>
-                                    <div class="deals-product-footer d-flex justify-content-between align-items-center">
-                                        <div>
-                                            <span class="deals-price">$28.85</span>
-                                            <span class="deals-old-price">$32.8</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-        </section>
-
-        <!-- ========================================================================= -->
-        <!-- Deals Of The Days  End -->
-        <!-- ========================================================================= -->
-        <section class="banner-section mx-auto mt-5" style="width: 90% ; margin:50px;">
-            <div class="container">
-                <div class="row align-items-center p-5">
-
-                    <div class="col-12 col-md-6">
-                        <div class="banner-text text-center text-md-start">
-                            <h2>Stay home & get your daily needs from our shop</h2>
-                            <p>Start Your Daily Shopping with
-                                <span style="color: #28a745; font-weight: bold;">Nest Mart</span>
-                            </p>
-
-
-                            <div class="search-box mt-3">
-                                <i class="fab fa-telegram-plane"></i>
-                                <input type="email" class="form-control" placeholder="Your email address">
-                                <button class="btn btn-danger">Subscribe</button>
+                            <p class="card-text text-danger mt-2"><span class="text-muted">By</span> NestFood</p>
+                            <div class="row">
+                                <p class="text-success font-weight-bold h5 col-auto">$28.85 <span
+                                        class="text-muted h6 text-decoration-line-through ml-2 ">$32.8</span></p>
+                                <a href="#" class="btn btn-danger btn-primary rounded ms-auto col-auto"> <i
+                                        class="fa-solid fa-cart-shopping"></i>
+                                    add</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 text-center d-none d-md-block">
-                        <img src="images/banners/DealingBanner.png" class="banner-image img-fluid">
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <!-- Features Section -->
-        <div class="container-fluid px-3 mt-4 mb-5">
-            <div class=" row justify-content-center g-2">
-                <div class="col-12 col-md-6 col-lg-2">
-                    <div class="feature-box d-flex align-items-center p-3"
-                        style="background-color: #F4F6FA; border-radius: 8px; width: 100%; transition: all 0.3s ease-in-out;">
-                        <img src="images/banners/feature1.png" alt="Best Prices" class="feature-icon me-3"
-                            style="width: 40px;">
-                        <div>
-                            <h6 class="feature-title">Best prices & offers</h6>
-                            <p class="feature-text">Orders $50 or more</p>
+                    <div class="card hot product-card__rounded col">
+                        <span class="product-badge">Hot</span>
+                        <img src="./images/products/cream.png" class="card-img-top"
+                            alt="Fresh organic villa farm lemon 500gm pack">
+                        <div class="card-body">
+                            <p class="text-muted">Cream</p>
+                            <h5 class="card-title">Haagen-Dazs Caramel Cone Ice
+                                Cream Ketchup</h5>
+                            <div class="ratings">
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star rating-color"></i>
+                                <i class="fa fa-star"></i>
+                                <span class="text-muted ml-2">(4.0)</span>
+                            </div>
+                            <p class="card-text text-danger mt-2"><span class="text-muted">By</span> Tyson</p>
+                            <div class="row">
+                                <p class="text-success font-weight-bold h5 col-auto">$28.85 <span
+                                        class="text-muted h6 text-decoration-line-through ml-2 ">$32.8</span></p>
+                                <a href="#" class="btn btn-danger btn-primary rounded ms-auto col-auto"> <i
+                                        class="fa-solid fa-cart-shopping"></i>
+                                    add</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-2">
-                    <div class="feature-box d-flex align-items-center p-3"
-                        style="background-color: #F4F6FA; border-radius: 8px; width: 100%; transition: all 0.3s ease-in-out;">
-                        <img src="images/banners/feature2.png" alt="Free Delivery" class="feature-icon me-3"
-                            style="width: 40px;">
-                        <div>
-                            <h6 class="feature-title">Free delivery</h6>
-                            <p class="feature-text">24/7 services</p>
+                <!-- Popular products End-->
+
+
+                <!-- ========================================================================= -->
+
+                <!-- Deals Of The Days start -->
+
+                <div class="d-flex d-row justify-content-between align-items-center">
+                    <div class="col-auto">
+                        <h2 class="title-spacing">Deals Of The Day</h2>
+                    </div>
+                    <div class="col-auto">
+                        <div class="dropdown">
+                            <button class="text-decoration-none text-reset border-0 bg-transparent dropdown-toggle"
+                                type="button" id="allDealsDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                                All Deals <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="allDealsDropdown">
+                                <li><a class="dropdown-item" href="#">Deal 1</a></li>
+                                <li><a class="dropdown-item" href="#">Deal 2</a></li>
+                                <li><a class="dropdown-item" href="#">Deal 3</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">View All Deals</a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-2">
-                    <div class="feature-box d-flex align-items-center p-3"
-                        style="background-color: #F4F6FA; border-radius: 8px; width: 100%; transition: all 0.3s ease-in-out;">
-                        <img src="images/banners/feature3.png" alt="Great Deals" class="feature-icon me-3"
-                            style="width: 40px;">
-                        <div>
-                            <h6 class="feature-title">Great daily deal</h6>
-                            <p class="feature-text">When you sign up</p>
+
+
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 mt-2">
+                    <!-- Product Card 1 -->
+                    <div class="col">
+                        <div class="custom-product-card">
+                            <div class="custom-spacing">
+                                <img src="images/products/Best Deals/BestDealsImg1.png" alt="Product Image"
+                                    class="img-fluid">
+                            </div>
+                            <div class="custom-product-info">
+                                <h6>Seeds of Change Organic Quinoa</h6>
+                                <p class="text-muted">By NestFood</p>
+                                <div class="ratings d-flex align-items-center">
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star"></i>
+                                    <span class="text-muted ms-2">(4.0)</span>
+                                </div>
+                                <div class="custom-product-footer d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="custom-price">$28.85</span>
+                                        <span class="custom-old-price">$32.8</span>
+                                    </div>
+                                    <a href="#" class="custom-btn-add">
+                                        <i class="fa-solid fa-cart-shopping"></i> Add
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 2 -->
+                    <div class="col">
+                        <div class="custom-product-card">
+                            <div class="custom-spacing">
+                                <img src="images/products/Best Deals/BestDealsImg2.png" alt="Product Image"
+                                    class="img-fluid">
+                            </div>
+                            <div class="custom-product-info">
+                                <h6>Seeds of Change Organic Quinoa</h6>
+                                <p class="text-muted">By NestFood</p>
+                                <div class="ratings d-flex align-items-center">
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star"></i>
+                                    <span class="text-muted ms-2">(4.0)</span>
+                                </div>
+                                <div class="custom-product-footer d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="custom-price">$28.85</span>
+                                        <span class="custom-old-price">$32.8</span>
+                                    </div>
+                                    <a href="#" class="custom-btn-add">
+                                        <i class="fa-solid fa-cart-shopping"></i> Add
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 3 -->
+                    <div class="col">
+                        <div class="custom-product-card">
+                            <div class="custom-spacing">
+                                <img src="images/products/Best Deals/BestDealsImg3.png" alt="Product Image"
+                                    class="img-fluid">
+                            </div>
+                            <div class="custom-product-info">
+                                <h6>Seeds of Change Organic Quinoa</h6>
+                                <p class="text-muted">By NestFood</p>
+                                <div class="ratings d-flex align-items-center">
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star"></i>
+                                    <span class="text-muted ms-2">(4.0)</span>
+                                </div>
+                                <div class="custom-product-footer d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="custom-price">$28.85</span>
+                                        <span class="custom-old-price">$32.8</span>
+                                    </div>
+                                    <a href="#" class="custom-btn-add">
+                                        <i class="fa-solid fa-cart-shopping"></i> Add
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Product Card 4 -->
+                    <div class="col">
+                        <div class="custom-product-card">
+                            <div class="custom-spacing">
+                                <img src="images/products/Best Deals/BestDealsImg4.png" alt="Product Image"
+                                    class="img-fluid">
+                            </div>
+                            <div class="custom-product-info">
+                                <h6>Seeds of Change Organic Quinoa</h6>
+                                <p class="text-muted">By NestFood</p>
+                                <div class="ratings d-flex align-items-center">
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star"></i>
+                                    <span class="text-muted ms-2">(4.0)</span>
+                                </div>
+                                <div class="custom-product-footer d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="custom-price">$28.85</span>
+                                        <span class="custom-old-price">$32.8</span>
+                                    </div>
+                                    <a href="#" class="custom-btn-add">
+                                        <i class="fa-solid fa-cart-shopping"></i> Add
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-2">
-                    <div class="feature-box d-flex align-items-center p-3"
-                        style="background-color: #F4F6FA; border-radius: 8px; width: 100%; transition: all 0.3s ease-in-out;">
-                        <img src="images/banners/feature4.png" alt="Wide Assortment" class="feature-icon me-3"
-                            style="width: 40px;">
-                        <div>
-                            <h6 class="feature-title">Wide assortment</h6>
-                            <p class="feature-text">Mega Discounts</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-2">
-                    <div class="feature-box d-flex align-items-center p-3"
-                        style="background-color: #F4F6FA; border-radius: 8px; width: 100%; transition: all 0.3s ease-in-out;">
-                        <img src="images/banners/feature5.png" alt="Easy Returns" class="feature-icon me-3"
-                            style="width: 40px;">
-                        <div>
-                            <h6 class="feature-title">Easy returns</h6>
-                            <p class="feature-text">Within 30 days</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        <footer class="footer mt-5 py-4" style="background-color: #F8F9FA;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3 col-md-6">
-                        <img src="images/Footer/Logo.png" alt="FoodTrove Logo" style="height: 60px;">
-                        <p class="mt-3">FoodTrove is the biggest market of grocery products.<br> Get your daily needs
-                            from our store.</p>
-                        <p><i class="fas fa-map-marker-alt text-danger"></i> 51 Green St, Huntington, Ontario, NY</p>
-                        <p><i class="fas fa-envelope text-danger"></i> example@email.com</p>
-                        <p><i class="fas fa-phone text-danger"></i> +91 123 456 7890</p>
-                    </div>
+                <!-- Deals Of The Days  End -->
 
-                    <div class="col-lg-2 col-md-6">
-                        <h6 class="fw-bold">Company</h6>
-                        <ul class="list-unstyled company-list">
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Delivery Information</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms & Conditions</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Support Center</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-2 col-md-6">
-                        <h6 class="fw-bold">Category</h6>
-                        <ul class="list-unstyled category-list">
-                            <li><a href="#">Dairy & Bakery</a></li>
-                            <li><a href="#">Fruits & Vegetables</a></li>
-                            <li><a href="#">Snack & Spice</a></li>
-                            <li><a href="#">Juice & Drinks</a></li>
-                            <li><a href="#">Chicken & Meat</a></li>
-                            <li><a href="#">Fast Food</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-5 col-md-6">
-                        <h6 class="fw-bold">Subscribe Our Newsletter</h6>
-                        <div class="d-flex mb-2">
-                            <input type="text" class="form-control" placeholder="Search here...">
-                            <button class="btn btn-dark"><i class="fas fa-paper-plane"></i></button>
-                        </div>
-
-                        <div class="mt-3 d-flex social-icons">
-                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
-                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
-                        </div>
-
-                        <div class="d-flex mt-4 footer-images">
-                            <img src="images/Footer/1.png" class="me-3" style="width: 50px; height: 50px;">
-                            <img src="images/Footer/2.png" class="me-3" style="width: 50px; height: 50px;">
-                            <img src="images/Footer/3.png" class="me-3" style="width: 50px; height: 50px;">
-                            <img src="images/Footer/4.png" class="me-3" style="width: 50px; height: 50px;">
-                            <img src="images/Footer/5.png" class="me-3" style="width: 50px; height: 50px;">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-
-
-        <!-- Copyright -->
-        <div class="text-center mt-4">
-            <p>© 2024 <span style="color: red;">FoodTrove</span>, All rights reserved.</p>
-        </div>
-    </div>
-    </footer>
+                <!-- ========================================================================= -->
 
 
 
 
+            </section>
+        </main>
 
     </div>
     <!-- Optional JavaScript; choose one of the two! -->
