@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <title>Responsive Navbar</title>
+</head>
+
+<style>
+    .phone-num{
+        margin-right: 200px;
+        font-size: 16px;
+        font-family: Segoe UI;
+            font-weight: bold;
+            color: black;
+    }
+
+    .menupar{
+        margin-left: 200px;
+
+    }
+    .navbar-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        gap: 15px;
+    }
+
+    .navbar .nav-item {
+        font-weight: bold;
+    }
+    
+    .navbar-second-row {
+        border-top: 1px solid #ddd;
+        padding-top: 10px;
+    }
+
+    .food{
+        margin-left: 180px;
+        margin-right: 150px ;
+
+    }
+    .icons{
+        margin-right: 150px;
+        font-size: 16px;
+        font-family: Segoe UI;
+        font-weight: bold;
+        color: black;
+
+    }
+    .icon{
+        margin-left: 3px ;
+        font-size: 16px;
+        font-family: Segoe UI;
+            font-weight: bold;
+            color: black;
+
+    }
+    .search input {
+    width: 340px !important;  /* Adjust width */
+    max-width: 100%;  /* Ensure it remains responsive */
+}
+
+
+
+.submit{
+    margin-right: 220px;
+}
+    
+.imgheigh {
+    position: relative;
+    width: 100%;
+    height: 890px; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.food img{
+    width: 50px;
+}
+ 
+/* Make images responsive */
+.carousel-item {
+    background: url('headerimg.png') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+}
+
+ 
+
+/* Adjust carousel caption for responsiveness */
+.carousel-caption {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: rgb(19, 18, 18);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    max-width: 40%;
+}
+
+/* Make text responsive */
+.carousel-caption h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+
+/* Button styling */
+.carousel-caption .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+/* .card img {
+    height: 270px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.text-warning i {
+    font-size: 0.85rem;
+}
+
+.category a{
+    padding: 20px;
+    margin: 5px;
+    background-color: bisque;
+} */
+
+.category a{
+    margin-top: 3px;
+    padding: 5px;
+    margin-left: 140px;
+}
+
+.product-card {
+    height: 358px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* .product-card .card-body {
+     padding: 1rem;
+    border-radius: 0 0 0.5rem 0.5rem;
+} */
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.card p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+ 
+
+.discount-badge {
+  font-size: 1rem; /* This is the base font size for the badge text */
+  color: white;
+ 
+  border-radius: 4px;
+  z-index: 2;
+}
+
+.discount-value {
+  font-size: 2.5rem; /* Increase this value to make "50%" larger */
+}
+
+.category2 a{
+ margin: 3px;
+ padding: 10px;
+}
+
+.juiceside img{
+    height: 759px;
+}
+
+.thehealthcards{
+     
+      min-height: 300px; /* Ensure the card is tall enough */
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      overflow: hidden; /* Clip any overflow */
+      border: none; /* Remove borders if you want a flush look */
+   
+}
+
+.small-width-btn {
+  width: 80px;  /* Adjust as needed */
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+}
+/* Adjust styles for small screens */
+@media (max-width: 768px) {
+ 
+
+ 
+
+    .carousel-caption {
+        left: 5%;
+        max-width: 90%;
+        text-align: center; /* Center text on small screens */
+    }
+
+    .carousel-caption h1 {
+        font-size: 1.8rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    .carousel-caption .btn {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+    .menupar{
+        display: none;
+    }
+    .phone-num{
+        display: none;
+    }
+
+    .food{
+        display: none;
+    }
+    .search input {
+    max-width: 30%;  /* Ensure it remains responsive */
+    }
+
+
+    .category a{
+    margin: 3px;
+    padding: 5px;
+    margin-left: 0px;
+}
+
+    
+
+}
+
+
+</style>
+<body>
+
+    <div class="MainContainer">
+        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary py-2">
+            <div class="container-fluid d-flex flex-column">
+                 <div class="d-flex w-100 justify-content-between align-items-center">
+                    <!-- Sidebar Menu Icon -->
+                    <a class="navbar-brand menupar" href="#"><i class="fa-solid fa-bars"></i></a>
+    
+                    <!-- Navbar Toggler for Mobile -->
+                    <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <!-- Navigation Links -->
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <!-- Home Link -->
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home</a>
+                            </li>
+    
+                            <!-- Category Dropdown -->
+                            <li class="nav-item dropdown mx-1">
+                                <a class="nav-link dropdown-toggle" href="#" id="categoryMenu" role="button" data-bs-toggle="dropdown">
+                                    Category 
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="categoryMenu">
+                                    <li><a class="dropdown-item" href="#">Coffee</a></li>
+                                    <li><a class="dropdown-item" href="#">Drinks</a></li>
+                                </ul>
+                            </li>
+    
+                            <!-- Products Dropdown -->
+                            <li class="nav-item dropdown mx-1">
+                                <a class="nav-link dropdown-toggle" href="#" id="productsMenu" role="button" data-bs-toggle="dropdown">
+                                    Products 
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="productsMenu">
+                                    <li><a class="dropdown-item" href="#">Coffee</a></li>
+                                    <li><a class="dropdown-item" href="#">Drinks</a></li>
+                                </ul>
+                            </li>
+    
+                            <!-- Pages Dropdown -->
+                            <li class="nav-item dropdown mx-1">
+                                <a class="nav-link dropdown-toggle" href="#" id="pagesMenu" role="button" data-bs-toggle="dropdown">
+                                    Pages 
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="pagesMenu">
+                                    <li><a class="dropdown-item" href="#">About</a></li>
+                                    <li><a class="dropdown-item" href="#">Contact</a></li>
+                                </ul>
+                            </li>
+    
+                            <!-- Blogs -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blogs</a>
+                            </li>
+    
+                            <!-- Elements -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Elements</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <!-- Phone Number -->
+                    <a class="navbar-brand phone-num" href="#"><i class="fa-solid fa-phone"></i> +123 (456) 7890</a>
+                </div>
+    
+                <!-- Second Row: Search Bar -->
+
+
+                
+                <div class="navbar-second-row w-100 d-flex flex-wrap align-items-center justify-content-between ">
+                    <a class="navbar-brand food" href="#"><img src="./images/home2/brandicon.png" alt="icon"> foodtrove</a>
+                
+                    <form class="d-flex align-items-center flex-grow-1 justify-content-center search flex-wrap">
+                        <input class="form-control rounded-0 " type="search" placeholder="Search" aria-label="Search">
+                        
+                        <div class="dropdown  ">
+                            <a class="btn btn-outline-secondary dropdown-toggle rounded-0" href="#" id="categoryMenu" role="button" data-bs-toggle="dropdown">
+                                All Category
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="categoryMenu">
+                                <li><a class="dropdown-item" href="#">Coffee</a></li>
+                                <li><a class="dropdown-item" href="#">Drinks</a></li>
+                            </ul>
+                        </div>
+                
+                        <button class="btn btn-danger submit rounded-0 " type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                
+                        <div class="d-flex flex-wrap gap-2">
+                            <a class="navbar-brand icon account1" href="#"><i class="fa-solid fa-user"></i> Account</a>
+                            <a class="navbar-brand icon " href="#"><i class="fa-regular fa-heart"></i> Wishlist</a>
+                            <a class="navbar-brand icons" href="#"><i class="fa-solid fa-cart-shopping"></i> Carts</a>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </nav>
+
+        <div id="headerCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators (Dots) -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#headerCarousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#headerCarousel" data-bs-slide-to="1"></button>
+            </div>
+        
+            <!-- Carousel Images -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/home2/headerimg.png" class="d-block  imgheigh" alt="First Slide">
+                    <div class="carousel-caption text-left">
+                        <h5>100% Organic Vegetables</h5>
+                        <p><h1>The best way to stuff your wallet</h1></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                            reiciendis beatae consequuntur.</p>
+                        
+                            <button type="button" class="btn btn-danger">Shop Now</button>
+                        </div>
+                </div>
+                <div class="carousel-item head2">
+                    <img src="https://static.vecteezy.com/system/resources/previews/033/107/945/non_2x/fresh-fruits-food-background-web-banner-with-copy-space-generative-ai-photo.jpg" class="d-block imgheigh" alt="Second Slide">
+                    <div class="carousel-caption">
+                        <h5>100% Organic Vegetables</h5>
+                        <p><h1>The best way to stuff your wallet</h1></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+                            reiciendis beatae consequuntur.</p>
+                        
+                            <button type="button" class="btn btn-danger">Shop Now</button>
+                    </div>
+                </div>
+            </div>
+        
+    
+        </div>
+        
+        <div class="container my-5 ">
+ 
+        
+            <!-- Parent Row with Vertical Alignment and Reduced Horizontal Gutter -->
+            <div class="row align-items-center gx-2">
+                <!-- Left Sidebar (Category List) -->
+                <div class="col-lg-3 col-md-4 mb-4">
+                    <div class="list-group category" >
+                        <a href="#" class="list-group-item list-group-item-action rounded-0 text-center" style="background-color: #E9E9E9;">
+                            <div>Cake & Milk</div>
+                            <small>(25 item)</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action rounded-0 text-center" style="background-color: #E9E9E9;">
+                            <div>Fresh Meat</div>
+                            <small>(25 item)</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action rounded-0 text-center" style="background-color: #E9E9E9;">
+                            <div>Vegetables</div>
+                            <small>(25 item)</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action rounded-0 text-center" style="background-color: #E9E9E9;">
+                            <div>Apple & Mango</div>
+                            <small>(25 item)</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action rounded-0 text-center" style="background-color: #E9E9E9;">
+                            <div>Strawberry</div>
+                            <small>(25 item)</small>
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action rounded-0 text-center p-3" style="background-color: #E9E9E9;">
+                            <div>View More</div>
+                        </a>
+                    </div>
+                </div>
+        
+                <!-- Product Grid -->
+                <div class="col-lg-9 col-md-8">
+                    <div class="row g-4 justify-content-center">
+                        <!-- Example Product Card 1 -->
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card shadow-sm product-card" style="background-image: url('./images/home2/card1.png');">
+                                <div class="discount-badge position-absolute top-0 start-0 m-2">
+                                    <span class="discount-value fw-bold">50%</span> off
+                                  </div>
+                                <div class="card-body text-center d-flex flex-column justify-content-end text-white">
+                                    <h5 class="card-title">Cake</h5>
+
+                                    <button class="btn btn-danger btn-sm small-width-btn mx-auto">Add to Cart</button>
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Example Product Card 2 -->
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="card shadow-sm product-card" style="background-image: url('./images/home2/card2.png');">
+                                <div class="discount-badge position-absolute top-0 start-0 m-2">
+                                    <span class="discount-value fw-bold">50%</span> off
+                                  </div>
+                             
+                                <div class="card-body text-center d-flex flex-column justify-content-end text-white">
+                                    <h5 class="card-title">Milk</h5>
+                                    <button class="btn btn-danger btn-sm small-width-btn mx-auto">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Add more product cards as needed -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container my-5">
+            <!-- Section Title -->
+            <div class="text-center mb-5">
+              <h2 class="fw-bold">Popular Products</h2>
+              <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+          
+            <!-- Parent Row with Equal-Height Columns -->
+            <div class="row align-items-stretch">
+              <!-- Left Sidebar -->
+              <div class="col-lg-3">
+                <!-- Category List -->
+                <div class="list-group mb-4 category2">
+                    <a href="#" class="list-group-item list-group-item-action fw-bold d-flex justify-content-between align-items-center text-danger">
+                      Category 1 <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action fw-bold d-flex justify-content-between align-items-center">
+                      Vegetables <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action fw-bold d-flex justify-content-between align-items-center">
+                      Fruits <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action fw-bold d-flex justify-content-between align-items-center">
+                      Dairy <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action fw-bold d-flex justify-content-between align-items-center text-danger">
+                      Snacks <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                  </div>
+                <!-- Promotional Banner -->
+                <div class="card border-0 mb-4 juiceside">
+                  <img src="./images/home2/juiceside.png" class="card-img-top" alt="Juicy Fruits">
+                  <button class="btn btn-danger btn-sm position-absolute top-50 start-0 translate-middle-y ms-3 p-2">Shop Now</button>
+
+                </div>
+              </div>
+          
+              <!-- Product Grid (Forced to Equal Sidebar Height) -->
+              <div class="col-lg-9 col-md-8 h-70">
+                <!-- Wrap the cards in a grid container that fills the parent's height -->
+                <div class="product-grid h-50" 
+                     style="display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: 1fr 1fr; gap: 1rem;">
+                  <!-- Product Card 1 -->
+                  <div class="card shadow-sm">
+                    <img src="./images/home2/lemon.png" class="card-img-top" alt="Product 1">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Fresh Lemons</h5>
+                      <div class="text-dark">Vegetables</div>
+                      <div class="text-warning">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-alt"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="text-dark">(4.5)</span>
+                      </div>
+                      <div>Fresh organic villa farm lemon 500gm pack</div>
+                      <p>
+                        <span class="text-danger fw-bold">$120.25</span>
+                        <del class="text-muted">$123.25</del>
+                      </p>
+                    </div>
+                  </div>
+          
+                  <!-- Product Card 2 -->
+                  <div class="card shadow-sm">
+                    <img src="./images/home2/coffe.png" class="card-img-top" alt="Product 2">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Fresh Lemons</h5>
+                      <div class="text-dark">Snacks</div>
+                      <div class="text-warning">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <span class="text-dark">(4.0)</span>
+                      </div>
+                      <div>Fresh organic villa farm lemon 500gm pack</div>
+                      <p>
+                        <span class="text-danger fw-bold">$145</span>
+                        <del class="text-muted">$150.99</del>
+                      </p>
+                    </div>
+                  </div>
+          
+                  <!-- Product Card 3 -->
+                  <div class="card shadow-sm">
+                    <img src="./images/home2/juiceprod.png" class="card-img-top" alt="Product 3">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Green Juice</h5>
+                      <div class="text-dark">Fruits</div>
+                      <div class="text-warning">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="text-dark">(5.0)</span>
+                      </div>
+                      <div>Fresh organic villa farm lemon 500gm pack</div>
+                      <p>
+                        <span class="text-danger fw-bold">$120.25</span>
+                        <del class="text-muted">$123.25</del>
+                      </p>
+                    </div>
+                  </div>
+          
+                  <!-- Product Card 4 -->
+                  <div class="card shadow-sm">
+                    <img src="./images/home2/card4.png" class="card-img-top" alt="Product 4">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Green Juice</h5>
+                      <div class="text-dark">Fruits</div>
+                      <div class="text-warning">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="text-dark">(5.0)</span>
+                      </div>
+                      <div>Fresh organic villa farm lemon 500gm pack</div>
+                      <p>
+                        <span class="text-danger fw-bold">$120.25</span>
+                        <del class="text-muted">$123.25</del>
+                      </p>
+                    </div>
+                  </div>
+          
+                  <!-- Product Card 5 -->
+                  <div class="card shadow-sm">
+                    <img src="./images/home2/card5.png" class="card-img-top" alt="Product 5">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Green Juice</h5>
+                      <div class="text-dark">Snacks</div>
+                      <div class="text-warning">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="text-dark">(5.0)</span>
+                      </div>
+                      <div>Fresh organic villa farm lemon 500gm pack</div>
+                      <p>
+                        <span class="text-danger fw-bold">$120.25</span>
+                        <del class="text-muted">$123.25</del>
+                      </p>
+                    </div>
+                  </div>
+          
+                  <!-- Product Card 6 -->
+                  <div class="card shadow-sm">
+                    <img src="./images/home2/card6.png" class="card-img-top" alt="Product 6">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Green Juice</h5>
+                      <div class="text-dark">Bekary</div>
+                      <div class="text-warning">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="text-dark">(5.0)</span>
+                      </div>
+                      <div>Fresh organic villa farm lemon 500gm pack</div>
+                      <p>
+                        <span class="text-danger fw-bold">$120.25</span>
+                        <del class="text-muted">$123.25</del>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="container my-5">
+            <!-- Use a full-width row (12 columns) -->
+            <div class="row gx-2">
+              <div class="col-12">
+                <div class="row g-2">
+                  <!-- Card 1 -->
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="card shadow-sm thehealthcards"
+                         style="background-image: url('./images/home2/healthstyle.png'); background-size: cover; background-position: center; min-height:300px;">
+                      <div class="card-body d-flex flex-column justify-content-center">
+                        <span class="fw-bold m-2">Health Bakery Product</span>
+                        <p class="m-2"><span class="fw-bold text-danger">Off</span> on first order</p>
+                        <button class="btn btn-danger btn-sm mt-3 ms-2 small-width-btn" style="font-size: 0.75rem; padding: 0.25rem 0.5rem;">Shop Now</button>
+
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 2 -->
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="card shadow-sm thehealthcards"
+                         style="background-image: url('./images/home2/healthstyle2.png'); background-size: cover; background-position: center; min-height:300px;">
+                      <div class="card-body d-flex flex-column justify-content-center">
+                        <span class="fw-bold m-2">Fresh Snacks & Sweets</span>
+                        <p class="m-2"><span class="fw-bold text-danger">20%</span> Off on first order</p>
+                        <button class="btn btn-danger btn-sm mt-3 ms-2 small-width-btn" style="font-size: 0.75rem; padding: 0.25rem 0.5rem;">Shop Now</button>
+
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 3 -->
+                  <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="card shadow-sm thehealthcards"
+                         style="background-image: url('./images/home2/healthstyle3.png'); background-size: cover; background-position: center; min-height:300px;">
+                      <div class="card-body d-flex flex-column justify-content-center">
+                        <span class="fw-bold m-2">Fresh & Health Organic Fruits</span>
+                        <p class="m-2"><span class="fw-bold text-danger">35%</span> Off on first order</p>
+                        <button class="btn btn-danger btn-sm mt-3 ms-2 small-width-btn" style="font-size: 0.75rem; padding: 0.25rem 0.5rem;">Shop Now</button>
+
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- /.row g-2 -->
+              </div><!-- /.col-12 -->
+            </div><!-- /.row gx-2 -->
+          </div><!-- /.container -->
+          
+        
+
+          <div class="container my-5">
+            <!-- Full-width row -->
+            <div class="row gx-2">
+              <div class="col-12">
+                <div class="row g-2">
+                  <!-- Card 1 -->
+                  <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="card shadow-sm thehealthcards" style="background-color: #E9E9E9;">
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center text-center ">
+                        <span class="fw-bold m-2">Product Packing</span>
+                        <p class="m-2">Lorem ipsum dolor sit amet,
+                            consectetur adipisicing.</p>
+    
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 2 -->
+                  <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="card shadow-sm thehealthcards" style="background-color: #E9E9E9;">
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center text-center ">
+                        <span class="fw-bold m-2">24X7 Support</span>
+                        <p class="m-2">Lorem ipsum dolor sit amet,
+                            consectetur adipisicing.</p>
+            
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 3 -->
+                  <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="card shadow-sm thehealthcards" style="background-color: #E9E9E9;">
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center text-center ">
+                        <span class="fw-bold m-2">Delivery in 5 Days</span>
+                        <p class="m-2">Lorem ipsum dolor sit amet,
+                            consectetur adipisicing.</p>
+             
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Card 4 (New Card) -->
+                  <div class="col-lg-3 col-md-3 col-sm-12">
+                    <div class="card shadow-sm thehealthcards" style="background-color: #E9E9E9;">
+                        <div class="card-body d-flex flex-column justify-content-center align-items-center text-center ">
+                        <span class="fw-bold m-2">Payment Secure</span>
+                        <p class="m-2">Lorem ipsum dolor sit amet,
+                            consectetur adipisicing.</p>
+      
+                      </div>
+                    </div>
+                  </div>
+                </div><!-- /.row g-2 -->
+              </div><!-- /.col-12 -->
+            </div><!-- /.row gx-2 -->
+          </div><!-- /.container -->
+          
+        
+</div>
+
+
+   
+
+    
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    </body>
+    </html>
