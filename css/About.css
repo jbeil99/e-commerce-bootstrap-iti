@@ -23,6 +23,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+
 }
 
 .stats-box {
@@ -76,4 +78,23 @@ body {
 
 .navbar-toggler {
     margin-left: auto;
+}
+
+@media (max-width: 768px) {
+    .navbar-brand img {
+        max-width: 150px;
+    }
+
+    .input-group {
+        width: 100%;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
+
+    .footer-images img {
+        width: 40px !important;
+        height: 40px !important;
+    }
 }
