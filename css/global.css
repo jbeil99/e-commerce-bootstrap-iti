@@ -116,6 +116,20 @@ input[type=number] {
 }
 
 
+.breadcrumb a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.breadcrumb-item {
+    color: white !important;
+}
+
+.breadcrumb {
+    margin-top: -50px;
+}
+
+
 
 
 /* ======================= 
