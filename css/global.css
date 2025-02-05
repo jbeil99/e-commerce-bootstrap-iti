@@ -133,6 +133,11 @@ input[type=number] {
     margin-top: -48px;
 }
 
+.breadcrumb li {
+
+    margin: 0 15em;
+}
+
 /* =========================================== */
 
 
