@@ -109,6 +109,15 @@ input[type=number] {
     text-align: center;
 }
 
+
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: none !important;
+}
+
+
+
+
 /* ======================= 
        Footer Strat
  =========================  */
