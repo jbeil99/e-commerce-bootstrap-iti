@@ -110,6 +110,7 @@ input[type=number] {
 }
 
 
+/* =========================================== */
 
 .breadcrumb-item+.breadcrumb-item::before {
     content: none !important;
@@ -119,6 +120,9 @@ input[type=number] {
 .breadcrumb a {
     color: white !important;
     text-decoration: none;
+
+
+
 }
 
 .breadcrumb-item {
@@ -126,8 +130,10 @@ input[type=number] {
 }
 
 .breadcrumb {
-    margin-top: -50px;
+    margin-top: -48px;
 }
+
+/* =========================================== */
 
 
 
