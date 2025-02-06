@@ -8,8 +8,18 @@ html,
 body {
     max-width: 100%;
     overflow-x: hidden;
+    font-family: Manrope;
+    color: rgb(122, 121, 119);
 }
 
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: black;
+}
 
 .product-image {
 
@@ -94,27 +104,6 @@ body {
     opacity: 1;
 }
 
-.form-range::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 20px;
-    height: 20px;
-    background: red;
-    border: 2px solid white;
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-}
-
-.form-range::-moz-range-thumb {
-    width: 20px;
-    height: 20px;
-    background: red;
-    border: 2px solid white;
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-}
 
 .form-range::-webkit-slider-runnable-track {
     width: 100%;
