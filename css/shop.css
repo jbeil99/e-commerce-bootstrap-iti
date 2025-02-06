@@ -32,26 +32,44 @@ a.active {
     color: #7A7A7A;
 }
 
+.shop-section .dropdown,
+.shop-section .dropdown .btn {
+    color: #7A7A7A;
+}
 
-/* @media screen and (min-width: 1200px) {
+
+
+@media screen and (max-width: 768px) and (min-width: 590px) {
 
     .shop-section .card {
-        max-width: 250px;
+        /* max-width: 350px; */
+        max-width: 45%;
     }
 
-    .shop-section .nav {
-        width: 95%;
-    }
-} */
 
+}
 
 @media screen and (min-width: 768px) {
+
+    .shop-section .card {
+        max-width: 30%;
+    }
+
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .shop-section .card {
+        max-width: 30%;
+    }
+
+}
+
+@media screen and (min-width: 1400px) {
 
     .shop-section .card {
         max-width: 300px;
     }
 
-    .shop-section .nav {
-        width: 95%;
-    }
 }
