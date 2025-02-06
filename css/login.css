@@ -1,13 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 html,
 body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
 .nav2 {
     background-color: rgb(241, 74, 74);
 
@@ -19,39 +21,28 @@ body {
     margin-left: 0;
 
 }
-.Signup, .login {
-   
+
+.Signup,
+.login {
+
     background-color: #F53E32;
 
 }
-#phoneNumber{
+
+#phoneNumber {
     font-size: .9rem;
 }
 
 .login-form {
     padding: 5px;
     width: 30%;
-    max-width: 500px; 
+    max-width: 500px;
     margin: 30px auto;
     border: 0.5px solid rgb(167, 163, 163);
 
 }
 
-.breadcrumb-container {
-    width: 100vw;
-    margin-left: 0 !important;
-    padding: 0;
-}
 
-.breadcrumb {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(220, 53, 69);
-    border-radius: 8px;
-    width: 100vw;
-}
-
-.Region{
+.Region {
     background-color: rgb(235, 234, 234);
 }

@@ -1,58 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>FAQ Section</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="/css/global.css">
 </head>
 
- <style>
+<style>
     .navbar-red {
-      background-color: #ff4d4d;
+        background-color: #ff4d4d;
     }
+
     .navbar-red .nav-link {
-      color: white;
+        color: white;
     }
+
     .navbar-red .nav-link:hover {
-      color: #f8f9fa;
+        color: #f8f9fa;
     }
+
     .card-header {
-  font-weight: bold;
-  background-color: transparent;
-  border-bottom: none;  /* Removes the border */
-}
+        font-weight: bold;
+        background-color: transparent;
+        border-bottom: none;
+        /* Removes the border */
+    }
 
-.headereturn{
-    font-weight: bold;
+    .headereturn {
+        font-weight: bold;
 
-}
+    }
 
-.card-body {
-  border-top: none;  /* Ensures there is no border at the top */
-}
+    .card-body {
+        border-top: none;
+        /* Ensures there is no border at the top */
+    }
+
     .card {
-      margin-bottom: 1.5rem;
-    }
-    footer {
-      background-color: #f8f9fa;
-      padding: 1rem 0;
+        margin-bottom: 1.5rem;
     }
 
-    .phone-num{
+    footer {
+        background-color: #f8f9fa;
+        padding: 1rem 0;
+    }
+
+    .phone-num {
         margin-right: 220px;
         font-size: 16px;
         font-family: Segoe UI;
-            font-weight: bold;
-            color: black;
+        font-weight: bold;
+        color: black;
     }
 
-    .menupar{
+    .menupar {
         margin-left: 200px;
 
     }
+
     .navbar-top {
         display: flex;
         justify-content: space-between;
@@ -68,18 +77,19 @@
     .navbar .nav-item {
         font-weight: bold;
     }
-    
+
     .navbar-second-row {
         border-top: 1px solid #ddd;
         padding-top: 10px;
     }
 
-    .food{
+    .food {
         margin-left: 190px;
-        margin-right: 150px ;
+        margin-right: 150px;
 
     }
-    .icons{
+
+    .icons {
         margin-right: 150px;
         font-size: 16px;
         font-family: Segoe UI;
@@ -87,238 +97,284 @@
         color: black;
 
     }
-    .icon{
-        margin-left: 3px ;
+
+    .icon {
+        margin-left: 3px;
         font-size: 16px;
         font-family: Segoe UI;
-            font-weight: bold;
-            color: black;
+        font-weight: bold;
+        color: black;
 
     }
+
     .search input {
-    width: 340px !important;  /* Adjust width */
-    max-width: 100%;  /* Ensure it remains responsive */
-}
-
-.food img{
-    width: 50px;
-}
-.margred{
-  margin-left: 190px;
-  margin-right: 110px;
-}
-
-
-.submit{
-    margin-right: 220px;
-}
-
-.navbar-red {
-      background-color: #ff4d4d;
+        width: 340px !important;
+        /* Adjust width */
+        max-width: 100%;
+        /* Ensure it remains responsive */
     }
+
+    .food img {
+        width: 50px;
+    }
+
+    .margred {
+        margin-left: 190px;
+        margin-right: 110px;
+    }
+
+
+    .submit {
+        margin-right: 220px;
+    }
+
+    .navbar-red {
+        background-color: #ff4d4d;
+    }
+
     .navbar-red .nav-link {
-      color: white;
+        color: white;
     }
+
     .navbar-red .nav-link:hover {
-      color: #f8f9fa;
+        color: #f8f9fa;
     }
- 
+
     .card {
-      margin-bottom: 1.5rem;
+        margin-bottom: 1.5rem;
     }
+
     footer {
-      background-color: #f8f9fa;
-      padding: 1rem 0;
+        background-color: #f8f9fa;
+        padding: 1rem 0;
     }
+
     .product-details {
-      display: flex;
-      align-items: center;
-      margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
     }
+
     .product-details img {
-      width: 70px;
-      height: 70px;
-      margin-left: 1rem;
-      margin-right: 1rem;
+        width: 70px;
+        height: 70px;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
+
     .product-details .old-price {
-      text-decoration: line-through;
-      margin-right: 1.5rem;
-      color: gray;
+        text-decoration: line-through;
+        margin-right: 1.5rem;
+        color: gray;
     }
 
     .summary-details {
-      display: flex;
-      justify-content: space-between;
+        display: flex;
+        justify-content: space-between;
     }
 
 
     @media (max-width: 768px) {
- 
 
- 
 
-    .carousel-caption {
-        left: 5%;
-        max-width: 90%;
-        text-align: center; /* Center text on small screens */
+
+
+        .carousel-caption {
+            left: 5%;
+            max-width: 90%;
+            text-align: center;
+            /* Center text on small screens */
+        }
+
+        .carousel-caption h1 {
+            font-size: 1.8rem;
+        }
+
+        .carousel-caption p {
+            font-size: 1rem;
+        }
+
+        .carousel-caption .btn {
+            font-size: 1rem;
+            padding: 8px 16px;
+        }
+
+        .menupar {
+            display: none;
+        }
+
+        .phone-num {
+            display: none;
+        }
+
+        .food {
+            display: none;
+        }
+
+        .search input {
+            max-width: 30%;
+            /* Ensure it remains responsive */
+        }
+
+
+        .category a {
+            margin: 3px;
+            padding: 5px;
+            margin-left: 0px;
+        }
+
+        .margred {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+
     }
+</style>
 
-    .carousel-caption h1 {
-        font-size: 1.8rem;
-    }
-
-    .carousel-caption p {
-        font-size: 1rem;
-    }
-
-    .carousel-caption .btn {
-        font-size: 1rem;
-        padding: 8px 16px;
-    }
-    .menupar{
-        display: none;
-    }
-    .phone-num{
-        display: none;
-    }
-
-    .food{
-        display: none;
-    }
-    .search input {
-    max-width: 30%;  /* Ensure it remains responsive */
-    }
-
-
-    .category a{
-    margin: 3px;
-    padding: 5px;
-    margin-left: 0px;
-}
-
-.margred{
-  margin-left: 0px;
-  margin-right: 0px;
-}
-    
-
-}
-  </style>
 <body>
 
-    <!-- First Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-    
-      <div class="d-flex w-100 justify-content-between align-items-center">
-          <!-- Sidebar Menu Icon -->
-          <a class="navbar-brand menupar" href="#"><i class="fa-solid fa-bars"></i></a>
-  
-          <!-- Navbar Toggler for Mobile -->
-          <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-              <span class="navbar-toggler-icon"></span>
-          </button>
-  
-          <!-- Navigation Links -->
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-              <ul class="navbar-nav">
-                  <!-- Home Link -->
-                  <li class="nav-item">
-                      <a class="nav-link active" href="#">Home</a>
-                  </li>
-  
-                  <!-- Category Dropdown -->
-                  <li class="nav-item dropdown mx-1">
-                      <a class="nav-link dropdown-toggle" href="#" id="categoryMenu" role="button" data-bs-toggle="dropdown">
-                          Category 
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="categoryMenu">
-                          <li><a class="dropdown-item" href="#">Coffee</a></li>
-                          <li><a class="dropdown-item" href="#">Drinks</a></li>
-                      </ul>
-                  </li>
-  
-                  <!-- Products Dropdown -->
-                  <li class="nav-item dropdown mx-1">
-                      <a class="nav-link dropdown-toggle" href="#" id="productsMenu" role="button" data-bs-toggle="dropdown">
-                          Products 
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="productsMenu">
-                          <li><a class="dropdown-item" href="#">Coffee</a></li>
-                          <li><a class="dropdown-item" href="#">Drinks</a></li>
-                      </ul>
-                  </li>
-  
-                  <!-- Pages Dropdown -->
-                  <li class="nav-item dropdown mx-1">
-                      <a class="nav-link dropdown-toggle" href="#" id="pagesMenu" role="button" data-bs-toggle="dropdown">
-                          Pages 
-                      </a>
-                      <ul class="dropdown-menu" aria-labelledby="pagesMenu">
-                          <li><a class="dropdown-item" href="#">About</a></li>
-                          <li><a class="dropdown-item" href="#">Contact</a></li>
-                      </ul>
-                  </li>
-  
-                  <!-- Blogs -->
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Blogs</a>
-                  </li>
-  
-                  <!-- Elements -->
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Elements</a>
-                  </li>
-              </ul>
-          </div>
-  
-          <!-- Phone Number -->
-          <a class="navbar-brand phone-num" href="#"><i class="fa-solid fa-phone"></i> +123 (456) 7890</a>
-      </div>
-    </div>
-  </nav>
-  
-  <!-- Second Navigation Bar -->
-  <div class="navbar-second-row w-100 d-flex flex-wrap align-items-center justify-content-between ">
-      <a class="navbar-brand food" href="#"><img src="./images2/brandicon.png" alt="icon"> foodtrove</a>
-  
-      <form class="d-flex align-items-center flex-grow-1 justify-content-center search flex-wrap">
-          <input class="form-control rounded-0 " type="search" placeholder="Search" aria-label="Search">
-          
-          <div class="dropdown  ">
-              <a class="btn btn-outline-secondary dropdown-toggle rounded-0" href="#" id="categoryMenu" role="button" data-bs-toggle="dropdown">
-                  All Category
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="categoryMenu">
-                  <li><a class="dropdown-item" href="#">Coffee</a></li>
-                  <li><a class="dropdown-item" href="#">Drinks</a></li>
-              </ul>
-          </div>
-  
-          <button class="btn btn-danger submit rounded-0 " type="submit">
-              <i class="fa-solid fa-magnifying-glass"></i>
-          </button>
-  
-          <div class="d-flex flex-wrap gap-2">
-              <a class="navbar-brand icon account1" href="#"><i class="fa-solid fa-user"></i> Account</a>
-              <a class="navbar-brand icon " href="#"><i class="fa-regular fa-heart"></i> Wishlist</a>
-              <a class="navbar-brand icons" href="#"><i class="fa-solid fa-cart-shopping"></i> Carts</a>
-         </div>
-      </form>
-   </div>
-  </nav>
-  
-  <!-- Third Navigation Bar -->
-  <nav class="navbar navbar-red">
-    <div class="container-fluid d-flex justify-content-between  margred">
-      <span class="text-white">Checkout</span>
-      <div>
-        <a href="#" class="nav-link d-inline text-white  margred">Home - Checkout </a>
-       
-      </div>
-    </div>
-  </nav>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light row shadow-sm">
+            <div class="container-fluid  justify-content-lg-center  justify-content-between">
+                <a class="navbar-brand d-none d-lg-block" href="#"><img src="/images/icon/toggle.png" alt=""></a>
+                <a class="navbar-brand d-block d-lg-none" href="/index.html"><img src="/images/icon/logo.png"
+                        alt="logo"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav custom-nav-link justify-content-center">
+                        <li class="nav-item category-nav">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item category-nav">
+                            <a class="nav-link active" aria-current="page" href="/index2.html">Home 2</a>
+                        </li>
+                        <li class="nav-item dropdown category-nav">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Category
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Category 1</a></li>
+                                <li><a class="dropdown-item" href="#">Category 2</a></li>
+                                <li><a class="dropdown-item" href="#">Category 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown category-nav">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="/HTML/product-details.html">Products 1</a></li>
+                                <li><a class="dropdown-item" href="/HTML/product-details.html">Products 2</a></li>
+                                <li><a class="dropdown-item" href="/HTML/product-details.html">Products 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown category-nav">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="/HTML/about.html">ِAbout</a></li>
+                                <li><a class="dropdown-item" href="/HTML/shop.html">shop</a></li>
+                                <li><a class="dropdown-item" href="/HTML/product-details.html">Product Details</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown category-nav">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="/HTML/blog.html">Blog</a></li>
+                                <li><a class="dropdown-item" href="/HTML/blog.html">Blog</a></li>
+                                <li><a class="dropdown-item" href="/HTML/blog.html">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown category-nav">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Elements
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <p class="nav ml-auto align-items-center d-none d-lg-block"><i class="fa-solid fa-phone"></i> +123
+                    (456)
+                    (7890) </p>
+
+            </div>
+        </nav>
+
+        <div class="navbar navbar-light row shadow-sm">
+            <div class="container-fluid justify-content-center justify-content-lg-between">
+                <a class="navbar-brand d-none d-lg-block" href="#"><img src="/images/icon/logo.png" alt="logo"></a>
+                <form class="d-flex col-lg-4 col-12">
+                    <div class="input-group ">
+                        <input type="search" class="form-control" placeholder="Search for items...">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">All Categories</button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                        <button class="btn btn-primary" type="submit"><i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </form>
+
+                <ul class="nav justify-content-end gap-3 p-2">
+                    <li class="nav-item">
+                        <i class="fa-regular fa-user"></i>
+                        <a href="/HTML/login.html">Account</a>
+                    </li>
+                    <li class="nav-item pointer">
+                        <i class="fa-regular fa-heart "></i>
+                        <a href=""> Wishlist</a>
+                    </li>
+                    <li class="nav-item">
+                        <img src="/images/icon/cart.png" alt="">
+                        <a href="/HTML/cart.html">Cart</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <nav aria-label="breadcrumb" class="d-md-block bg-danger row p-2">
+            <div class="container-fluid  justify-content-lg-center  justify-content-around">
+                <ol class="breadcrumb justify-content-between align-items-center mt-2">
+                    <li class="breadcrumb-item active text-white" aria-current="page">
+                        <a href="" class=""><b>FAQ</b></a>
+                    </li>
+                    <li class="breadcrumb-item text-white">
+                        <a href="/index.html"><b>Home</b></a> -
+                        <a href="/HTML/faq.html"><b>FAQ</b></a>
+                    </li>
+                </ol>
+            </div>
+        </nav>
+
+    </header>
+
     <div class="container my-5">
         <div class="row align-items-center">
             <div class="col-md-6">
@@ -328,7 +384,8 @@
                 <div class="accordion" id="faqAccordion">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne">
                                 What Facilities Does Your Hotel Have?
                             </button>
                         </h2>
@@ -342,7 +399,8 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo">
                                 How Do I Book A Room For My Vacation?
                             </button>
                         </h2>
@@ -354,7 +412,8 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree">
                                 Is There Any Fitness Centre In Your Hotel?
                             </button>
                         </h2>
@@ -366,7 +425,8 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour">
                                 What Type Of Room Service Do You Offer?
                             </button>
                         </h2>
@@ -378,7 +438,8 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingFive">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFive">
                                 Do You Provide Airport Pickup & Drop Services?
                             </button>
                         </h2>
@@ -391,7 +452,8 @@
 
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingSeven">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseSeven">
                                 Do You Have Free Parking?
                             </button>
                         </h2>
@@ -403,7 +465,8 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingEight">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseEight">
                                 Do You Have Conference Rooms?
                             </button>
                         </h2>
@@ -415,7 +478,8 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingNine">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseNine">
                                 What Are Your Check-in & Check-out Timings?
                             </button>
                         </h2>
@@ -427,7 +491,8 @@
                     </div>
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="headingTen">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTen">
                                 Do You Offer Discounts For Long Stays?
                             </button>
                         </h2>
@@ -444,76 +509,77 @@
     </div>
 
     <!-- Footer -->
-<footer class="footer mt-5 py-4" style="background-color: #F8F9FA;">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-6" style="margin-top: -20px;">
-                <img src="/images2/brandicon.png" alt="FoodTrove Logo" style="height: 85px;">FoodTrove
-                <p>FoodTrove is the biggest market of grocery products.<br> Get your daily needs from our store.</p>
-                <p><i class="fas fa-map-marker-alt text-danger"></i> 51 Green St, Huntington, Ontario, NY</p>
-                <p><i class="fas fa-envelope text-danger"></i> example@email.com</p>
-                <p><i class="fas fa-phone text-danger"></i> +91 123 456 7890</p>
-            </div>
-
-            <div class="col-lg-2 col-md-6 mt-3">
-                <h5 class="fw-bold">Company</h5>
-                <ul class="list-unstyled company-list">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Delivery Information</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#">Support Center</a></li>
-                </ul>
-            </div>
-
-            <div class="col-lg-2 col-md-6 mt-3">
-                <h5 class="fw-bold">Category</h5>
-                <ul class="list-unstyled category-list">
-                    <li><a href="#">Dairy & Bakery</a></li>
-                    <li><a href="#">Fruits & Vegetables</a></li>
-                    <li><a href="#">Snack & Spice</a></li>
-                    <li><a href="#">Juice & Drinks</a></li>
-                    <li><a href="#">Chicken & Meat</a></li>
-                    <li><a href="#">Fast Food</a></li>
-                </ul>
-            </div>
-
-            <div class="col-lg-5 col-md-6 mt-3 ">
-                <h5 class="fw-bold mb-3">Subscribe Our Newsletter</h5>
-                <div class="d-flex mb-5 searchbar">
-                    <input type="text" class="form-control" placeholder="Search here...">
-                    <button class="btn btn-dark"><i class="fas fa-paper-plane"></i></button>
+    <footer class="footer mt-5 py-4" style="background-color: #F8F9FA;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6" style="margin-top: -20px;">
+                    <img src="/images2/brandicon.png" alt="FoodTrove Logo" style="height: 85px;">FoodTrove
+                    <p>FoodTrove is the biggest market of grocery products.<br> Get your daily needs from our store.</p>
+                    <p><i class="fas fa-map-marker-alt text-danger"></i> 51 Green St, Huntington, Ontario, NY</p>
+                    <p><i class="fas fa-envelope text-danger"></i> example@email.com</p>
+                    <p><i class="fas fa-phone text-danger"></i> +91 123 456 7890</p>
                 </div>
 
-                <div class="d-flex social-icons ">
-                    <img src="/images/icon/Link 1.png" alt="" style="width: 40px; height: 40px;">
-                    <img src="/images/icon/Link 2.png" alt="" style="width: 40px; height: 40px;">
-                    <img src="/images/icon/Link 3.png" alt="" style="width: 43px; height: 43px;">
-                    <img src="/images/icon/Link 4.png" alt="" style="width: 43px; height: 43px;">
-
+                <div class="col-lg-2 col-md-6 mt-3">
+                    <h5 class="fw-bold">Company</h5>
+                    <ul class="list-unstyled company-list">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Delivery Information</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Support Center</a></li>
+                    </ul>
                 </div>
 
-                <div class="d-flex mt-4 footer-images">
-                    <img src="/images/Footer/1.png" class="me-3" style="width: 70px; height: 70px;">
-                    <img src="/images/Footer/2.png" class="me-3" style="width: 70px; height: 70px;">
-                    <img src="/images/Footer/3.png" class="me-3" style="width: 70px; height: 70px;">
-                    <img src="/images/Footer/4.png" class="me-3" style="width: 70px; height: 70px;">
-                    <img src="/images/Footer/5.png" class="me-3" style="width: 70px; height: 70px;">
+                <div class="col-lg-2 col-md-6 mt-3">
+                    <h5 class="fw-bold">Category</h5>
+                    <ul class="list-unstyled category-list">
+                        <li><a href="#">Dairy & Bakery</a></li>
+                        <li><a href="#">Fruits & Vegetables</a></li>
+                        <li><a href="#">Snack & Spice</a></li>
+                        <li><a href="#">Juice & Drinks</a></li>
+                        <li><a href="#">Chicken & Meat</a></li>
+                        <li><a href="#">Fast Food</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-5 col-md-6 mt-3 ">
+                    <h5 class="fw-bold mb-3">Subscribe Our Newsletter</h5>
+                    <div class="d-flex mb-5 searchbar">
+                        <input type="text" class="form-control" placeholder="Search here...">
+                        <button class="btn btn-dark"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+
+                    <div class="d-flex social-icons ">
+                        <img src="/images/icon/Link 1.png" alt="" style="width: 40px; height: 40px;">
+                        <img src="/images/icon/Link 2.png" alt="" style="width: 40px; height: 40px;">
+                        <img src="/images/icon/Link 3.png" alt="" style="width: 43px; height: 43px;">
+                        <img src="/images/icon/Link 4.png" alt="" style="width: 43px; height: 43px;">
+
+                    </div>
+
+                    <div class="d-flex mt-4 footer-images">
+                        <img src="/images/Footer/1.png" class="me-3" style="width: 70px; height: 70px;">
+                        <img src="/images/Footer/2.png" class="me-3" style="width: 70px; height: 70px;">
+                        <img src="/images/Footer/3.png" class="me-3" style="width: 70px; height: 70px;">
+                        <img src="/images/Footer/4.png" class="me-3" style="width: 70px; height: 70px;">
+                        <img src="/images/Footer/5.png" class="me-3" style="width: 70px; height: 70px;">
+                    </div>
                 </div>
             </div>
         </div>
+    </footer>
+
+
+    <div class="text-center mt-4">
+        <p>© 2024 <span style="color: red;">FoodTrove</span>, All rights reserved.</p>
     </div>
-</footer>
+    </div>
+    </footer>
 
 
-<div class="text-center mt-4">
-    <p>© 2024 <span style="color: red;">FoodTrove</span>, All rights reserved.</p>
-</div>
-</div>
-</footer>
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

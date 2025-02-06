@@ -32,9 +32,10 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-light row shadow-sm">
-            <div class="container-fluid  justify-content-lg-centers  justify-content-around w-75 mx-lg-auto ">
+            <div class="container-fluid  justify-content-lg-center  justify-content-between">
                 <a class="navbar-brand d-none d-lg-block" href="#"><img src="/images/icon/toggle.png" alt=""></a>
-                <a class="navbar-brand d-block d-lg-none" href="#"><img src="/images/icon/logo.png" alt="logo"></a>
+                <a class="navbar-brand d-block d-lg-none" href="/index.html"><img src="/images/icon/logo.png"
+                        alt="logo"></a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -44,7 +45,10 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                     <ul class="navbar-nav custom-nav-link justify-content-center">
                         <li class="nav-item category-nav">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item category-nav">
+                            <a class="nav-link active" aria-current="page" href="/index2.html">Home 2</a>
                         </li>
                         <li class="nav-item dropdown category-nav">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -63,9 +67,9 @@
                                 Products
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Products 1</a></li>
-                                <li><a class="dropdown-item" href="#">Products 2</a></li>
-                                <li><a class="dropdown-item" href="#">Products 3</a></li>
+                                <li><a class="dropdown-item" href="/HTML/product-details.html">Products 1</a></li>
+                                <li><a class="dropdown-item" href="/HTML/product-details.html">Products 2</a></li>
+                                <li><a class="dropdown-item" href="/HTML/product-details.html">Products 3</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown category-nav">
@@ -74,9 +78,10 @@
                                 Pages
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="/HTML/about.html">ِAbout</a></li>
+                                <li><a class="dropdown-item" href="/HTML/shop.html">shop</a></li>
+                                <li><a class="dropdown-item" href="/HTML/product-details.html">Product Details</a>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown category-nav">
@@ -85,9 +90,9 @@
                                 Blog
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="/HTML/blog.html">Blog</a></li>
+                                <li><a class="dropdown-item" href="/HTML/blog.html">Blog</a></li>
+                                <li><a class="dropdown-item" href="/HTML/blog.html">Blog</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown category-nav">
@@ -109,14 +114,15 @@
 
             </div>
         </nav>
-        <div class="navbar navbar-light row mb-5 shadow-sm">
-            <div class="container-fluid justify-content-center justify-content-md-evenly">
+
+        <div class="navbar navbar-light row shadow-sm">
+            <div class="container-fluid justify-content-center justify-content-lg-between">
                 <a class="navbar-brand d-none d-lg-block" href="#"><img src="/images/icon/logo.png" alt="logo"></a>
                 <form class="d-flex col-lg-4 col-12">
                     <div class="input-group ">
                         <input type="search" class="form-control" placeholder="Search for items...">
                         <button class="btn btn-outline-secondary dropdown-toggle" type="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
+                            data-bs-toggle="dropdown" aria-expanded="false">All Categories</button>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -134,100 +140,106 @@
                 <ul class="nav justify-content-end gap-3 p-2">
                     <li class="nav-item">
                         <i class="fa-regular fa-user"></i>
-                        Account
+                        <a href="/HTML/login.html">Account</a>
                     </li>
                     <li class="nav-item pointer">
                         <i class="fa-regular fa-heart "></i>
-                        Wishlist
+                        <a href=""> Wishlist</a>
                     </li>
                     <li class="nav-item">
                         <img src="/images/icon/cart.png" alt="">
-                        Cart
+                        <a href="/HTML/cart.html">Cart</a>
                     </li>
                 </ul>
             </div>
         </div>
-    </header>
-    <nav aria-label="breadcrumb" class="d-none d-md-block">
-        <ol class="breadcrumb bg-danger p-3 rounded d-flex flex-md-row align-items-center">
-            <li class="breadcrumb-item active text-white text-start" aria-current="page" style="margin-left:200px;">
-                <a href="/index.html" class="mx-1"><b>register</b></a>
-            </li>
-            <li class="breadcrumb-item text-white text-end ms-auto" style="margin-right: 200px;">
-                <a href="/index.html" class="mx-1"><b>Home</b></a> <b>-</b>
-                <a href="login.html" class="mx-1"><b>register</b></a>
-            </li>
-        </ol>
-    </nav>
-        <div class="container-fluid d-flex flex-column align-items-center p-0 m-0">
-            
 
-            <div class="container-fluid">
-                <form id="registrationForm" class="row login-form  p-4 rounded shadow-sm w-100" style="max-width: 500px;">
-                    <a class="navbar-brand d-none d-lg-block text-center mx-auto mb-3" href="#">
-                        <img src="/images/icon/logo.png" alt="logo" class="img-fluid" style="max-width: 120px;">
-                    </a>
-        
-                    <div class="col-6 mt-3">
-                        <label for="firstName" class="form-label">First Name*</label>
-                        <input type="text" class="form-control" id="firstName" placeholder="Enter Your First Name">
-                        <div class="invalid-feedback">First name is required.</div>
-                    </div>
-        
-                    <div class="col-6 mt-3">
-                        <label for="lastName" class="form-label">Last Name*</label>
-                        <input type="text" class="form-control" id="lastName" placeholder="Enter Your Last Name">
-                        <div class="invalid-feedback">Last name is required.</div>
-                    </div>
-        
-                    <div class="col-6 mt-3">
-                        <label for="email" class="form-label">Email*</label>
-                        <input type="email" class="form-control" id="email" placeholder="Enter Your Email">
-                        <div class="invalid-feedback">Valid email is required.</div>
-                    </div>
-        
-                    <div class="col-6 mt-3">
-                        <label for="phoneNumber" class="form-label">Phone Number*</label>
-                        <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter Your Phone number">
-                        <div class="invalid-feedback">Phone number is required.</div>
-                    </div>
-        
-                    <div class="col-12 mt-3">
-                        <label for="address" class="form-label">Address*</label>
-                        <input type="text" class="form-control" id="address" placeholder=" Address">
-                        <div class="invalid-feedback">Address is required.</div>
-                    </div>
-        
-                    <div class="col-6 mt-3">
-                        <label for="city" class="form-label">City*</label>
-                        <input type="text" class="form-control Region" id="city" placeholder=" City">
-                        <div class="invalid-feedback">City is required.</div>
-                    </div>
-        
-                    <div class="col-6 mt-3">
-                        <label for="postCode" class="form-label">Post Code*</label>
-                        <input type="text" class="form-control" id="postCode" placeholder=" Post Code">
-                        <div class="invalid-feedback">Post code is required.</div>
-                    </div>
-        
-                    <div class="col-6 mt-3">
-                        <label for="country" class="form-label">Country*</label>
-                        <input type="text" class="form-control Region" id="country" placeholder="Country">
-                        <div class="invalid-feedback">Country is required.</div>
-                    </div>
-        
-                    <div class="col-6 mt-3">
-                        <label for="regionState" class="form-label">Region State</label>
-                        <input type="text" class="form-control Region" id="regionState" placeholder=" Region/State">
-                    </div>
-        
-                    <div class="col-12 m-4 d-flex flex-column flex-md-row align-items-center justify-content-between w-100">
-                        <button type="submit" class="btn btn-danger Signup px-2 py-2 w-25 w-md-auto">Signup</button>
-                        <a href="#" class="text-decoration-none text-secondary login-btn mt-3 mt-md-3">Have an account?</a>
-                    </div>
-                </form>
+
+        <nav aria-label="breadcrumb" class="d-md-block bg-danger row p-2">
+            <div class="container-fluid  justify-content-lg-center  justify-content-around">
+                <ol class="breadcrumb justify-content-between align-items-center mt-2">
+                    <li class="breadcrumb-item active text-white" aria-current="page">
+                        <a href="" class=""><b>Register</b></a>
+                    </li>
+                    <li class="breadcrumb-item text-white">
+                        <a href="/index.html"><b>Home</b></a> -
+                        <a href="/HTML/register.html"><b>Register</b></a>
+                    </li>
+                </ol>
             </div>
-        
+        </nav>
+
+    </header>
+
+    <div class="container-fluid d-flex flex-column align-items-center p-0 m-0">
+
+
+        <div class="container-fluid">
+            <form id="registrationForm" class="row login-form  p-4 rounded shadow-sm w-100" style="max-width: 500px;">
+                <a class="navbar-brand d-none d-lg-block text-center mx-auto mb-3" href="#">
+                    <img src="/images/icon/logo.png" alt="logo" class="img-fluid" style="max-width: 120px;">
+                </a>
+
+                <div class="col-6 mt-3">
+                    <label for="firstName" class="form-label">First Name*</label>
+                    <input type="text" class="form-control" id="firstName" placeholder="Enter Your First Name">
+                    <div class="invalid-feedback">First name is required.</div>
+                </div>
+
+                <div class="col-6 mt-3">
+                    <label for="lastName" class="form-label">Last Name*</label>
+                    <input type="text" class="form-control" id="lastName" placeholder="Enter Your Last Name">
+                    <div class="invalid-feedback">Last name is required.</div>
+                </div>
+
+                <div class="col-6 mt-3">
+                    <label for="email" class="form-label">Email*</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter Your Email">
+                    <div class="invalid-feedback">Valid email is required.</div>
+                </div>
+
+                <div class="col-6 mt-3">
+                    <label for="phoneNumber" class="form-label">Phone Number*</label>
+                    <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter Your Phone number">
+                    <div class="invalid-feedback">Phone number is required.</div>
+                </div>
+
+                <div class="col-12 mt-3">
+                    <label for="address" class="form-label">Address*</label>
+                    <input type="text" class="form-control" id="address" placeholder=" Address">
+                    <div class="invalid-feedback">Address is required.</div>
+                </div>
+
+                <div class="col-6 mt-3">
+                    <label for="city" class="form-label">City*</label>
+                    <input type="text" class="form-control Region" id="city" placeholder=" City">
+                    <div class="invalid-feedback">City is required.</div>
+                </div>
+
+                <div class="col-6 mt-3">
+                    <label for="postCode" class="form-label">Post Code*</label>
+                    <input type="text" class="form-control" id="postCode" placeholder=" Post Code">
+                    <div class="invalid-feedback">Post code is required.</div>
+                </div>
+
+                <div class="col-6 mt-3">
+                    <label for="country" class="form-label">Country*</label>
+                    <input type="text" class="form-control Region" id="country" placeholder="Country">
+                    <div class="invalid-feedback">Country is required.</div>
+                </div>
+
+                <div class="col-6 mt-3">
+                    <label for="regionState" class="form-label">Region State</label>
+                    <input type="text" class="form-control Region" id="regionState" placeholder=" Region/State">
+                </div>
+
+                <div class="col-12 m-4 d-flex flex-column flex-md-row align-items-center justify-content-between w-100">
+                    <button type="submit" class="btn btn-danger Signup px-2 py-2 w-25 w-md-auto">Signup</button>
+                    <a href="#" class="text-decoration-none text-secondary login-btn mt-3 mt-md-3">Have an account?</a>
+                </div>
+            </form>
+        </div>
+
 
         <!-- Footer -->
         <footer class="footer py-4" style="background-color: #F8F9FA; ">
@@ -298,7 +310,7 @@
             <p>© 2024 <span style="color: red;">FoodTrove</span>, All rights reserved.</p>
         </div>
     </div>
-    
+
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>

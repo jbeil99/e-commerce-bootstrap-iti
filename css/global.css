@@ -105,6 +105,9 @@ input[type=number] {
 }
 
 /* Header */
+header {
+    font-family: "Poppins", serif !important;
+}
 
 .category-nav,
 .category-nav a {
@@ -115,6 +118,17 @@ input[type=number] {
 .fa-phone {
     color: var(--nav-color);
     text-align: center;
+}
+
+ul.nav .nav-item a {
+    text-decoration: none;
+    color: var(--nav-color);
+    font-size: 15;
+}
+
+ul.nav .nav-item {
+    font-weight: 500;
+
 }
 
 
