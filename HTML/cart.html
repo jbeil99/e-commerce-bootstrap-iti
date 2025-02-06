@@ -27,11 +27,9 @@
 <body>
 
     <div class="container-fluid ">
-
         <header>
             <nav class="navbar navbar-expand-lg navbar-light row shadow-sm">
-                <!-- TODO: fix the width issue -->
-                <div class="container-fluid  justify-content-lg-centers  justify-content-around w-75 mx-lg-auto ">
+                <div class="container-fluid  justify-content-lg-center  justify-content-between">
                     <a class="navbar-brand d-none d-lg-block" href="#"><img src="/images/icon/toggle.png" alt=""></a>
                     <a class="navbar-brand d-block d-lg-none" href="#"><img src="/images/icon/logo.png" alt="logo"></a>
 
@@ -108,14 +106,15 @@
 
                 </div>
             </nav>
+
             <div class="navbar navbar-light row shadow-sm">
-                <div class="container-fluid justify-content-center justify-content-md-evenly">
+                <div class="container-fluid justify-content-center justify-content-lg-between">
                     <a class="navbar-brand d-none d-lg-block" href="#"><img src="/images/icon/logo.png" alt="logo"></a>
                     <form class="d-flex col-lg-4 col-12">
                         <div class="input-group ">
                             <input type="search" class="form-control" placeholder="Search for items...">
                             <button class="btn btn-outline-secondary dropdown-toggle" type="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">All Categories</button>
+                                data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
                             <ul class="dropdown-menu dropdown-menu-end">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -140,13 +139,27 @@
                             Wishlist
                         </li>
                         <li class="nav-item">
-                            <!-- <i class="fa-solid fa-cart-shopping"></i> -->
-                            <img src="./images/icon/cart.png" alt="">
+                            <img src="/images/icon/cart.png" alt="">
                             Cart
                         </li>
                     </ul>
                 </div>
             </div>
+
+
+            <nav aria-label="breadcrumb" class="d-md-block bg-danger row p-2">
+                <div class="container-fluid  justify-content-lg-center  justify-content-around">
+                    <ol class="breadcrumb justify-content-between align-items-center mt-2">
+                        <li class="breadcrumb-item active text-white" aria-current="page">
+                            <a href="" class=""><b>Cart</b></a>
+                        </li>
+                        <li class="breadcrumb-item text-white">
+                            <a href="/index.html"><b>Home</b></a> -
+                            <a href="/HTML/cart.html"><b>Cart</b></a>
+                        </li>
+                    </ol>
+                </div>
+            </nav>
         </header>
 
         <section class="cart-section  my-5">

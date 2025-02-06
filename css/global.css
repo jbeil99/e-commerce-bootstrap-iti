@@ -4,6 +4,8 @@
     font-family: "Quicksand", serif;
 }
 
+
+
 :root {
     --primary-color: #F53E32;
     --nav-color: #253D4E;
@@ -110,6 +112,49 @@ input[type=number] {
 }
 
 
+@media screen and (min-width: 986px) {
+
+    nav .container-fluid,
+    .navbar .container-fluid {
+        width: 75%;
+    }
+}
+
+/* Sidebar */
+
+#filter-aside {
+    background-color: #F7F7F8;
+}
+
+#filter-aside {
+    color: #7A7A7A;
+    padding: 25px;
+}
+
+#filter-aside h5 {
+    color: #2B2B2D;
+    font-weight: 500;
+    border-bottom: 1px solid #E9E9E9;
+    padding: .5rem;
+}
+
+
+.color-filter {
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.price-range p strong {
+    color: #000000;
+
+}
+
+.price-range p {
+    font-weight: 700;
+}
+
+
 /* =========================================== */
 
 .breadcrumb-item+.breadcrumb-item::before {
@@ -120,20 +165,11 @@ input[type=number] {
 .breadcrumb a {
     color: white !important;
     text-decoration: none;
-
-
-
 }
 
 .breadcrumb-item {
     color: white !important;
 }
-
-.breadcrumb {
-    margin-top: -48px;
-}
-
-
 
 /* =========================================== */
 
