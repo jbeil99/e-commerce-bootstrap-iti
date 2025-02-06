@@ -29,10 +29,10 @@
     <div class="container-fluid ">
         <header>
             <nav class="navbar navbar-expand-lg navbar-light row shadow-sm">
-                <!-- TODO: fix the width issue -->
-                <div class="container-fluid  justify-content-lg-centers  justify-content-around w-75 mx-lg-auto ">
-                    <a class="navbar-brand d-none d-lg-block" href="#"><img src="./images/icon/toggle.png" alt=""></a>
-                    <a class="navbar-brand d-block d-lg-none" href="#"><img src="./images/icon/logo.png" alt="logo"></a>
+                <div class="container-fluid  justify-content-lg-center  justify-content-between">
+                    <a class="navbar-brand d-none d-lg-block" href="#"><img src="/images/icon/toggle.png" alt=""></a>
+                    <a class="navbar-brand d-block d-lg-none" href="/index.html"><img src="/images/icon/logo.png"
+                            alt="logo"></a>
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -42,7 +42,10 @@
                     <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                         <ul class="navbar-nav custom-nav-link justify-content-center">
                             <li class="nav-item category-nav">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                            </li>
+                            <li class="nav-item category-nav">
+                                <a class="nav-link active" aria-current="page" href="/index2.html">Home 2</a>
                             </li>
                             <li class="nav-item dropdown category-nav">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -61,9 +64,9 @@
                                     Products
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Products 1</a></li>
-                                    <li><a class="dropdown-item" href="#">Products 2</a></li>
-                                    <li><a class="dropdown-item" href="#">Products 3</a></li>
+                                    <li><a class="dropdown-item" href="/HTML/product-details.html">Products 1</a></li>
+                                    <li><a class="dropdown-item" href="/HTML/product-details.html">Products 2</a></li>
+                                    <li><a class="dropdown-item" href="/HTML/product-details.html">Products 3</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown category-nav">
@@ -72,9 +75,10 @@
                                     Pages
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="/HTML/about.html">ِAbout</a></li>
+                                    <li><a class="dropdown-item" href="/HTML/shop.html">shop</a></li>
+                                    <li><a class="dropdown-item" href="/HTML/product-details.html">Product Details</a>
+                                    </li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown category-nav">
@@ -83,9 +87,9 @@
                                     Blog
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a class="dropdown-item" href="/HTML/blog.html">Blog</a></li>
+                                    <li><a class="dropdown-item" href="/HTML/blog.html">Blog</a></li>
+                                    <li><a class="dropdown-item" href="/HTML/blog.html">Blog</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown category-nav">
@@ -107,14 +111,15 @@
 
                 </div>
             </nav>
+
             <div class="navbar navbar-light row shadow-sm">
-                <div class="container-fluid justify-content-center justify-content-md-evenly">
-                    <a class="navbar-brand d-none d-lg-block" href="#"><img src="./images/icon/logo.png" alt="logo"></a>
+                <div class="container-fluid justify-content-center justify-content-lg-between">
+                    <a class="navbar-brand d-none d-lg-block" href="#"><img src="/images/icon/logo.png" alt="logo"></a>
                     <form class="d-flex col-lg-4 col-12">
                         <div class="input-group ">
                             <input type="search" class="form-control" placeholder="Search for items...">
                             <button class="btn btn-outline-secondary dropdown-toggle" type="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">All Categories</button>
+                                data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
                             <ul class="dropdown-menu dropdown-menu-end">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -139,14 +144,14 @@
                             Wishlist
                         </li>
                         <li class="nav-item">
-                            <!-- <i class="fa-solid fa-cart-shopping"></i> -->
-                            <img src="./images/icon/cart.png" alt="">
+                            <img src="/images/icon/cart.png" alt="">
                             Cart
                         </li>
                     </ul>
                 </div>
             </div>
         </header>
+
 
 
         <main>
@@ -985,7 +990,7 @@
             <!-- Deals Of The Days  End -->
             <!-- ========================================================================= -->
 
-            <div class="d-flex d-row justify-content-between align-items-center">
+            <section class="d-flex d-row justify-content-between align-items-center">
                 <div class="col-auto">
                     <h2 class="title-spacing">Deals Of The Day</h2>
                 </div>
@@ -1006,10 +1011,10 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+            </section>
 
 
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 mt-2">
+            <section class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 mt-2">
                 <!-- Product Card 1 -->
                 <div class="col">
                     <div class="custom-product-card">
@@ -1133,7 +1138,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
 
             <!-- Deals Of The Days  End -->
 
@@ -1168,7 +1173,7 @@
             </section>
 
             <!-- Features Section -->
-            <div class="container-fluid px-3 mt-4 mb-5">
+            <section class="container-fluid px-3 mt-4 mb-5">
                 <div class=" row justify-content-center g-2">
                     <div class="col-12 col-md-6 col-lg-2">
                         <div class="feature-box d-flex align-items-center p-3"
@@ -1226,77 +1231,78 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
+        </main>
 
-            <footer class="footer py-4" style="background-color: #F8F9FA; ">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-6" style="margin-top: -20px;">
-                            <img src="/images/Footer/Logo.png" alt="FoodTrove Logo" style="height: 85px;">
-                            <p>FoodTrove is the biggest market of grocery products.<br> Get your daily needs from our
-                                store.</p>
-                            <p><i class="fas fa-map-marker-alt text-danger"></i> 51 Green St, Huntington, Ontario, NY
-                            </p>
-                            <p><i class="fas fa-envelope text-danger"></i> example@email.com</p>
-                            <p><i class="fas fa-phone text-danger"></i> +91 123 456 7890</p>
+        <footer class="footer py-4" style="background-color: #F8F9FA; ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6" style="margin-top: -20px;">
+                        <img src="/images/Footer/Logo.png" alt="FoodTrove Logo" style="height: 85px;">
+                        <p>FoodTrove is the biggest market of grocery products.<br> Get your daily needs from our
+                            store.</p>
+                        <p><i class="fas fa-map-marker-alt text-danger"></i> 51 Green St, Huntington, Ontario, NY
+                        </p>
+                        <p><i class="fas fa-envelope text-danger"></i> example@email.com</p>
+                        <p><i class="fas fa-phone text-danger"></i> +91 123 456 7890</p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 mt-3">
+                        <h5 class="fw-bold">Company</h5>
+                        <ul class="list-unstyled company-list">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Delivery Information</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Support Center</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 mt-3">
+                        <h5 class="fw-bold">Category</h5>
+                        <ul class="list-unstyled category-list">
+                            <li><a href="#">Dairy & Bakery</a></li>
+                            <li><a href="#">Fruits & Vegetables</a></li>
+                            <li><a href="#">Snack & Spice</a></li>
+                            <li><a href="#">Juice & Drinks</a></li>
+                            <li><a href="#">Chicken & Meat</a></li>
+                            <li><a href="#">Fast Food</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-5 col-md-6 mt-3 ">
+                        <h5 class="fw-bold mb-3">Subscribe Our Newsletter</h5>
+                        <div class="d-flex mb-5 searchbar">
+                            <input type="text" class="form-control" placeholder="Search here...">
+                            <button class="btn btn-dark"><i class="fas fa-paper-plane"></i></button>
                         </div>
 
-                        <div class="col-lg-2 col-md-6 mt-3">
-                            <h5 class="fw-bold">Company</h5>
-                            <ul class="list-unstyled company-list">
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Delivery Information</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Terms & Conditions</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">Support Center</a></li>
-                            </ul>
+                        <div class="d-flex social-icons ">
+                            <img src="/images/icon/Link 1.png" alt="" style="width: 40px; height: 40px;">
+                            <img src="/images/icon/Link 2.png" alt="" style="width: 40px; height: 40px;">
+                            <img src="/images/icon/Link 3.png" alt="" style="width: 43px; height: 43px;">
+                            <img src="/images/icon/Link 4.png" alt="" style="width: 43px; height: 43px;">
+
                         </div>
 
-                        <div class="col-lg-2 col-md-6 mt-3">
-                            <h5 class="fw-bold">Category</h5>
-                            <ul class="list-unstyled category-list">
-                                <li><a href="#">Dairy & Bakery</a></li>
-                                <li><a href="#">Fruits & Vegetables</a></li>
-                                <li><a href="#">Snack & Spice</a></li>
-                                <li><a href="#">Juice & Drinks</a></li>
-                                <li><a href="#">Chicken & Meat</a></li>
-                                <li><a href="#">Fast Food</a></li>
-                            </ul>
-                        </div>
-
-                        <div class="col-lg-5 col-md-6 mt-3 ">
-                            <h5 class="fw-bold mb-3">Subscribe Our Newsletter</h5>
-                            <div class="d-flex mb-5 searchbar">
-                                <input type="text" class="form-control" placeholder="Search here...">
-                                <button class="btn btn-dark"><i class="fas fa-paper-plane"></i></button>
-                            </div>
-
-                            <div class="d-flex social-icons ">
-                                <img src="/images/icon/Link 1.png" alt="" style="width: 40px; height: 40px;">
-                                <img src="/images/icon/Link 2.png" alt="" style="width: 40px; height: 40px;">
-                                <img src="/images/icon/Link 3.png" alt="" style="width: 43px; height: 43px;">
-                                <img src="/images/icon/Link 4.png" alt="" style="width: 43px; height: 43px;">
-
-                            </div>
-
-                            <div class="d-flex mt-4 footer-images">
-                                <img src="/images/Footer/1.png" class="me-3" style="width: 70px; height: 70px;">
-                                <img src="/images/Footer/2.png" class="me-3" style="width: 70px; height: 70px;">
-                                <img src="/images/Footer/3.png" class="me-3" style="width: 70px; height: 70px;">
-                                <img src="/images/Footer/4.png" class="me-3" style="width: 70px; height: 70px;">
-                                <img src="/images/Footer/5.png" class="me-3" style="width: 70px; height: 70px;">
-                            </div>
+                        <div class="d-flex mt-4 footer-images">
+                            <img src="/images/Footer/1.png" class="me-3" style="width: 70px; height: 70px;">
+                            <img src="/images/Footer/2.png" class="me-3" style="width: 70px; height: 70px;">
+                            <img src="/images/Footer/3.png" class="me-3" style="width: 70px; height: 70px;">
+                            <img src="/images/Footer/4.png" class="me-3" style="width: 70px; height: 70px;">
+                            <img src="/images/Footer/5.png" class="me-3" style="width: 70px; height: 70px;">
                         </div>
                     </div>
                 </div>
-            </footer>
-
-
-
-            <div class="text-center mt-4">
-                <p>© 2024 <span style="color: red;">FoodTrove</span>, All rights reserved.</p>
             </div>
+        </footer>
+
+
+
+        <div class="text-center mt-4">
+            <p>© 2024 <span style="color: red;">FoodTrove</span>, All rights reserved.</p>
+        </div>
     </div>
     </footer>
 

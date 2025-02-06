@@ -32,9 +32,10 @@
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-light row shadow-sm">
-            <div class="container-fluid  justify-content-lg-centers  justify-content-around w-75 mx-lg-auto ">
+            <div class="container-fluid  justify-content-lg-center  justify-content-between">
                 <a class="navbar-brand d-none d-lg-block" href="#"><img src="/images/icon/toggle.png" alt=""></a>
-                <a class="navbar-brand d-block d-lg-none" href="#"><img src="/images/icon/logo.png" alt="logo"></a>
+                <a class="navbar-brand d-block d-lg-none" href="/index.html"><img src="/images/icon/logo.png"
+                        alt="logo"></a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
@@ -44,7 +45,10 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                     <ul class="navbar-nav custom-nav-link justify-content-center">
                         <li class="nav-item category-nav">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item category-nav">
+                            <a class="nav-link active" aria-current="page" href="/index2.html">Home 2</a>
                         </li>
                         <li class="nav-item dropdown category-nav">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -63,9 +67,9 @@
                                 Products
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Products 1</a></li>
-                                <li><a class="dropdown-item" href="#">Products 2</a></li>
-                                <li><a class="dropdown-item" href="#">Products 3</a></li>
+                                <li><a class="dropdown-item" href="/HTML/product-details.html">Products 1</a></li>
+                                <li><a class="dropdown-item" href="/HTML/product-details.html">Products 2</a></li>
+                                <li><a class="dropdown-item" href="/HTML/product-details.html">Products 3</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown category-nav">
@@ -74,9 +78,10 @@
                                 Pages
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="/HTML/about.html">ِAbout</a></li>
+                                <li><a class="dropdown-item" href="/HTML/shop.html">shop</a></li>
+                                <li><a class="dropdown-item" href="/HTML/product-details.html">Product Details</a>
+                                </li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown category-nav">
@@ -85,9 +90,9 @@
                                 Blog
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="/HTML/blog.html">Blog</a></li>
+                                <li><a class="dropdown-item" href="/HTML/blog.html">Blog</a></li>
+                                <li><a class="dropdown-item" href="/HTML/blog.html">Blog</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown category-nav">
@@ -109,8 +114,9 @@
 
             </div>
         </nav>
-        <div class="navbar navbar-light row mb-5 shadow-sm">
-            <div class="container-fluid justify-content-center justify-content-md-evenly">
+
+        <div class="navbar navbar-light row shadow-sm">
+            <div class="container-fluid justify-content-center justify-content-lg-between">
                 <a class="navbar-brand d-none d-lg-block" href="#"><img src="/images/icon/logo.png" alt="logo"></a>
                 <form class="d-flex col-lg-4 col-12">
                     <div class="input-group ">
@@ -148,17 +154,21 @@
             </div>
         </div>
 
-        <nav aria-label="breadcrumb" class="d-none d-md-block">
-            <ol class="breadcrumb bg-danger p-3 rounded d-flex flex-md-row align-items-center">
-                <li class="breadcrumb-item active text-white text-start" aria-current="page" style="margin-left:200px;">
-                    <a href="" class="mx-1"><b>About Us</b></a>
-                </li>
-                <li class="breadcrumb-item text-white text-end ms-auto" style="margin-right: 200px;">
-                    <a href="/index.html" class="mx-1"><b>Home</b></a> -
-                    <a href="/HTML/ProductDetails.html" class="mx-1"><b>About Us</b></a>
-                </li>
-            </ol>
+
+        <nav aria-label="breadcrumb" class="d-md-block bg-danger row p-2">
+            <div class="container-fluid  justify-content-lg-center  justify-content-around">
+                <ol class="breadcrumb justify-content-between align-items-center mt-2">
+                    <li class="breadcrumb-item active text-white" aria-current="page">
+                        <a href="" class=""><b>About</b></a>
+                    </li>
+                    <li class="breadcrumb-item text-white">
+                        <a href="/index.html"><b>Home</b></a> -
+                        <a href="/HTML/cart.html"><b>About</b></a>
+                    </li>
+                </ol>
+            </div>
         </nav>
+
     </header>
 
 

@@ -18,6 +18,12 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
+.form-range::-webkit-slider-thumb {
+
+    background: red;
+
+}
+
 /* Firefox */
 input[type=number] {
     -webkit-appearance: none;
