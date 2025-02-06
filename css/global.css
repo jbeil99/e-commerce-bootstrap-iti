@@ -145,37 +145,66 @@ input[type=number] {
  =========================  */
 
 
-
-a {
-    color: black;
-    text-decoration: none;
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    width: 100%;
 }
 
+.footer .row {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
-.social-icon {
+.footer .col-md-4 {
+    flex: 1;
+    min-width: 280px;
+    padding: 0 20px;
+}
+
+.footer h5 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.footer p,
+.footer ul li {
+    color: #7A7A7A;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li {
+    margin-bottom: 11px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: #7A7A7A;
+    font-size: 16px;
+}
+
+.footer ul li a:hover {
+    color: red;
+}
+
+.footer .social-icons {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    gap: 10px;
+}
+
+.footer .social-icons img {
     width: 35px;
     height: 35px;
-    background-color: white;
-    border-radius: 5px;
-    color: black;
-    text-decoration: none;
-    font-size: 16px;
-    margin-right: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
 }
 
-.social-icon:hover {
-    background-color: #ddd;
-}
-
-.company-list li,
-.category-list li {
-    margin-bottom: 10px;
-}
-
-.text-danger {
-    color: red !important;
+.footer .social-icons img:hover {
+    transform: scale(1.1);
 }
