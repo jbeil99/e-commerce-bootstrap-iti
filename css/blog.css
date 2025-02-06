@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body p {
+    color: #7A7A7A;
+    font-family: Poppins;
+    font-size: large;
+    letter-spacing: 0.48px;
+    line-height: 24.5s;
+}
+
+body h2 {
+
+    font-family: Manrope;
+    letter-spacing: 0.48px;
+    line-height: 38.4s;
+    font-weight: bold;
+    font-size: 42px;
+    margin: 20px 0;
+
+}
+
+.article-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.author-info {
+    color: red;
+    font-weight: bold;
+}
+
+.related-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.related-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.icon-circle {
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 14px;
+    flex-shrink: 0;
+}
+
+.comment-author {
+    font-weight: bold;
+    color: red;
+}
+
+.pagination .page-link {
+    color: black;
+}
+
+.pagination .active .page-link {
+    background-color: red;
+    border-color: red;
+    color: white;
+}
+
+.author-info span {
+
+    color: rgb(112, 107, 107);
+    font-family: Poppins;
+
+
+}
+
+.mt-3 h5 {
+
+    font-family: Poppins;
+    font-size: 23px;
+    line-height: 30s;
+    letter-spacing: 0.48px;
+
+}
+
+
+.related-item p {
+
+    margin-top: 15px;
+    color: black;
+}
+
+.auther {
+    border: 2px solid #e9e3e3;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.auther p {
+    color: black;
+}
+
+.icon-blog img {
+    margin-top: 5em;
+    width: 40px;
+    height: 35px;
+}
+
+.boxes {
+    border: 2px solid #e9e3e3;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+.boxes button {
+    font-size: larger;
+    margin: 0 4px;
+    color: #7A7A7A;
+    border: 2px solid #e9e3e3;
+}

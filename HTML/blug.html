@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <!--Quicksand font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/5f0a7b2341.js" crossorigin="anonymous"></script>
+    <!--Custom css-->
+
+    <link rel="stylesheet" href="/css/blog.css">
+    <link rel="stylesheet" href="/css/global.css">
+    <link rel="shortcut icon" href="/images/icon/icon.png" type="image/png">
+    <title>Foodtrove</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light row shadow-sm">
+            <div class="container-fluid  justify-content-lg-centers  justify-content-around w-75 mx-lg-auto ">
+                <a class="navbar-brand d-none d-lg-block" href="#"><img src="/images/icon/toggle.png" alt=""></a>
+                <a class="navbar-brand d-block d-lg-none" href="#"><img src="/images/icon/logo.png" alt="logo"></a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+                    <ul class="navbar-nav custom-nav-link justify-content-center">
+                        <li class="nav-item category-nav">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown category-nav">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Category
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Category 1</a></li>
+                                <li><a class="dropdown-item" href="#">Category 2</a></li>
+                                <li><a class="dropdown-item" href="#">Category 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown category-nav">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Products 1</a></li>
+                                <li><a class="dropdown-item" href="#">Products 2</a></li>
+                                <li><a class="dropdown-item" href="#">Products 3</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown category-nav">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown category-nav">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Blog
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown category-nav">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Elements
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <p class="nav ml-auto align-items-center d-none d-lg-block"><i class="fa-solid fa-phone"></i> +123
+                    (456)
+                    (7890) </p>
+
+            </div>
+        </nav>
+        <div class="navbar navbar-light row mb-5 shadow-sm">
+            <div class="container-fluid justify-content-center justify-content-md-evenly">
+                <a class="navbar-brand d-none d-lg-block" href="#"><img src="/images/icon/logo.png" alt="logo"></a>
+                <form class="d-flex col-lg-4 col-12">
+                    <div class="input-group ">
+                        <input type="search" class="form-control" placeholder="Search for items...">
+                        <button class="btn btn-outline-secondary dropdown-toggle" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                        <button class="btn btn-primary" type="submit"><i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                </form>
+
+                <ul class="nav justify-content-end gap-3 p-2">
+                    <li class="nav-item">
+                        <i class="fa-regular fa-user"></i>
+                        Account
+                    </li>
+                    <li class="nav-item pointer">
+                        <i class="fa-regular fa-heart "></i>
+                        Wishlist
+                    </li>
+                    <li class="nav-item">
+                        <img src="/images/icon/cart.png" alt="">
+                        Cart
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+    <nav aria-label="breadcrumb" class="d-none d-md-block">
+        <ol class="breadcrumb bg-danger p-3 rounded d-flex flex-md-row align-items-center">
+            <li class="breadcrumb-item active text-white text-start" aria-current="page" style="margin-left:200px;">
+                <a href="" class="mx-1"><b>Blog Details</b></a>
+            </li>
+            <li class="breadcrumb-item text-white text-end ms-auto" style="margin-right: 200px;">
+                <a href="/index.html" class="mx-1"><b>Home</b></a> -
+                <a href="/HTML/ProductDetails.html" class="mx-1"><b>Blog Details</b></a>
+            </li>
+        </ol>
+    </nav>
+
+    <!-- =========== Header End ============ -->
+
+
+
+    <div class="container mt-5">
+        <img src="/images/banners/blog banner1.png" class="article-img" style="margin-top: 3em;" alt="Article Image">
+
+        <div class="mt-3">
+            <h5 class="author-info">By Admin <span>/ 07 Comments / Date - 09 , 09, 2024</span></h5>
+            <h2>Health Benefits of a Raw Food</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde mollitia nihil sunt reprehenderit natus,
+                soluta officia iure enim itaque. Iste qui exercitationem et odit beatae
+                debitis ratione molestiae quis atque.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed doloribus dolor odio nobis eum voluptatem
+                laudantium magni veritatis sint! Aspernatur est quisquam modi
+                laudantium. Assumenda neque vitae corrupti asperiores, quos vel aliquid hic nisi nostrum repellendus
+                dolorem placeat vero odit.</p>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6 col-12 mb-3">
+                <img src="/images/banners/blog banner2.png" class="w-100 related-img" alt="Related 1">
+                <div class="related-item">
+                    <div class="icon-circle">
+                        <i class="bi bi-arrow-right"></i>
+                    </div>
+                    <p>Lorem ipsum dolor consectetur adipisicing elit. Molestiae, dolorum!</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 mb-3">
+                <img src="/images/banners/blog banner3.png" class="w-100 related-img" alt="Related 2">
+                <div class="related-item">
+                    <div class="icon-circle">
+                        <i class="bi bi-arrow-right"></i>
+                    </div>
+                    <p>Lorem ipsum dolor consectetur adipisicing elit. Molestiae, dolorum!</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mt-4 auther d-flex justify-content-between align-items-center">
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat repellat earum architecto odit
+                    soluta quas odio distinctio quae numquam? Quaerat nulla blanditiis possimus quae.
+                    Iusto doloribus, est aliquam delectus pariatur voluptatem cum iste exercitationem rem.
+                </p>
+                <h3 class="comment-author m-0">John Martin</h3>
+            </div>
+            <div class="icon-blog">
+                <img src="/images/icon/blog icon.png" alt="Blog Icon">
+            </div>
+        </div>
+
+        <div class="mt-3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores officia magni explicabo fuga
+                molestiae architecto ipsa excepturi laudantium molestias, assumenda vel
+                fugiat hic exercitationem. Necessitatibus itaque et id! Ratione accusantium voluptatum optio rerum
+                facilis expedita.</p>
+        </div>
+
+        <div class="mt-3 boxes d-flex justify-content-between align-items-center flex-wrap">
+            <div>
+                <button class="btn btn-light btn-sm">Catalogue</button>
+                <button class="btn btn-light btn-sm">Appetizer</button>
+                <button class="btn btn-light btn-sm">Meat Food</button>
+            </div>
+            <div class="d-flex gap-2 m-2">
+                <img src="/images/icon/link 1.png" alt="Link 1" class="icon-link">
+                <img src="/images/icon/link 2.png" alt="Link 2" class="icon-link">
+                <img src="/images/icon/link 3.png" alt="Link 3" class="icon-link">
+                <img src="/images/icon/link 4.png" alt="Link 4" class="icon-link">
+            </div>
+        </div>
+
+
+        <nav class="mt-4">
+            <ul class="pagination justify-content-center">
+                <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item active"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <footer class="footer py-4" style="background-color: #F8F9FA; ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6" style="margin-top: -18px;">
+                    <img src="/images/Footer/Logo.png" alt="FoodTrove Logo" style="height: 70px;">
+                    <p>FoodTrove is the biggest market of grocery products.<br> Get your daily needs
+                        from our store.</p>
+                    <p><i class="fas fa-map-marker-alt text-danger"></i> 51 Green St, Huntington, Ontario, NY</p>
+                    <p><i class="fas fa-envelope text-danger"></i> example@email.com</p>
+                    <p><i class="fas fa-phone text-danger"></i> +91 123 456 7890</p>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold">Company</h6>
+                    <ul class="list-unstyled company-list">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Delivery Information</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Support Center</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h6 class="fw-bold">Category</h6>
+                    <ul class="list-unstyled category-list">
+                        <li><a href="#">Dairy & Bakery</a></li>
+                        <li><a href="#">Fruits & Vegetables</a></li>
+                        <li><a href="#">Snack & Spice</a></li>
+                        <li><a href="#">Juice & Drinks</a></li>
+                        <li><a href="#">Chicken & Meat</a></li>
+                        <li><a href="#">Fast Food</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-5 col-md-6">
+                    <h6 class="fw-bold">Subscribe Our Newsletter</h6>
+                    <div class="d-flex mb-2">
+                        <input type="text" class="form-control" placeholder="Search here...">
+                        <button class="btn btn-dark"><i class="fas fa-paper-plane"></i></button>
+                    </div>
+
+                    <div class="mt-3 d-flex social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+
+                    <div class="d-flex mt-4 footer-images">
+                        <img src="/images/Footer/1.png" class="me-3" style="width: 50px; height: 50px;">
+                        <img src="/images/Footer/2.png" class="me-3" style="width: 50px; height: 50px;">
+                        <img src="/images/Footer/3.png" class="me-3" style="width: 50px; height: 50px;">
+                        <img src="/images/Footer/4.png" class="me-3" style="width: 50px; height: 50px;">
+                        <img src="/images/Footer/5.png" class="me-3" style="width: 50px; height: 50px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Copyright -->
+    <div class="text-center mt-4">
+        <p>© 2024 <span style="color: red;">FoodTrove</span>, All rights reserved.</p>
+    </div>
+    </footer>
+
+
+
+
+
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
