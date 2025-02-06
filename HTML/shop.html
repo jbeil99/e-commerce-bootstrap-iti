@@ -165,7 +165,8 @@
         <main class="shop-section  my-5">
             <div class="container-xl">
                 <div class="row  row-cols-1 row-cols-lg-2 justify-content-lg-between justify-content-center">
-                    <aside class="col-lg-3 col rounded d-none d-lg-block" id="filter-aside">
+
+                    <aside class="col-lg-3 col rounded mb-4 mb-lg-0 collapse d-lg-block" id="filter-aside">
                         <div class="filter-section">
                             <h5>Product Category</h5>
                             <ul class="list-unstyled">
@@ -266,15 +267,18 @@
                             </div>
                         </div>
                     </aside>
-
                     <div
                         class="col-lg-9 col-12 col row row-cols-1 row-cols-lg-3   justify-content-md-between  align-items-center gap-4 ">
                         <nav
                             class="nav  col-12 justify-content-lg-between justify-content-center align-items-center px-2 rounded">
                             <div class="display-style d-flex gap-2 align-items-center">
-                                <img src="/images/icon/filter.png" class="d-block" alt="flter">
+                                <button class="navbar-toggler d-block d-lg-none" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#filter-aside" aria-controls="filter-aside" aria-expanded="false"
+                                    aria-label="Toggle filter">
+                                    <img src="/images/icon/filter.png" class="d-block d-lg-none" alt="flter">
+                                </button>
                                 <img src="/images/icon/grid.png" class="d-block active" alt="grid">
-                                <img src="/images/icon/list.png" class="d-block" alt="grid">
+                                <img src="/images/icon/list.png" class="d-block " alt="grid">
 
                                 <p class="ms-2 mt-3">We found 29 items for you!</p>
                             </div>
