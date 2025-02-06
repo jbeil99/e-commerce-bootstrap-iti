@@ -100,10 +100,10 @@ body h2 {
 }
 
 .auther {
-    border: 2px solid #e9e3e3;
+    border: 2px solid #f7f4f4;
     padding: 15px;
     border-radius: 10px;
-    background-color: #f9f9f9;
+    background-color: #ffffff;
 }
 
 .auther p {
@@ -117,7 +117,7 @@ body h2 {
 }
 
 .boxes {
-    border: 2px solid #e9e3e3;
+    border: 2px solid #f7f4f4;
     padding: 15px;
     border-radius: 10px;
     background-color: #ffffff;
