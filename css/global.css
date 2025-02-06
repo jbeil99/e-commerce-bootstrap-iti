@@ -154,6 +154,16 @@ input[type=number] {
     font-weight: 700;
 }
 
+.product-tags span {
+    background: #FFFFFF;
+    border: 1px solid #E9E9E9;
+    padding: 8px 12px;
+    font-size: 1rem;
+    display: inline-block;
+    margin: 4px;
+    cursor: pointer;
+    border-radius: 5px;
+}
 
 /* =========================================== */
 

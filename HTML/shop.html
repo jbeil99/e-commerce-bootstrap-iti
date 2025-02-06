@@ -162,13 +162,10 @@
             </nav>
         </header>
 
-        <section class="shop-section  my-5">
-            <!-- ----------------------------------
-              side bar start
-    ---------------------------------- -->
-            <div class="container-md">
+        <main class="shop-section  my-5">
+            <div class="container-xl">
                 <div class="row  row-cols-1 row-cols-lg-2 justify-content-lg-between justify-content-center">
-                    <aside class="col-lg-3 col rounded" id="filter-aside">
+                    <aside class="col-lg-3 col rounded d-none d-lg-block" id="filter-aside">
                         <div class="filter-section">
                             <h5>Product Category</h5>
                             <ul class="list-unstyled">
@@ -238,9 +235,24 @@
 
                             <h5>Weight</h5>
                             <ul class="list-unstyled">
-                                <li><input type="checkbox"> 2kg Pack</li>
-                                <li><input type="checkbox"> 5kg Pack</li>
-                                <li><input type="checkbox"> 10kg Pack</li>
+                                <li class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="blue-color">
+                                    <label class="form-check-label" for="blue-color">
+                                        2kg Pack
+                                    </label>
+                                </li>
+                                <li class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="blue-color">
+                                    <label class="form-check-label" for="blue-color">
+                                        5kg Pack
+                                    </label>
+                                </li>
+                                <li class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="blue-color">
+                                    <label class="form-check-label" for="blue-color">
+                                        10kg Pack
+                                    </label>
+                                </li>
                             </ul>
 
                             <h5>Product Tags</h5>
@@ -255,15 +267,18 @@
                         </div>
                     </aside>
 
-                    <div class="col-lg-9 col row row-cols-1  row-cols-lg-3 gap-2 justify-content-center">
+                    <div
+                        class="col-lg-9 col-12 col row row-cols-1 row-cols-lg-3   justify-content-md-between  align-items-center gap-4 ">
                         <nav
-                            class="nav col col-lg-12 justify-content-lg-between justify-content-center align-items-center px-2 rounded">
+                            class="nav  col-12 justify-content-lg-between justify-content-center align-items-center px-2 rounded">
                             <div class="display-style d-flex gap-2 align-items-center">
+                                <img src="/images/icon/filter.png" class="d-block" alt="flter">
                                 <img src="/images/icon/grid.png" class="d-block active" alt="grid">
                                 <img src="/images/icon/list.png" class="d-block" alt="grid">
+
                                 <p class="ms-2 mt-3">We found 29 items for you!</p>
                             </div>
-                            <div class="dropdown border bg-light px-2">
+                            <div class="dropdown px-2">
                                 <label for="dropdownMenu2">Sort by:</label>
                                 <button class="btn  dropdown-toggle" type="button" id="dropdownMenu2"
                                     data-bs-toggle="dropdown" aria-expanded="false">
@@ -277,7 +292,7 @@
                             </div>
                         </nav>
 
-                        <div class="card rounded col p-2 text-center">
+                        <div class="card rounded col  p-2 text-center">
                             <img src="/images/product details/card4.png" class="card-img-top"
                                 alt="Fresh organic apple 1kg simla marming">
                             <span class="circle"><i class="fa-solid fa-bag-shopping"></i></span>
@@ -300,7 +315,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card  rounded col p-2 text-center">
+                        <div class="card  rounded col   p-2 text-center">
                             <img src="/images/product details/card4.png" class="card-img-top"
                                 alt="Fresh organic apple 1kg simla marming">
                             <span class="circle"><i class="fa-solid fa-bag-shopping"></i></span>
@@ -323,7 +338,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="card  rounded col p-2 text-center">
+                        <div class="card  rounded col  p-2 text-center">
                             <img src="/images/product details/card4.png" class="card-img-top"
                                 alt="Fresh organic apple 1kg simla marming">
                             <span class="circle"><i class="fa-solid fa-bag-shopping"></i></span>
@@ -346,7 +361,77 @@
                                 </div>
                             </div>
                         </div>
-                        <nav aria-label="Page navigation" class="col col-lg-12  nav justify-content-center">
+                        <div class="card  rounded col  p-2 text-center">
+                            <img src="/images/product details/card4.png" class="card-img-top"
+                                alt="Fresh organic apple 1kg simla marming">
+                            <span class="circle"><i class="fa-solid fa-bag-shopping"></i></span>
+                            <div class="card-body">
+                                <p class="text-muted">Snacks</p>
+                                <div class="ratings">
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star"></i>
+                                    <span class="text-muted ml-2">(4.0)</span>
+                                </div>
+                                <h5 class="card-title mb-3">Sweet snakes crunchy nut mix
+                                    250gm pack</h5>
+                                <div class="text-center">
+                                    <p class="text-danger font-weight-bold h5">$28.85 <span
+                                            class="text-muted h6 text-decoration-line-through ml-2">$32.8</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card  rounded col  p-2 text-center">
+                            <img src="/images/product details/card4.png" class="card-img-top"
+                                alt="Fresh organic apple 1kg simla marming">
+                            <span class="circle"><i class="fa-solid fa-bag-shopping"></i></span>
+                            <div class="card-body">
+                                <p class="text-muted">Snacks</p>
+                                <div class="ratings">
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star"></i>
+                                    <span class="text-muted ml-2">(4.0)</span>
+                                </div>
+                                <h5 class="card-title mb-3">Sweet snakes crunchy nut mix
+                                    250gm pack</h5>
+                                <div class="text-center">
+                                    <p class="text-danger font-weight-bold h5">$28.85 <span
+                                            class="text-muted h6 text-decoration-line-through ml-2">$32.8</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card  rounded col  p-2 text-center">
+                            <img src="/images/product details/card4.png" class="card-img-top"
+                                alt="Fresh organic apple 1kg simla marming">
+                            <span class="circle"><i class="fa-solid fa-bag-shopping"></i></span>
+                            <div class="card-body">
+                                <p class="text-muted">Snacks</p>
+                                <div class="ratings">
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star rating-color"></i>
+                                    <i class="fa fa-star"></i>
+                                    <span class="text-muted ml-2">(4.0)</span>
+                                </div>
+                                <h5 class="card-title mb-3">Sweet snakes crunchy nut mix
+                                    250gm pack</h5>
+                                <div class="text-center">
+                                    <p class="text-danger font-weight-bold h5">$28.85 <span
+                                            class="text-muted h6 text-decoration-line-through ml-2">$32.8</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <nav aria-label="Page navigation" class="col col-lg-12  nav justify-content-center mt-4">
                             <ul class="pagination ">
                                 <li class="page-item"><a class="page-link" href="#">Previous</a></li>
                                 <li class="page-item"><a class="page-link active" href="#">1</a></li>
@@ -357,7 +442,7 @@
                         </nav>
 
                     </div>
-        </section>
+        </main>
     </div>
 
     <footer class="footer mt-5 py-4" style="background-color: #F8F9FA;">
