@@ -395,3 +395,97 @@ margin-left: 0px;
     padding-top: 1rem !important;
     padding-bottom: 1rem !important;
 }
+
+.custom-card-one {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+  
+  .custom-card-one .card-body {
+    order: 1; 
+  }
+  
+  .custom-image-wrapper-card-one {
+    order: 2;
+    width: 100%;
+  }
+  
+  .custom-card-one-img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  .text-green {
+    color: green !important;
+  }
+  
+  .text-green a {
+    color: rgb(4, 170, 4) !important; 
+    text-decoration: none;
+  }
+  
+  .card-body-one {
+    padding: 6px;
+    margin: 5px;
+  }
+  
+  
+.custom-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+ .card-body-one{
+    text-align: left !important;
+  }
+  
+  .custom-card-one {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  .custom-card-one .card-body {
+    order: 1;
+    padding: 20px;
+  }
+  
+  .custom-image-wrapper-card-one {
+    order: 2;
+    width: 100%;
+  }
+  
+  .custom-card-one-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .text-green {
+    color: rgb(19, 182, 19) !important;
+  }
+  
+  .text-green a {
+    color: rgb(10, 193, 10) !important;
+    text-decoration: none;
+  }
+  
+  .card-body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .p-card-one, .h4-card-one, .p2-card-one {
+    margin: 3px;
+    padding: 5px;
+    left: 1%;
+  }
+  .p-card-one a{
+    text-decoration: none;
+    color:rgb(108, 108, 106);
+
+  }
