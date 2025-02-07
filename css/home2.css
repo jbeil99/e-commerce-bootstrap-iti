@@ -326,7 +326,7 @@ margin-left: 0px;
 
 .custom-card-img {
     width: 100%;
-    height: auto; /* يحافظ على الأبعاد الطبيعية للصورة */
+    height: auto;
     border-radius: 50%;
 }
 
@@ -337,23 +337,23 @@ margin-left: 0px;
     overflow: visible;
     position: relative;
     background-color: #f3f3f3;
-    padding-top: 3rem; /* تقليل التباعد العلوي */
-    padding-bottom: 1rem; /* تقليل التباعد السفلي */
+    padding-top: 3rem;
+    padding-bottom: 1rem; 
 }
 
 .cart-cont-img {
     width: 80vw;
     margin: 10px auto;
     padding: 0;
-    height: auto; /* إزالة الـ 100vh لمنع التمدد */
+    height: auto; 
 }
 
 .custom-image-wrapper {
     position: absolute;
-    top: -30px; /* تقليل الارتفاع لتكون أقرب */
+    top: -30px;
     left: 50%;
     transform: translateX(-50%);
-    width: 80px; /* حجم ثابت يمنع التمدد */
+    width: 80px; 
     height: 80px;
     border-radius: 50%;
     background: white;
@@ -367,7 +367,7 @@ margin-left: 0px;
 .custom-card-img {
     width: 100%;
     height: 100%;
-    object-fit: cover; /* يمنع تشوه الصورة */
+    object-fit: cover; 
     border-radius: 50%;
 }
 
@@ -380,7 +380,7 @@ margin-left: 0px;
 }
 
 .text-center.mt-3 {
-    margin-bottom: 1.5rem; /* تقليل المسافة بين العنوان والكروت */
+    margin-bottom: 1.5rem; 
 }
 
 .text-center.mb-3.mt-3 {
@@ -388,7 +388,7 @@ margin-left: 0px;
 }
 
 .row.cart-cont-img.mt-5 {
-    margin-top: 1.5rem !important; /* تقليل المسافة بين العنوان والكروت */
+    margin-top: 1.5rem !important; 
 }
 
 .col-12.p-4 {
