@@ -1,0 +1,284 @@
+
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+    .phone-num{
+        margin-right: 200px;
+        font-size: 16px;
+        font-family: Segoe UI;
+            font-weight: bold;
+            color: black;
+    }
+    
+
+    .menupar{
+        margin-left: 200px;
+
+    }
+    .navbar-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .navbar-nav {
+        display: flex;
+        gap: 15px;
+    }
+
+    .navbar .nav-item {
+        font-weight: bold;
+    }
+    
+    .navbar-second-row {
+        border-top: 1px solid #ddd;
+        padding-top: 10px;
+    }
+
+    .food{
+        margin-left: 180px;
+        margin-right: 150px ;
+
+    }
+    .icons{
+        margin-right: 150px;
+        font-size: 16px;
+        font-family: Segoe UI;
+        font-weight: bold;
+        color: black;
+
+    }
+    .icon{
+        margin-left: 3px ;
+        font-size: 16px;
+        font-family: Segoe UI;
+            font-weight: bold;
+            color: black;
+
+    }
+    .search input {
+    width: 340px !important;   
+    max-width: 100%;   
+}
+
+
+        .small-width-btn {
+            width: 100px;
+        }
+
+
+.submit{
+    margin-right: 220px;
+}
+    
+.imgheigh {
+    position: relative;
+    width: 100%;
+    height: 890px; 
+    overflow: hidden;
+}
+
+
+ 
+.carousel-item {
+    background: url('headerimg.png') no-repeat center center;
+    background-size: cover;
+    height: 80vh;
+}
+
+ 
+
+ .carousel-caption {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: rgb(19, 18, 18);
+     max-width: 40%;
+}
+
+ .carousel-caption h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
+
+ .carousel-caption .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+ 
+
+.feature-box {
+    background: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.feature-box:hover {
+    background-color: #8D8D8D !important;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.product-card {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0.5rem;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+ 
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.card p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.category a{
+    margin: 5px;
+    padding: 4px;
+    margin-left: 0px;
+    background-color: #F7F7F8;
+}
+
+
+.discount-badge {
+  font-size: 1rem;  
+  color: white;
+ 
+  border-radius: 4px;
+  z-index: 2;
+}
+
+.discount-value {
+  font-size: 2.5rem; 
+}
+
+
+.juiceside img{
+    height: 801px;
+}
+
+
+.thehealthcards{
+     
+      min-height: 300px;  
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      overflow: hidden;  
+      border: none;  
+   
+}
+
+
+.small-width-btn {
+  width: 80px;   
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+}
+ @media (max-width: 768px) {
+ 
+
+ 
+
+    .carousel-caption {
+        left: 5%;
+        max-width: 90%;
+        text-align: center; 
+    }
+
+    .carousel-caption h1 {
+        font-size: 1.8rem;
+    }
+
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+
+    .carousel-caption .btn {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+    .menupar{
+        display: none;
+    }
+    .phone-num{
+        display: none;
+    }
+
+    .food{
+        display: none;
+    }
+    .search input {
+    max-width: 30%;   
+    }
+
+
+    .category a{
+    margin: 3px;
+    padding: 5px;
+    margin-left: 0px;
+}
+
+    
+
+}
+
+.carousel {
+    position: relative; /* Ensure the carousel container is relative for positioning the dots */
+}
+
+.carousel-indicators {
+    position: absolute; /* Position dots inside the carousel container */
+    bottom: 70px; /* Space from the bottom */
+    left: 30%; /* Center the dots horizontally */
+    transform: translateX(-50%); /* Correct centering */
+    z-index: 10; /* Ensure the dots are above the images */
+}
+
+.carousel-indicators button {
+    background-color: rgba(255, 255, 255, 0.5); /* Make the dots semi-transparent */
+    border-radius: 50%;
+    width: 5px;
+    height: 5px;
+    margin: 0 5px;
+}
+
+.carousel-indicators .active {
+    background-color: #a59a9a; /* Highlight active dot with a red color */
+}
+
