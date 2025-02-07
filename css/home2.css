@@ -83,7 +83,6 @@ height: 100vh;
 
 
 
-/* Adjust carousel caption for responsiveness */
 .carousel-caption {
 position: absolute;
 top: 60%;
@@ -95,7 +94,6 @@ text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
 max-width: 40%;
 }
 
-/* Make text responsive */
 .carousel-caption h1 {
 font-size: 2.5rem;
 font-weight: bold;
@@ -105,35 +103,11 @@ font-weight: bold;
 font-size: 1.2rem;
 }
 
-/* Button styling */
 .carousel-caption .btn {
 font-size: 1.2rem;
 padding: 10px 20px;
 }
 
-/* .card img {
-height: 270px;
-object-fit: cover;
-}
-
-.card-title {
-font-size: 1rem;
-font-weight: bold;
-}
-
-.card-body {
-padding: 1rem;
-}
-
-.text-warning i {
-font-size: 0.85rem;
-}
-
-.category a{
-padding: 20px;
-margin: 5px;
-background-color: bisque;
-} */
 
 .category a{
 margin-top: 3px;
