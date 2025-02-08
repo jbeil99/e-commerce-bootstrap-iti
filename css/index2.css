@@ -25,36 +25,12 @@ body {
     }
     
 
-    .menupar{
-        margin-left: 200px;
+ 
+   
+ 
 
-    }
-    .navbar-top {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 10px 20px;
-    }
 
-    .navbar-nav {
-        display: flex;
-        gap: 15px;
-    }
 
-    .navbar .nav-item {
-        font-weight: bold;
-    }
-    
-    .navbar-second-row {
-        border-top: 1px solid #ddd;
-        padding-top: 10px;
-    }
-
-    .food{
-        margin-left: 180px;
-        margin-right: 150px ;
-
-    }
     .icons{
         margin-right: 150px;
         font-size: 16px;
@@ -71,10 +47,34 @@ body {
             color: black;
 
     }
-    .search input {
-    width: 340px !important;   
-    max-width: 100%;   
-}
+    .search-box {
+        display: flex;
+        align-items: center;
+        background: #fff;
+        padding: 10px;
+        border-radius: 30px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .search-box input {
+        border: none;
+        outline: none;
+        flex: 1;
+        padding: 15px;
+        border-radius: 30px;
+    }
+    
+    .search-box button {
+        margin-right: 20px;
+        min-width: 200px;
+        padding: 15px;
+        border-radius: 30px;
+    }
+    
+    .search-box i {
+        margin-left: 15px;
+        color: #888;
+    }
 
 
         .small-width-btn {
@@ -127,13 +127,53 @@ body {
     padding: 10px 20px;
 }
 
- 
+ /* ======================
+         Banner Start
+ ========================*/
 
-.feature-box {
-    background: #f8f9fa;
-    padding: 20px;
-    text-align: center;
-    border-radius: 8px;
+.banner-section {
+    background: #e9f7ef;
+    border-radius: 15px;
+}
+
+.banner-text {
+    max-width: 600px;
+}
+
+.banner-image {
+
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-box input {
+    border: none;
+    outline: none;
+    flex: 1;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.search-box button {
+    margin-right: 20px;
+    min-width: 200px;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.search-box i {
+    margin-left: 15px;
+    color: #888;
 }
 
 .feature-box:hover {
@@ -141,6 +181,8 @@ body {
     transform: scale(1.05);
     cursor: pointer;
 }
+
+
 .product-card {
     height: 400px;
     background-size: cover;
@@ -233,20 +275,11 @@ body {
         font-size: 1rem;
         padding: 8px 16px;
     }
-    .menupar{
-        display: none;
-    }
-    .phone-num{
-        display: none;
-    }
+ 
+ 
 
-    .food{
-        display: none;
-    }
-    .search input {
-    max-width: 30%;   
-    }
-
+ 
+ 
 
     .category a{
     margin: 3px;
@@ -259,19 +292,19 @@ body {
 }
 
 .carousel {
-    position: relative; /* Ensure the carousel container is relative for positioning the dots */
+    position: relative; 
 }
 
 .carousel-indicators {
-    position: absolute; /* Position dots inside the carousel container */
-    bottom: 70px; /* Space from the bottom */
-    left: 30%; /* Center the dots horizontally */
-    transform: translateX(-50%); /* Correct centering */
-    z-index: 10; /* Ensure the dots are above the images */
+    position: absolute;  
+    bottom: 70px;  
+    left: 30%; 
+    transform: translateX(-50%);  
+    z-index: 10;  
 }
 
 .carousel-indicators button {
-    background-color: rgba(255, 255, 255, 0.5); /* Make the dots semi-transparent */
+    background-color: rgba(255, 255, 255, 0.5); 
     border-radius: 50%;
     width: 5px;
     height: 5px;
@@ -279,6 +312,6 @@ body {
 }
 
 .carousel-indicators .active {
-    background-color: #a59a9a; /* Highlight active dot with a red color */
+    background-color: #a59a9a;  
 }
 

@@ -94,8 +94,8 @@
 
     }
     .search input {
-    width: 340px !important;  /* Adjust width */
-    max-width: 100%;  /* Ensure it remains responsive */
+    width: 340px !important;  
+    max-width: 100%;  
 }
 
 .food img{
@@ -159,7 +159,7 @@
     .carousel-caption {
         left: 5%;
         max-width: 90%;
-        text-align: center; /* Center text on small screens */
+        text-align: center;  
     }
 
     .carousel-caption h1 {
@@ -184,9 +184,7 @@
     .food{
         display: none;
     }
-    .search input {
-    max-width: 30%;  /* Ensure it remains responsive */
-    }
+ 
 
 
     .category a{
@@ -207,117 +205,139 @@
 <body>
 
 <!-- First Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-  
-    <div class="d-flex w-100 justify-content-between align-items-center">
-        <!-- Sidebar Menu Icon -->
-        <a class="navbar-brand menupar" href="#"><i class="fa-solid fa-bars"></i></a>
+<nav class="navbar navbar-expand-lg navbar-light row shadow-sm">
+  <div class="container-fluid  justify-content-lg-center  justify-content-between">
+      <a class="navbar-brand d-none d-lg-block" href="#"><img src="/images/icon/toggle.png" alt=""></a>
+      <a class="navbar-brand d-block d-lg-none" href="#"><img src="/images/icon/logo.png" alt="logo"></a>
 
-        <!-- Navbar Toggler for Mobile -->
-        <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
+          <ul class="navbar-nav custom-nav-link justify-content-center">
+              <li class="nav-item category-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown category-nav">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Category
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Category 1</a></li>
+                      <li><a class="dropdown-item" href="#">Category 2</a></li>
+                      <li><a class="dropdown-item" href="#">Category 3</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown category-nav">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Products
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Products 1</a></li>
+                      <li><a class="dropdown-item" href="#">Products 2</a></li>
+                      <li><a class="dropdown-item" href="#">Products 3</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown category-nav">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Pages
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown category-nav">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Blog
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown category-nav">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Elements
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+              </li>
+          </ul>
+      </div>
+      <p class="nav ml-auto align-items-center d-none d-lg-block"><i class="fa-solid fa-phone"></i> +123
+          (456)
+          (7890) </p>
 
-        <!-- Navigation Links -->
-        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-            <ul class="navbar-nav">
-                <!-- Home Link -->
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
-                </li>
-
-                <!-- Category Dropdown -->
-                <li class="nav-item dropdown mx-1">
-                    <a class="nav-link dropdown-toggle" href="#" id="categoryMenu" role="button" data-bs-toggle="dropdown">
-                        Category 
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="categoryMenu">
-                        <li><a class="dropdown-item" href="#">Coffee</a></li>
-                        <li><a class="dropdown-item" href="#">Drinks</a></li>
-                    </ul>
-                </li>
-
-                <!-- Products Dropdown -->
-                <li class="nav-item dropdown mx-1">
-                    <a class="nav-link dropdown-toggle" href="#" id="productsMenu" role="button" data-bs-toggle="dropdown">
-                        Products 
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="productsMenu">
-                        <li><a class="dropdown-item" href="#">Coffee</a></li>
-                        <li><a class="dropdown-item" href="#">Drinks</a></li>
-                    </ul>
-                </li>
-
-                <!-- Pages Dropdown -->
-                <li class="nav-item dropdown mx-1">
-                    <a class="nav-link dropdown-toggle" href="#" id="pagesMenu" role="button" data-bs-toggle="dropdown">
-                        Pages 
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="pagesMenu">
-                        <li><a class="dropdown-item" href="#">About</a></li>
-                        <li><a class="dropdown-item" href="#">Contact</a></li>
-                    </ul>
-                </li>
-
-                <!-- Blogs -->
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Blogs</a>
-                </li>
-
-                <!-- Elements -->
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Elements</a>
-                </li>
-            </ul>
-        </div>
-
-        <!-- Phone Number -->
-        <a class="navbar-brand phone-num" href="#"><i class="fa-solid fa-phone"></i> +123 (456) 7890</a>
-    </div>
   </div>
 </nav>
 
-<!-- Second Navigation Bar -->
-<div class="navbar-second-row w-100 d-flex flex-wrap align-items-center justify-content-between ">
-    <a class="navbar-brand food" href="#"><img src="./images2/brandicon.png" alt="icon"> foodtrove</a>
+<div class="navbar navbar-light row shadow-sm">
+  <div class="container-fluid justify-content-center justify-content-lg-between">
+      <a class="navbar-brand d-none d-lg-block" href="#"><img src="/images/icon/logo.png" alt="logo"></a>
+      <form class="d-flex col-lg-4 col-12">
+          <div class="input-group ">
+              <input type="search" class="form-control" placeholder="Search for items...">
+              <button class="btn btn-outline-secondary dropdown-toggle" type="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">All Categories</button>
+              <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li>
+                      <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Separated link</a></li>
+              </ul>
+              <button class="btn btn-primary" type="submit"><i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+          </div>
+      </form>
 
-    <form class="d-flex align-items-center flex-grow-1 justify-content-center search flex-wrap">
-        <input class="form-control rounded-0 " type="search" placeholder="Search" aria-label="Search">
-        
-        <div class="dropdown  ">
-            <a class="btn btn-outline-secondary dropdown-toggle rounded-0" href="#" id="categoryMenu" role="button" data-bs-toggle="dropdown">
-                All Category
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="categoryMenu">
-                <li><a class="dropdown-item" href="#">Coffee</a></li>
-                <li><a class="dropdown-item" href="#">Drinks</a></li>
-            </ul>
-        </div>
+      <ul class="nav justify-content-end gap-3 p-2">
+          <li class="nav-item">
+              <i class="fa-regular fa-user"></i>
+              <a href="/HTML/login.html">Account</a>
+          </li>
+          <li class="nav-item pointer">
+              <i class="fa-regular fa-heart "></i>
+              <a href=""> Wishlist</a>
+          </li>
+          <li class="nav-item">
+              <img src="/images/icon/cart.png" alt="">
+              <a href="/HTML/cart.html">Cart</a>
+          </li>
+      </ul>
+  </div>
+</div>
 
-        <button class="btn btn-danger submit rounded-0 " type="submit">
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </button>
 
-        <div class="d-flex flex-wrap gap-2">
-            <a class="navbar-brand icon account1" href="#"><i class="fa-solid fa-user"></i> Account</a>
-            <a class="navbar-brand icon " href="#"><i class="fa-regular fa-heart"></i> Wishlist</a>
-            <a class="navbar-brand icons" href="#"><i class="fa-solid fa-cart-shopping"></i> Carts</a>
-       </div>
-    </form>
- </div>
-</nav>
-
-<!-- Third Navigation Bar -->
-<nav class="navbar navbar-red">
-  <div class="container-fluid d-flex justify-content-between  margred">
-    <span class="text-white">Checkout</span>
-    <div>
-      <a href="#" class="nav-link d-inline text-white  margred">Home - Checkout </a>
-     
-    </div>
+<nav aria-label="breadcrumb" class="d-md-block bg-danger row p-2">
+  <div class="container-fluid  justify-content-lg-center  justify-content-around">
+      <ol class="breadcrumb justify-content-between align-items-center mt-2">
+          <li class="breadcrumb-item active text-white" aria-current="page">
+              <a href="" class=""><b>Product</b></a>
+          </li>
+          <li class="breadcrumb-item text-white">
+              <a href="/index.html"><b>Home</b></a> -
+              <a href="/HTML/cart.html"><b>Product</b></a>
+          </li>
+      </ol>
   </div>
 </nav>
+</header>
 
 <!-- Main Content -->
 <div class="container my-5">

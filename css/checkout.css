@@ -1,15 +1,26 @@
 
-.navbar-red {
-  background-color: #ff4d4d;
+ 
+ .icon-buttons button:hover {
+  color: red;
 }
 
-.navbar-red .nav-link {
-  color: white;
+.nav-tabs .nav-link {
+  color: black;
 }
 
-.navbar-red .nav-link:hover {
-  color: #f8f9fa;
+.nav-tabs .nav-link.active {
+  color: red;
+  border-bottom: 2px solid red;
 }
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+ 
 
 .card-header {
   font-weight: bold;
@@ -50,27 +61,12 @@ footer {
 
 }
 
-.navbar-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-}
+ 
+ 
 
-.navbar-nav {
-  display: flex;
-  gap: 15px;
-}
+ 
 
-.navbar .nav-item {
-  font-weight: bold;
-}
-
-.navbar-second-row {
-  border-top: 1px solid #ddd;
-  padding-top: 10px;
-}
-
+ 
 .food {
   margin-left: 190px;
   margin-right: 150px;
@@ -116,18 +112,8 @@ footer {
   margin-right: 220px;
 }
 
-.navbar-red {
-  background-color: #ff4d4d;
-}
-
-.navbar-red .nav-link {
-  color: white;
-}
-
-.navbar-red .nav-link:hover {
-  color: #f8f9fa;
-}
-
+ 
+ 
 .card {
   margin-bottom: 1.5rem;
 }
