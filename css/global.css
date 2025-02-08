@@ -274,3 +274,7 @@ ul.nav .nav-item {
 .footer .social-icons img:hover {
     transform: scale(1.1);
 }
+
+.move-img {
+    transform: translate(-28px, 5px);
+}

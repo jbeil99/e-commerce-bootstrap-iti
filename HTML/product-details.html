@@ -171,10 +171,11 @@
     ---------------------------------- -->
     <div class="container mt-5">
         <div class="row">
-            <aside class="col-md-3 rounded" id="filter-aside">
+            <aside class="col-sm-12 col-md-3 col-lg-3 col-xl-3 rounded" id="filter-aside mb-5"
+                style="margin-bottom: 100px;">
                 <div class="filter-section">
                     <h5>Product Category</h5>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled" style="margin-left: 20px;">
                         <li class="form-check  d-flex">
                             <input type="checkbox" class="form-check-input" id="juice-drinks">
                             <label class="form-check-label ms-2" for="juice-drinks">
@@ -215,7 +216,7 @@
                     </div>
 
                     <h5 clas>Product Colors</h5>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled" style="margin-left: 20px;">
                         <li class="form-check d-flex">
                             <input type="checkbox" class="form-check-input" id="blue-color">
                             <label class="form-check-label ms-2" for="blue-color">
@@ -240,7 +241,7 @@
                     </ul>
 
                     <h5>Weight</h5>
-                    <ul class="list-unstyled">
+                    <ul class="list-unstyled" style="margin-left: 20px;">
                         <li class="form-check">
                             <input type="checkbox" class="form-check-input" id="blue-color">
                             <label class="form-check-label" for="blue-color">
@@ -281,9 +282,9 @@
 
             <div class="col-md-9">
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 ">
                         <img src="/images/product details/main.png" class="product-image" alt="Product">
-                        <div class="thumbnail-images" class="product-color">
+                        <div class="thumbnail-images " class="product-color ">
                             <img src="/images/product details/1.png" class="active" alt="Thumbnail 1">
                             <img src="/images/product details/2.png" alt="Thumbnail 2">
                             <img src="/images/product details/3.png" alt="Thumbnail 3">
@@ -291,19 +292,30 @@
                             <img src="/images/product details/5.png" alt="Thumbnail 5">
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class=" col-sm-12 col-md-12 col-lg-6 col-xl-6">
                         <h3>Seeds Of Change Organic Quinoa, Brown</h3>
-                        <p><span class="badge bg-success">4.5 ★</span> (75 Reviews)</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, iure
+                            minus error doloribus saepe natus?</p>
+                        <hr>
+                        <div class="ratings mb-3">
+                            <i class="fa fa-star rating-color"></i>
+                            <i class="fa fa-star rating-color"></i>
+                            <i class="fa fa-star rating-color"></i>
+                            <i class="fa fa-star rating-color"></i>
+                            <i class="fa fa-star rating-color"></i>
+                            <span class="text-muted ml-2">(75 Review)</span>
+                        </div>
                         <ul class="list-unstyled">
-                            <li><strong>Brand:</strong> ESTA BETTER CO</li>
-                            <li><strong>Flavour:</strong> Super Saver Pack</li>
-                            <li><strong>Weight:</strong> 200 gm</li>
-                            <li><strong>Specialty:</strong> Gluten Free, Sugar Free</li>
-                            <li><strong>Info:</strong> Egg Free, Allergen-Free</li>
-                            <li><strong>Items:</strong> 1</li>
+                            <li style="margin-bottom: 1em;"><strong>Brand:</strong> ESTA BETTER CO</li>
+                            <li style="margin-bottom: 1em;"><strong>Flavour:</strong> Super Saver Pack</li>
+                            <li style="margin-bottom: 1em;"><strong>Weight:</strong> 200 gm</li>
+                            <li style="margin-bottom: 1em;"><strong>Specialty:</strong> Gluten Free, Sugar Free</li>
+                            <li style="margin-bottom: 1em;"><strong>Info:</strong> Egg Free, Allergen-Free</li>
+                            <li style="margin-bottom: 1em;"><strong>Items:</strong> 1</li>
                         </ul>
                         <div class="row">
-                            <p class="text-danger font-weight-bold h5 col-auto">$120.25 <span
+                            <p class="text-danger font-weight-bold h5 col-auto"><strong
+                                    style="font-size: larger;">$120.25</strong> <span
                                     class="text-muted h6 text-decoration-line-through ml-2">$123.25</span></p>
                         </div>
                         <div class="size-options">
@@ -315,13 +327,18 @@
                         <div class="action-buttons">
                             <div class="quantity-control">
                                 <button>-</button>
+
                                 <input type="text" value="1">
                                 <button>+</button>
                             </div>
-                            <button class="btn btn-danger">Add to Cart</button>
+                            <div> <button class="btn btn-danger"
+                                    style="padding: 10px 20px; border-radius: 6px; background-color: #FB5555; border: none; margin-left: 6px;">Add
+                                    to
+                                    Cart</button>
+                            </div>
                             <div class="icon-buttons">
-                                <button><i class="fas fa-heart"></i></button>
-                                <button><i class="fas fa-eye"></i></button>
+                                <img src="/images/icon/Heart.png" alt="">
+                                <img src="/images/icon/Eye.png" alt="">
                             </div>
                         </div>
                         <br><br>
@@ -406,7 +423,7 @@
                     <h3>Popular Products</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br>
                         incididunt ut labore et viverra maecenas accumsan lacus vel facilisis.</p>
-                    <div class="row row-cols-1 row-cols-xxl-5 row-cols-lg-6 row-cols-md-3 justify-content-center gap-3">
+                    <div class="row row-cols-1 row-cols-xxl-5 row-cols-lg-3 row-cols-md-3 justify-content-center gap-3">
 
 
                         <div class="card rounded col p-2">
@@ -513,16 +530,16 @@
     <footer class="footer py-4" style="background-color: #F8F9FA; ">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-6" style="margin-top: -20px;">
-                    <img src="/images/Footer/Logo.png" alt="FoodTrove Logo" style="height: 85px;">
-                    <p>FoodTrove is the biggest market of grocery products.<br> Get your daily needs from our store.</p>
+                <div class="col-lg-3 col-md-6" style="margin-top: -9px;">
+                    <img class="move-img" src="/images/Footer/Logo.png" alt="FoodTrove Logo" style="height: 5em;">
+                    <p>FoodTrove is the biggest market of grocery products.</p>
                     <p><i class="fas fa-map-marker-alt text-danger"></i> 51 Green St, Huntington, Ontario, NY</p>
                     <p><i class="fas fa-envelope text-danger"></i> example@email.com</p>
                     <p><i class="fas fa-phone text-danger"></i> +91 123 456 7890</p>
                 </div>
 
                 <div class="col-lg-2 col-md-6 mt-3">
-                    <h5 class="fw-bold">Company</h5>
+                    <h5 class="fw-bold" style="margin-top: 1px;">Company</h5>
                     <ul class="list-unstyled company-list">
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Delivery Information</a></li>
@@ -578,7 +595,6 @@
     <div class="text-center mt-4">
         <p>© 2024 <span style="color: red;">FoodTrove</span>, All rights reserved.</p>
     </div>
-    </footer>
 
 
 
