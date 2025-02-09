@@ -1,0 +1,206 @@
+
+ 
+ .icon-buttons button:hover {
+  color: red;
+}
+
+.nav-tabs .nav-link {
+  color: black;
+}
+
+.nav-tabs .nav-link.active {
+  color: red;
+  border-bottom: 2px solid red;
+}
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+ 
+
+.card-header {
+  font-weight: bold;
+  background-color: transparent;
+  border-bottom: none;
+  /* Removes the border */
+}
+
+.headereturn {
+  font-weight: bold;
+
+}
+
+.card-body {
+  border-top: none;
+  /* Ensures there is no border at the top */
+}
+
+.card {
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+}
+
+.phone-num {
+  margin-right: 220px;
+  font-size: 16px;
+  font-family: Segoe UI;
+  font-weight: bold;
+  color: black;
+}
+
+.menupar {
+  margin-left: 200px;
+
+}
+
+ 
+ 
+
+ 
+
+ 
+.food {
+  margin-left: 190px;
+  margin-right: 150px;
+
+}
+
+.icons {
+  margin-right: 150px;
+  font-size: 16px;
+  font-family: Segoe UI;
+  font-weight: bold;
+  color: black;
+
+}
+
+.icon {
+  margin-left: 3px;
+  font-size: 16px;
+  font-family: Segoe UI;
+  font-weight: bold;
+  color: black;
+
+}
+
+.search input {
+  width: 340px !important;
+  /* Adjust width */
+  max-width: 100%;
+  /* Ensure it remains responsive */
+}
+
+.food img {
+  width: 50px;
+}
+
+.margred {
+  margin-left: 190px;
+  margin-right: 110px;
+}
+
+
+.submit {
+  margin-right: 220px;
+}
+
+ 
+ 
+.card {
+  margin-bottom: 1.5rem;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+}
+
+.product-details {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.product-details img {
+  width: 70px;
+  height: 70px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.product-details .old-price {
+  text-decoration: line-through;
+  margin-right: 1.5rem;
+  color: gray;
+}
+
+.summary-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media (max-width: 768px) {
+
+
+
+
+  .carousel-caption {
+    left: 5%;
+    max-width: 90%;
+    text-align: center;
+    /* Center text on small screens */
+  }
+
+  .carousel-caption h1 {
+    font-size: 1.8rem;
+  }
+
+  .carousel-caption p {
+    font-size: 1rem;
+  }
+
+  .carousel-caption .btn {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+
+  .menupar {
+    display: none;
+  }
+
+  .phone-num {
+    display: none;
+  }
+
+  .food {
+    display: none;
+  }
+
+  .search input {
+    max-width: 30%;
+    /* Ensure it remains responsive */
+  }
+
+
+  .category a {
+    margin: 3px;
+    padding: 5px;
+    margin-left: 0px;
+  }
+
+  .margred {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+
+}
