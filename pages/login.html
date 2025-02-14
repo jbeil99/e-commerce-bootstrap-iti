@@ -13,15 +13,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-
     <!-- Font awesome -->
     <script src="https://kit.fontawesome.com/5f0a7b2341.js" crossorigin="anonymous"></script>
     <!--Custom css-->
 
-    <link rel="stylesheet" href="/css/About.css">
-    <link rel="stylesheet" href="/css/global.css">
-    <link rel="shortcut icon" href="/images/icon/icon.png" type="image/png">
-    <title>Foodtrove</title>
+    <link rel="stylesheet" href="../assets/css/global.css">
+    <link rel="stylesheet" href="../assets/css/ProductDetails.css">
+    <link rel="shortcut icon" href="../assets/images/icon/icon.png" type="image/png">
+    <link rel="stylesheet" href="../assets/css/login.css">
+
+    <title>login</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 </head>
@@ -29,12 +30,12 @@
 
 <body>
 
-
     <header>
         <nav class="navbar navbar-expand-lg navbar-light row shadow-sm">
             <div class="container-fluid  justify-content-lg-center  justify-content-between">
-                <a class="navbar-brand d-none d-lg-block" href="#"><img src="/images/icon/toggle.png" alt=""></a>
-                <a class="navbar-brand d-block d-lg-none" href="/index.html"><img src="/images/icon/logo.png"
+                <a class="navbar-brand d-none d-lg-block" href="#"><img src="../assets/images/icon/toggle.png"
+                        alt=""></a>
+                <a class="navbar-brand d-block d-lg-none" href="../index.html"><img src="../assets/images/icon/logo.png"
                         alt="logo"></a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -45,10 +46,10 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
                     <ul class="navbar-nav custom-nav-link justify-content-center">
                         <li class="nav-item category-nav">
-                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                         </li>
                         <li class="nav-item category-nav">
-                            <a class="nav-link active" aria-current="page" href="/index2.html">Home 2</a>
+                            <a class="nav-link active" aria-current="page" href="home2.html">Home 2</a>
                         </li>
                         <li class="nav-item dropdown category-nav">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -67,9 +68,9 @@
                                 Products
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="/HTML/product-details.html">Products 1</a></li>
-                                <li><a class="dropdown-item" href="/HTML/product-details.html">Products 2</a></li>
-                                <li><a class="dropdown-item" href="/HTML/product-details.html">Products 3</a></li>
+                                <li><a class="dropdown-item" href="product-details.html">Products 1</a></li>
+                                <li><a class="dropdown-item" href="product-details.html">Products 2</a></li>
+                                <li><a class="dropdown-item" href="product-details.html">Products 3</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown category-nav">
@@ -78,9 +79,9 @@
                                 Pages
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="/HTML/about.html">ِAbout</a></li>
-                                <li><a class="dropdown-item" href="/HTML/shop.html">shop</a></li>
-                                <li><a class="dropdown-item" href="/HTML/product-details.html">Product Details</a>
+                                <li><a class="dropdown-item" href="about.html">ِAbout</a></li>
+                                <li><a class="dropdown-item" href="shop.html">shop</a></li>
+                                <li><a class="dropdown-item" href="product-details.html">Product Details</a>
                                 </li>
                             </ul>
                         </li>
@@ -90,9 +91,9 @@
                                 Blog
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <li><a class="dropdown-item" href="/HTML/blog.html">Blog</a></li>
-                                <li><a class="dropdown-item" href="/HTML/blog.html">Blog</a></li>
-                                <li><a class="dropdown-item" href="/HTML/blog.html">Blog</a></li>
+                                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
+                                <li><a class="dropdown-item" href="blog.html">Blog</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown category-nav">
@@ -117,12 +118,13 @@
 
         <div class="navbar navbar-light row shadow-sm">
             <div class="container-fluid justify-content-center justify-content-lg-between">
-                <a class="navbar-brand d-none d-lg-block" href="#"><img src="/images/icon/logo.png" alt="logo"></a>
+                <a class="navbar-brand d-none d-lg-block" href="#"><img src="../assets/images/icon/logo.png"
+                        alt="logo"></a>
                 <form class="d-flex col-lg-4 col-12">
                     <div class="input-group ">
-                        <input type="search" class="form-control" placeholder="Search for items...">
+                        <input type="search" class="form-control" placeholder="Search for items..">
                         <button class="btn btn-outline-secondary dropdown-toggle" type="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">All Categories</button>
+                            data-bs-toggle="dropdown" aria-expanded="false">Dropdown</button>
                         <ul class="dropdown-menu dropdown-menu-end">
                             <li><a class="dropdown-item" href="#">Action</a></li>
                             <li><a class="dropdown-item" href="#">Another action</a></li>
@@ -132,7 +134,7 @@
                             </li>
                             <li><a class="dropdown-item" href="#">Separated link</a></li>
                         </ul>
-                        <button class="btn btn-primary" type="submit"><i class="fa-solid fa-magnifying-glass"></i>
+                        <button class="btn btn-danger" type="submit"><i class="fa-solid fa-magnifying-glass"></i>
                         </button>
                     </div>
                 </form>
@@ -140,123 +142,76 @@
                 <ul class="nav justify-content-end gap-3 p-2">
                     <li class="nav-item">
                         <i class="fa-regular fa-user"></i>
-                        <a href="/HTML/login.html">Account</a>
+                        <a href="login.html">Account</a>
                     </li>
                     <li class="nav-item pointer">
                         <i class="fa-regular fa-heart "></i>
                         <a href=""> Wishlist</a>
                     </li>
                     <li class="nav-item">
-                        <img src="/images/icon/cart.png" alt="">
-                        <a href="/HTML/cart.html">Cart</a>
+                        <img src="../assets/images/icon/cart.png" alt="">
+                        <a href="cart.html">Cart</a>
                     </li>
                 </ul>
             </div>
         </div>
 
-
         <nav aria-label="breadcrumb" class="d-md-block bg-danger row p-2">
             <div class="container-fluid  justify-content-lg-center  justify-content-around">
                 <ol class="breadcrumb justify-content-between align-items-center mt-2">
                     <li class="breadcrumb-item active text-white" aria-current="page">
-                        <a href="" class=""><b>About</b></a>
+                        <a href="" class=""><b>Login</b></a>
                     </li>
                     <li class="breadcrumb-item text-white">
-                        <a href="/index.html"><b>Home</b></a> -
-                        <a href="/HTML/cart.html"><b>About</b></a>
+                        <a href="../index.html"><b>Home</b></a> -
+                        <a href="login.html"><b>Login</b></a>
                     </li>
                 </ol>
             </div>
         </nav>
 
+
     </header>
 
 
+    <form id="loginForm" class="row login-form  p-4 mb-5 rounded shadow-sm w-100"
+        style="max-width: 400px; border: 1px solid rgb(233, 232, 232) ; margin-top: 7em; ">
+        <a class="navbar-brand d-none d-lg-block text-center mx-auto mb-3" href="#">
+            <img src="../assets/images/icon/logo.png" alt="logo" class="img-fluid" style="max-width: 120px;">
+        </a>
 
-
-
-    <!-- About Section -->
-
-    <div class="container my-5">
-        <div class="row">
-            <div class="col-md-12 mt-5 col-lg-6 col-xl-6  text-start" style=" margin-top:2em;">
-                <h2 style=" margin-bottom:30px; "><b>About The Carrot</b></h2>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, recusandae
-                    necessitatibus quasi incidunt alias adipisci pariatur earum iure beatae assumenda
-                    rerum quod. Tempora magni autem a voluptatibus neque.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut vitae rerum cum
-                    accusamus magni consequuntur architecto, ipsum deleniti expedita doloribus
-                    suscipit voluptatum eius perferendis amet!.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, maxime amet
-                    architecto est exercitationem optio ea maiores corporis beatae, dolores doloribus
-                    libero nesciunt qui illum? Voluptates deserunt adipisci voluptatem magni sunt sed
-                    blanditiis quod aspernatur! Iusto?</p>
-
-
-                <div class="col-md-12 mt-5 col-lg-12 col-xl-12 ">
-                    <div class="stats-container">
-                        <div class="stats-box">
-                            <h1>0.1<span>k</span></h1>
-                            <p><b>Vendors</b></p>
-                        </div>
-                        <div class="stats-box">
-                            <h1>23<span>k</span> </h1>
-                            <p><b>Customers</b></p>
-                        </div>
-                        <div class="stats-box">
-                            <h1>2<span>k</span></h1>
-                            <p><b>Products</b></p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-            <div class="mt-5 col-lg-6 col-xl-6 text-center mt-4 d-none d-lg-block">
-                <img src="/images/banners/About.png" alt="About" class="img-fluid w-100" style="max-width: 700px;">
-            </div>
-
+        <div class="col-12">
+            <label for="email" class="form-label">Email Address*</label>
+            <input type="text" class="form-control" id="email" placeholder="Enter Your Email">
+            <small id="emailError" class="text-danger"></small>
         </div>
 
-        <!-- Features Section -->
-        <div class="row mt-4" style=" margin-bottom:5em;">
-            <div class="col-md-3 col-sm-6 mb-3" style=" margin-top:5em;">
-                <div class="feature-box">
-                    <img src="/images/banners/feature5.png" alt="" style=" margin-bottom:20px; ">
-                    <h5><b>Product Packing</b></h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 mb-3" style=" margin-top:5em;">
-                <div class="feature-box">
-                    <img src="/images/icon/Vector.png" alt="" style=" margin-bottom:30px; ">
-                    <h5><b>24X7 Support</b></h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 mb-3" style=" margin-top:5em;">
-                <div class="feature-box">
-                    <img src="/images/icon/Ic1on.png" alt="" style=" margin-bottom:20px; ">
-
-                    <h5><b>Delivery in 5 Days</b></h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-6 mb-3" style=" margin-top:5em;">
-                <div class="feature-box">
-                    <img src="/images/icon/Vect1or.png" alt="" style=" margin-bottom:30px; ">
-                    <h5><b>Payment Secure</b></h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-                </div>
-            </div>
+        <div class="col-12 mt-3">
+            <label for="password" class="form-label">Password*</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter Your Password">
+            <small id="passwordError" class="text-danger"></small>
         </div>
-    </div>
+
+        <div class="col-12 mt-3 d-flex align-items-center">
+            <input type="checkbox" class="form-check-input" id="rememberMe">
+            <label class="form-check-label ms-2" for="rememberMe">Remember Me</label>
+            <a href="#" class="text-decoration-none text-secondary ms-auto">Forgot Password?</a>
+        </div>
+
+        <div class="col-12 m-4 d-flex flex-column flex-md-row align-items-center justify-content-between w-100">
+            <button type="submit" class="btn btn-danger login btn-sm px-2 py-2 w-25 w-md-auto">Login</button>
+            <p class="success" id="successMessage"></p>
+            <a href="#" class="text-decoration-none text-secondary login-btn mt-3 mt-md-3">Sign Up?</a>
+        </div>
+    </form>
 
 
-    <footer class="footer py-4" style="background-color: #F8F9FA; ">
+    <footer class="footer py-4" style="background-color: #F8F9FA; margin-top: 7em;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6" style="margin-top: -9px;">
-                    <img class="move-img" src="/images/Footer/Logo.png" alt="FoodTrove Logo" style="height: 5em;">
+                    <img class="move-img" src="../assets/images/Footer/Logo.png" alt="FoodTrove Logo"
+                        style="height: 5em;">
                     <p>FoodTrove is the biggest market of grocery products.</p>
                     <p><i class="fas fa-map-marker-alt text-danger"></i> 51 Green St, Huntington, Ontario, NY</p>
                     <p><i class="fas fa-envelope text-danger"></i> example@email.com</p>
@@ -264,7 +219,7 @@
                 </div>
 
                 <div class="col-lg-2 col-md-6 mt-3">
-                    <h5 class="fw-bold">Company</h5>
+                    <h5 class="fw-bold" style="margin-top: 1px;">Company</h5>
                     <ul class="list-unstyled company-list">
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Delivery Information</a></li>
@@ -295,28 +250,24 @@
                     </div>
 
                     <div class="d-flex social-icons ">
-                        <img src="/images/icon/Link 1.png" alt="" style="width: 40px; height: 40px;">
-                        <img src="/images/icon/Link 2.png" alt="" style="width: 40px; height: 40px;">
-                        <img src="/images/icon/Link 3.png" alt="" style="width: 43px; height: 43px;">
-                        <img src="/images/icon/Link 4.png" alt="" style="width: 43px; height: 43px;">
+                        <img src="../assets/images/icon/Link 1.png" alt="" style="width: 40px; height: 40px;">
+                        <img src="../assets/images/icon/Link 2.png" alt="" style="width: 40px; height: 40px;">
+                        <img src="../assets/images/icon/Link 3.png" alt="" style="width: 43px; height: 43px;">
+                        <img src="../assets/images/icon/Link 4.png" alt="" style="width: 43px; height: 43px;">
 
                     </div>
 
                     <div class="d-flex mt-4 footer-images">
-                        <img src="/images/Footer/1.png" class="me-3" style="width: 70px; height: 70px;">
-                        <img src="/images/Footer/2.png" class="me-3" style="width: 70px; height: 70px;">
-                        <img src="/images/Footer/3.png" class="me-3" style="width: 70px; height: 70px;">
-                        <img src="/images/Footer/4.png" class="me-3" style="width: 70px; height: 70px;">
-                        <img src="/images/Footer/5.png" class="me-3" style="width: 70px; height: 70px;">
+                        <img src="../assets/images/Footer/1.png" class="me-3" style="width: 70px; height: 70px;">
+                        <img src="../assets/images/Footer/2.png" class="me-3" style="width: 70px; height: 70px;">
+                        <img src="../assets/images/Footer/3.png" class="me-3" style="width: 70px; height: 70px;">
+                        <img src="../assets/images/Footer/4.png" class="me-3" style="width: 70px; height: 70px;">
+                        <img src="../assets/images/Footer/5.png" class="me-3" style="width: 70px; height: 70px;">
                     </div>
                 </div>
             </div>
         </div>
     </footer>
-
-    <div class="text-center mt-4">
-        <p>© 2024 <span style="color: red;">FoodTrove</span>, All rights reserved.</p>
-    </div>
 
 
 
@@ -326,15 +277,11 @@
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
+
 </body>
 
 </html>

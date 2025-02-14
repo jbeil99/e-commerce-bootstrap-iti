@@ -19,7 +19,7 @@ section {
 
 .hero-section {
     min-height: 80vh;
-    background-image: url('/images/hero/hero.png');
+    background-image: url('../images/hero/hero.png');
     background-size: cover;
     background-position-y: 100%;
 }
@@ -106,17 +106,17 @@ section {
 }
 
 .cards-section .card:nth-child(1) {
-    background-image: url("/images/hero/banner-1.png");
+    background-image: url("../images/hero/banner-1.png");
     background-size: cover;
 }
 
 .cards-section .card:nth-child(2) {
-    background-image: url("/images/hero/banner-2.png");
+    background-image: url("../images/hero/banner-2.png");
     background-size: cover;
 }
 
 .cards-section .card:nth-child(3) {
-    background-image: url("/images/hero/banner-3.png");
+    background-image: url("../images/hero/banner-3.png");
     background-size: cover;
 }
 
@@ -132,7 +132,7 @@ section {
 }
 
 #daily-banner {
-    background-image: url('/images/products/dailysells/1.jpg');
+    background-image: url('../images/products/dailysells/1.jpg');
     background-size: cover;
     border-radius: 15px;
 }
